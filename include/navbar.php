@@ -1,0 +1,23 @@
+<header id="header" class="page-header scroll-header fixed">
+    <div class="navbar navbar-expand-lg">
+        <a href="index.html" class="navbar-brand text-white"> <img class="img img-fluid rounded-circle"
+                src="assets/img/fav.png" style="font-size: 12px;"> <span
+                class="hidden-folded d-inline l-s-n-1x">Niconine</span></a>
+        <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarCollapse">
+            <ul class="navbar-nav" data-nav>
+                <li class="nav-item"><a href="discover.html" class="nav-link"><span class="nav-text">Genres</span></a>
+                </li>
+                <li class="nav-item"><a href="charts.html" class="nav-link"><span class="nav-text">Licences & Pricing</span></a>
+                </li>
+                <li class="nav-item"><a href="genres.html" class="nav-link"><span class="nav-text">Offers</span></a>
+                </li>
+                
+            </ul>
+            <form class="input-group m-2 my-lg-0"><span class="input-group-prepend"><button type="button"
+                        class="btn no-shadow no-bg px-0"><i data-feather="search"></i></button> </span><input
+                    type="text" class="form-control no-border no-shadow no-bg typeahead" placeholder="Search..."
+                    data-plugin="typeahead"></form>
+        </div>
+        
+    </div>
+</header>
