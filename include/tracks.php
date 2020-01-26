@@ -35,10 +35,10 @@
                    href="https://gum.co/JSPue" target="_blank"><i
                             data-feather="shopping-cart"
                             class="active-fill"></i></a>
-                <button class="btn btn-icon no-bg no-shadow btn-more"
-                        data-toggle="dropdown"><i
-                            data-feather="more-horizontal"></i></button>
-                <div class="dropdown-menu dropdown-menu-right"></div>
+                <a class="btn btn-icon no-bg no-shadow btn-moreb"
+                         href="#"><i
+                            data-feather="share"></i></a>
+
             </div>
         </div>
     </div>
