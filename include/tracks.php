@@ -20,7 +20,7 @@
         </div>
         <div class="list-content text-center">
             <div class="list-body">
-                <a href="item.detail.html#418888835"
+                <a href="#"
                                       class="list-title title ajax h-1x">High Hopes </a>
                 <a
                         href="#418888835"
