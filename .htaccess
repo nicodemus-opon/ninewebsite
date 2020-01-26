@@ -12,4 +12,4 @@
 	RewriteCond %{HTTP_HOST} ^(.*)$  [NC]
 	RewriteRule (.*) https://www.%1/$1 [R=301,L]
 </IfModule>
-# php -- END cPanel-generated handler, do not edit
+# php -- END cPanel-generated handler, do not edittt
