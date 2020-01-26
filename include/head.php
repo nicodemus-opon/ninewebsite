@@ -11,6 +11,6 @@
     <link href="/assets/img/fav.png" rel="icon" type="image/png">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <link rel="stylesheet" href="../assets/css/site.min.css">
-    <link rel="stylesheet" href="../assets/css/btbn.css">
+    <link rel="stylesheet" href="../assets/css/btnb.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
