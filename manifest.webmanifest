@@ -1,0 +1,22 @@
+{
+  "dir" : "ltr",
+  "lang" : "en-US",
+  "name" : "Niconine Beats - Dancehall, Afro, Moombahton…",
+  "scope" : "/",
+  "display" : "standalone",
+  "start_url" : "/",
+  "short_name" : "Niconine Beats ",
+  "theme_color" : "#000000",
+  "description" : "Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers",
+  "orientation" : "any",
+  "background_color" : "#000000",
+  "related_applications" : "",
+  "prefer_related_applications" : "false",
+  "icons" : [
+    {
+      "src": "/assets/img/fav.png",
+      "sizes": "1400x1400"
+    }],
+  "screenshots" : [],
+  "generated" : "true"
+}

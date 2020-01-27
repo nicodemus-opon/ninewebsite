@@ -5,7 +5,7 @@
     <?php
     include "include/seo.php";
     ?>
-
+    <link rel='manifest' href='/manifest.webmanifest'>
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#000000">
     <!-- Windows Phone -->

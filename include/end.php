@@ -17,11 +17,17 @@ _gs('GSN-861552-Y');
 _gs('set', 'anonymizeIP', true);
 </script>
 
-<script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/3.4.10/js-cloudimage-responsive.min.js"></script>
-
 <script>
-    const ciResponsive = new window.CIResponsive({
-        token: 'autbkpzzfo',
-        baseUrl: 'niconinebeats.com' // optional
-    });
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+
 </script>
