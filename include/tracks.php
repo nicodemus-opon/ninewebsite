@@ -1,9 +1,10 @@
 <div class="col-12" data-id="418888835" data-category="other" data-tag="USA"
      data-source="songs/s.wav">
     <div class="list-item r">
-        <div class="media"><a href="item.detail.html#418888835"
-                              class="ajax media-content"
-                              style="background-image:url('assets/album-art/flute-u.png')"></a>
+        <div class="media">
+            <a href="item.detail.html#418888835"
+               class="ajaxh media-content"
+               style="background-image:url('assets/album-art/flute-u.png')"></a>
             <div class="media-action media-action-overlay">
                 <button
                         class="btn btn-icon no-bg no-shadow hide-row"
@@ -21,7 +22,7 @@
         <div class="list-content text-center">
             <div class="list-body">
                 <a href="#"
-                                      class="list-title title ajax h-1x">High Hopes </a>
+                   class="list-title title ajax h-1x">High Hopes </a>
                 <a
                         href="#418888835"
                         class="list-subtitle d-block text-muted h-1x subtitle ajax"> <i
@@ -36,7 +37,7 @@
                             data-feather="shopping-cart"
                             class="active-fill"></i></a>
                 <a class="btn btn-icon no-bg no-shadow btn-moreb"
-                         href="#"><i
+                   href="#"><i
                             data-feather="share"></i></a>
 
             </div>

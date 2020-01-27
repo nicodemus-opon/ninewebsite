@@ -16,3 +16,12 @@
 _gs('GSN-861552-Y');
 _gs('set', 'anonymizeIP', true);
 </script>
+
+<script src="https://cdn.scaleflex.it/plugins/js-cloudimage-responsive/3.4.10/js-cloudimage-responsive.min.js"></script>
+
+<script>
+    const ciResponsive = new window.CIResponsive({
+        token: 'autbkpzzfo',
+        baseUrl: 'niconinebeats.com' // optional
+    });
+</script>
