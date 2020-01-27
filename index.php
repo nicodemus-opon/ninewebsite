@@ -137,13 +137,13 @@ include "include/navbar.php";
                             <div class="sticky">
                                 <div class="list mb-5">
                                     <div class="list-item list-overlay r">
-                                        <div class="media"><a href="item.detail.html#" class="ajax media-content"
-                                                              ci-bg-url="../assets/img/bb.jpg"
-                                                              stylje="background-image:url('../assets/img/bb.jpg')"></a>
+                                        <div class="media"><a href="#" class="ajax media-content r"
+
+                                                              style="backgrounnd-image:url('../assets/img/bb.jpg');background-color: darkslateblue"></a>
                                             <div class="media-action"></div>
                                         </div>
                                         <div class="list-content p-5 text-center">
-                                            <div class="list-body"><a href="item.detail.html#"
+                                            <div class="list-body"><a href="#"
                                                                       class="list-title title ajax h3 font-weight-bold">$15
                                                     Coupon on
                                                     next purchase

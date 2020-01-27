@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/unminified.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/b10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/b10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/bb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/bb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/end.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/end.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/tracks.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/tracks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/site.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/site.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,17 +46,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="338">
+              <caret line="141" column="146" selection-start-line="141" selection-start-column="146" selection-end-line="141" selection-end-column="146" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/site.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="227102" selection-start-line="5" selection-start-column="227102" selection-end-line="5" selection-end-column="227102" />
+              <folding>
+                <element signature="e#25364#25598#2" expanded="true" />
+                <element signature="e#26395#26548#1" expanded="true" />
+                <element signature="e#26588#26822#1" expanded="true" />
+                <element signature="e#29828#30104#2" expanded="true" />
+                <element signature="e#30927#31080#1" expanded="true" />
+                <element signature="e#31120#31396#1" expanded="true" />
+                <element signature="e#59891#60081#2" expanded="true" />
+                <element signature="e#60310#60449#2" expanded="true" />
+                <element signature="e#60854#60990#2" expanded="true" />
+                <element signature="e#62138#62291#1" expanded="true" />
+                <element signature="e#73050#73283#2" expanded="true" />
+                <element signature="e#74159#74395#2" expanded="true" />
+                <element signature="e#102193#102373#2" expanded="true" />
+                <element signature="e#102419#102599#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/unminified.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="649">
+              <caret line="17190" column="1" selection-start-line="17190" selection-start-column="1" selection-end-line="17190" selection-end-column="1" />
+              <folding>
+                <element signature="e#34844#35078#2" expanded="true" />
+                <element signature="e#35966#36119#1" expanded="true" />
+                <element signature="e#36160#36394#1" expanded="true" />
+                <element signature="e#39727#40003#2" expanded="true" />
+                <element signature="e#40917#41070#1" expanded="true" />
+                <element signature="e#41111#41387#1" expanded="true" />
+                <element signature="e#74983#75173#2" expanded="true" />
+                <element signature="e#75428#75567#2" expanded="true" />
+                <element signature="e#76018#76154#2" expanded="true" />
+                <element signature="e#77520#77673#1" expanded="true" />
+                <element signature="e#91331#91564#2" expanded="true" />
+                <element signature="e#92586#92822#2" expanded="true" />
+                <element signature="e#127620#127800#2" expanded="true" />
+                <element signature="e#127856#128036#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/tracks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="34">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -70,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/head.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="32">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
@@ -82,6 +132,7 @@
     <findStrings>
       <find>afr</find>
       <find>the</find>
+      <find>list-i</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,9 +146,11 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/include/footer.php" />
         <option value="$PROJECT_DIR$/include/head.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/include/end.php" />
         <option value="$PROJECT_DIR$/include/tracks.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/css/site.min.css" />
+        <option value="$PROJECT_DIR$/assets/css/unminified.css" />
       </list>
     </option>
   </component>
@@ -122,6 +175,12 @@
               <item name="ninewebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ninewebsite" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ninewebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ninewebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ninewebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -192,12 +251,12 @@
       <workItem from="1580055567614" duration="293000" />
       <workItem from="1580057078241" duration="215000" />
       <workItem from="1580059682266" duration="2653000" />
-      <workItem from="1580105053886" duration="2410000" />
+      <workItem from="1580105053886" duration="3978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15694000" />
+    <option name="totallyTimeSpent" value="17262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -266,13 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/end.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -280,19 +332,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/include/tracks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/tracks.php">
+    <entry file="file://$PROJECT_DIR$/include/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="32">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="141" column="146" selection-start-line="141" selection-start-column="146" selection-end-line="141" selection-end-column="146" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/site.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="227102" selection-start-line="5" selection-start-column="227102" selection-end-line="5" selection-end-column="227102" />
+          <folding>
+            <element signature="e#25364#25598#2" expanded="true" />
+            <element signature="e#26395#26548#1" expanded="true" />
+            <element signature="e#26588#26822#1" expanded="true" />
+            <element signature="e#29828#30104#2" expanded="true" />
+            <element signature="e#30927#31080#1" expanded="true" />
+            <element signature="e#31120#31396#1" expanded="true" />
+            <element signature="e#59891#60081#2" expanded="true" />
+            <element signature="e#60310#60449#2" expanded="true" />
+            <element signature="e#60854#60990#2" expanded="true" />
+            <element signature="e#62138#62291#1" expanded="true" />
+            <element signature="e#73050#73283#2" expanded="true" />
+            <element signature="e#74159#74395#2" expanded="true" />
+            <element signature="e#102193#102373#2" expanded="true" />
+            <element signature="e#102419#102599#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/unminified.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="17190" column="1" selection-start-line="17190" selection-start-column="1" selection-end-line="17190" selection-end-column="1" />
+          <folding>
+            <element signature="e#34844#35078#2" expanded="true" />
+            <element signature="e#35966#36119#1" expanded="true" />
+            <element signature="e#36160#36394#1" expanded="true" />
+            <element signature="e#39727#40003#2" expanded="true" />
+            <element signature="e#40917#41070#1" expanded="true" />
+            <element signature="e#41111#41387#1" expanded="true" />
+            <element signature="e#74983#75173#2" expanded="true" />
+            <element signature="e#75428#75567#2" expanded="true" />
+            <element signature="e#76018#76154#2" expanded="true" />
+            <element signature="e#77520#77673#1" expanded="true" />
+            <element signature="e#91331#91564#2" expanded="true" />
+            <element signature="e#92586#92822#2" expanded="true" />
+            <element signature="e#127620#127800#2" expanded="true" />
+            <element signature="e#127856#128036#2" expanded="true" />
           </folding>
         </state>
       </provider>
