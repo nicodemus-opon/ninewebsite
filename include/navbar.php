@@ -6,7 +6,7 @@
             <ul class="navbar-nav" data-nav>
                 <li class="nav-item"><a href="#" class="nav-link"><span class="nav-text">Genres</span></a>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link"><span class="nav-text">Licences & Pricing</span></a>
+                <li class="nav-item"><a href="#licenseinfo" class="nav-link"><span class="nav-text">Licences & Pricing</span></a>
                 </li>
                 <li class="nav-item"><a href="#" class="nav-link"><span class="nav-text">Offers</span></a>
                 </li>

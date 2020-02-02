@@ -17,7 +17,7 @@ include "include/navbar.php";
             <div class="page-content page-container" id="page-content">
                 <div class="padding sr">
                     <div class="page-hero" data-id="2"
-                         data-source="https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview128/v4/07/2c/59/072c59fe-549d-bd0e-f93d-3e4a1f673af5/mzaf_4035597378145374075.plus.aac.p.m4a">
+                         data-source="">
                         <div class="media bg-media">
                             <div class="media-content" style="background-image:url('../assets/img/b10.jpg')">
                             </div>
@@ -57,81 +57,18 @@ include "include/navbar.php";
 
 
                                     </div>
-                                    <div class="heading pt-5 pb-3 d-flex">
-                                        <div>
-                                            <div class="text-muted sr-item">More...</div>
-                                            <h5 class="text-highlight sr-item">Genres</h5>
-                                        </div>
-                                        <span class="flex"></span>
-                                    </div>
-                                    <div class="row list mb-4">
 
 
-                                        <div class="col-6 col-md-3">
-                                            <a href="/?g=afro" class="list-item list-hover r rounded">
-                                                <div class="media"><a href="/?g=afro"
-                                                                      class="ajax media-content"
-                                                                      style="background-image:url('assets/img/afro.jpeg')"></a>
+                                    <!--genres should be here-->
 
-                                                </div>
-                                                <div class="list-content text-center">
-                                                    <div class="list-body"><a href="/?g=afro"
-                                                                              class="list-title title ajax h-1x">Afro
-                                                            beat </a></div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-6 col-md-3">
-                                            <a href="/?g=afro" class="list-item list-hover r rounded">
-                                                <div class="media"><a href="/?g=dancehall"
-                                                                      class="ajax media-content"
-                                                                      style="background-image:url('assets/img/dancehall.jpeg')"></a>
-
-                                                </div>
-                                                <div class="list-content text-center">
-                                                    <div class="list-body"><a href="/?g=dancehall"
-                                                                              class="list-title title ajax h-1x">Dancehall </a>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-6 col-md-3">
-                                            <a href="/?g=afro" class="list-item list-hover r rounded">
-                                                <div class="media"><a href="/?g=reggaeton"
-                                                                      class="ajax media-content"
-                                                                      style="background-image:url('assets/img/reggaeton.jpeg')"></a>
-
-                                                </div>
-                                                <div class="list-content text-center">
-                                                    <div class="list-body"><a href="/?g=reggaeton"
-                                                                              class="list-title title ajax h-1x">Reggaeton </a>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                        <div class="col-6 col-md-3">
-                                            <a href="/?g=afro" class="list-item list-hover r rounded">
-                                                <div class="media"><a href="/?g=trap"
-                                                                      class="ajax media-content"
-                                                                      style="background-image:url('assets/img/trap.png')"></a>
-
-                                                </div>
-                                                <div class="list-content text-center">
-                                                    <div class="list-body"><a href="/?g=trap"
-                                                                              class="list-title title ajax h-1x">Trap </a>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-
-                                    </div>
+                                    <?php
+                                    include "include/licence.php";
+                                    ?>
                                 </div>
 
                             </div>
                         </div>
+
                         <div style="min-width: 4rem"></div>
                         <div class="w-xl w-auto-sm no-shrink">
                             <div class="sticky">

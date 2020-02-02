@@ -17,7 +17,7 @@ include "../include/navbar.php";
 
             </div>
             <div class="col-6">
-                <form>
+                <form class="" method="post" >
                     <div class="form-group">
                         <label for="11">Title</label>
                         <input type="text" class="form-control" id="11" placeholder="Title">
@@ -42,6 +42,7 @@ include "../include/navbar.php";
                         <label for="formGroupExampleInput2">Gumroad</label>
                         <input type="text" class="form-control" id="22" placeholder="Image">
                     </div>
+                    <input type="submit" class="btn btn-primary btn-block" value="Upload">
                 </form>
             </div>
             <div class="col-3">
