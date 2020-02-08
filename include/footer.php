@@ -1,5 +1,5 @@
 <footer id="footer" class="page-footer">
-        <div class="padding bg-dark b-t">
+    <div class="padding bg-dark b-t">
             <div class="page-container">
                 <div class="py-5 text-inherit text-hover-primary">
                     <div class="row mb-5">
@@ -21,7 +21,7 @@
                         <div class="col-6 col-md-2">
                             <h5 class="mb-3 text-muted">Contact</h5>
                             <ul class="list-unstyled l-h-2x text-highlight">
-                                <li><a href="maito:hello@niconinebeats.com">hello@niconinebeats.com</a></li>
+                                <li><a target="_blank" href="mailto:hello@niconinebeats.com">hello@niconinebeats.com</a></li>
 
                             </ul>
                         </div>
@@ -29,7 +29,7 @@
                             <h5 class="mb-3 text-muted">My Socials</h5><div class="mb-2 text-leftn">
                                 <a href="#" class="text-highlight display-7"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                                 <a href="#" class="text-highlight"> <i class="fab fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#" class="text-highlight"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#"  class="text-highlight"><i class="fab fa-instagram" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>

@@ -17,30 +17,30 @@ include "../include/navbar.php";
 
             </div>
             <div class="col-6">
-                <form class="" method="post" >
+                <form class="" method="post" enctype="multipart/form-data" >
                     <div class="form-group">
                         <label for="11">Title</label>
-                        <input type="text" class="form-control" id="11" placeholder="Title">
+                        <input type="text" class="form-control" id="11" name="title" placeholder="Title">
                     </div>
                     <div class="form-group">
                         <label for="formGroupExampleInput2">Image</label>
-                        <input type="file" class="form-control" id="22" placeholder="Image">
+                        <input type="file" class="form-control" name="image" placeholder="Image">
                     </div>
                     <div class="form-group">
                         <label for="formGroupExampleInput2">Audio</label>
-                        <input type="file" class="form-control" id="22" placeholder="Image">
+                        <input type="file" class="form-control" name="audio" placeholder="Image">
                     </div>
                     <div class="form-group">
                         <label for="11">Bpm</label>
-                        <input type="text" class="form-control" id="11" placeholder="Title">
+                        <input type="text" class="form-control" name="bpm" placeholder="Title">
                     </div>
                     <div class="form-group">
                         <label for="formGroupExampleInput2">Tags</label>
-                        <input type="text" class="form-control" id="22" placeholder="Image">
+                        <input type="text" class="form-control" name="tags" placeholder="Tags">
                     </div>
                     <div class="form-group">
                         <label for="formGroupExampleInput2">Gumroad</label>
-                        <input type="text" class="form-control" id="22" placeholder="Image">
+                        <input type="text" class="form-control" name="gumroad" placeholder="Gumroad link">
                     </div>
                     <input type="submit" class="btn btn-primary btn-block" value="Upload">
                 </form>

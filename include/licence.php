@@ -5,7 +5,7 @@
 
 <div class="container">
     <div class="card-deck mb-3 text-center ">
-        <div class="card mb-4 box-shadow">
+        <div class="card mb-3 box-shadow">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Basic Lease <br>(Mp3)</h4>
             </div>
@@ -14,7 +14,7 @@
                 <ul class="list-unstyled mt-3 mb-4 ">
                     <li>• Recieve MP3 Untagged</li>
                     <li>• NON EXCLUSIVE</li>
-                    <li>• DISTRIBUTE UP TO 5000</li>
+                    <li>• DISTRIBUTE UP TO 5,000</li>
                     <li>• INSTANT DELIVERY</li>
                     <li>• Must Credit "Prod. by Niconine"</li>
                 </ul>
@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <div class="card mb-4 box-shadow">
+        <div class="card mb-3 box-shadow">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Premium Lease <br>(Wav + Mp3 )</h4>
             </div>
@@ -31,31 +31,50 @@
                     <small class="text-muted"></small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                    <li>20 users included</li>
-                    <li>10 GB of storage</li>
-                    <li>Priority email support</li>
-                    <li>Help center access</li>
+                    <li>• Recieve Wav and MP3 Untagged</li>
+                    <li>• NON EXCLUSIVE</li>
+                    <li>• DISTRIBUTE UP TO 100,000</li>
+                    <li>• INSTANT DELIVERY</li>
+                    <li>• Must Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn  btn-block btn-primary">Get started</button>
+                <button type="button" class="btn  btn-block btn-primary">Read Full License</button>
             </div>
         </div>
-        <div class="card mb-4 box-shadow">
+        <div class="card mb-3 box-shadow">
             <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                <h4 class="my-0 font-weight-normal">Trackouts Lease <br>(Stems + Wav + Mp3)</h4>
             </div>
             <div class="card-body">
-                <h1 class="card-title pricing-card-title">$29
-                    <small class="text-muted">/ mo</small>
+                <h1 class="card-title pricing-card-title">$129.95
+                    <small class="text-muted"></small>
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                    <li>30 users included</li>
-                    <li>15 GB of storage</li>
-                    <li>Phone and email support</li>
-                    <li>Help center access</li>
+                    <li>• Recieve Stems, Wav and MP3 </li>
+                    <li>• NON EXCLUSIVE</li>
+                    <li>• DISTRIBUTE UP TO 1,000,000</li>
+                    <li>• INSTANT DELIVERY</li>
+                    <li>• May Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn  btn-block btn-primary">Contact us</button>
+                <button type="button" class="btn  btn-block btn-primary">Read Full License</button>
             </div>
         </div>
+        <div class="card mb-3 box-shadow shadow ">
+            <div class="card-header ">
+                <h4 class="my-0 font-weight-normal">Exclusive License <br>(Stems + Wav + Mp3)</h4>
+            </div>
+            <div class="card-body  ">
+
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>• Recieve Stems, Wav and MP3 </li>
+
+                    <li>• Unlimited Streams</li>
+                    <li>• INSTANT DELIVERY</li>
+
+                </ul>
+                <button type="button" class="btn  btn-block btn-primary">Make an Offer</button>
+            </div>
+        </div>
+
     </div>
 
 

@@ -61,22 +61,20 @@ include "include/navbar.php";
 
                                     <!--genres should be here-->
 
-                                    <?php
-                                    include "include/licence.php";
-                                    ?>
+
                                 </div>
 
                             </div>
                         </div>
 
                         <div style="min-width: 4rem"></div>
-                        <div class="w-xl w-auto-sm no-shrink">
-                            <div class="sticky">
-                                <div class="list mb-5">
+                        <div class="w-xl w-auto-sm no-shrink ">
+                            <div class="sticky ">
+                                <div class="list mb-5 ">
                                     <div class="list-item list-overlay r">
-                                        <div class="media"><a href="#" class="ajax media-content r"
+                                        <div class="media card"><a href="#" class="ajax media-content r"
 
-                                                              style="backgrounnd-image:url('../assets/img/bb.jpg');background-color: darkslateblue"></a>
+                                                              styhle="backgrounnd-image:url('../assets/img/bb.jpg');background-color: darkslateblue"></a>
                                             <div class="media-action"></div>
                                         </div>
                                         <div class="list-content p-5 text-center">
@@ -130,12 +128,15 @@ include "include/navbar.php";
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
-
+<?php
+include "include/licence.php";
+?>
 <?php
 include "include/footer.php";
 ?>
