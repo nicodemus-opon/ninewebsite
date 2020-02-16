@@ -33,5 +33,5 @@
 
         gtag('config', 'UA-156968536-1');
     </script>
-
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/87145b121862fe21460630174/7e09487473170430beea8ab70.js");</script>
 </head>

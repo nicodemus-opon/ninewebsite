@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/end.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/end.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/head.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/end.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="274" selection-start-line="34" selection-start-column="274" selection-end-line="34" selection-end-column="274" />
+            <state relative-caret-position="227">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/head.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="35" column="278" selection-start-line="35" selection-start-column="278" selection-end-line="35" selection-end-column="278" />
             </state>
           </provider>
         </entry>
@@ -89,7 +95,6 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/assets/css/site.min.css" />
         <option value="$PROJECT_DIR$/assets/css/unminified.css" />
-        <option value="$PROJECT_DIR$/include/head.php" />
         <option value="$PROJECT_DIR$/sw.js" />
         <option value="$PROJECT_DIR$/manifest.webmanifest" />
         <option value="$PROJECT_DIR$/include/genres.php" />
@@ -103,6 +108,7 @@
         <option value="$PROJECT_DIR$/upload/index.php" />
         <option value="$PROJECT_DIR$/upload/action.php" />
         <option value="$PROJECT_DIR$/include/end.php" />
+        <option value="$PROJECT_DIR$/include/head.php" />
       </list>
     </option>
   </component>
@@ -196,12 +202,12 @@
       <workItem from="1581313857876" duration="1893000" />
       <workItem from="1581343955771" duration="1223000" />
       <workItem from="1581400560661" duration="5818000" />
-      <workItem from="1581740133652" duration="714000" />
+      <workItem from="1581740133652" duration="774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53698000" />
+    <option name="totallyTimeSpent" value="53758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -229,7 +235,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.46164384" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46164384" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -285,13 +291,6 @@
             <element signature="e#127620#127800#2" expanded="true" />
             <element signature="e#127856#128036#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -410,8 +409,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/end.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="274" selection-start-line="34" selection-start-column="274" selection-end-line="34" selection-end-column="274" />
+        <state relative-caret-position="227">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="35" column="278" selection-start-line="35" selection-start-column="278" selection-end-line="35" selection-end-column="278" />
         </state>
       </provider>
     </entry>
