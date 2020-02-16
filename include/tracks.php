@@ -1,10 +1,18 @@
-<div class="col-12" data-id="418888835" data-category="other" data-tag="USA"
-     data-source="songs/s.wav">
+<?php
+
+include "connect.php";
+
+$sql="select * from beats";
+$result = $con->query($sql);
+while ($row = $result->fetch_assoc()) {?>
+
+<div class="col-12" data-id="<?php echo $row['idx']; ?>" data-category="other" data-tag="USA"
+     data-source="upload/upload/<?php echo $row['audio']; ?>">
     <div class="list-item r">
         <div class="media">
-            <a href="item.detail.html#418888835"
+            <a href="/item.detail<?php echo $row['idx']; ?>"
                class="ajaxh media-content"
-               style="background-image:url('assets/album-art/flute-u.png')"></a>
+               style="background-image:url('upload/upload/<?php echo $row['image']; ?>')"></a>
             <div class="media-action media-action-overlay">
                 <button
                         class="btn btn-icon no-bg no-shadow hide-row"
@@ -22,18 +30,18 @@
         <div class="list-content text-center">
             <div class="list-body">
                 <a href="#"
-                   class="list-title title ajax h-1x">High Hopes </a>
+                   class="list-title title ajax h-1x"><?php echo $row['name']; ?> </a>
                 <a
-                        href="#418888835"
+                        href="#<?php echo $row['idx']; ?>"
                         class="list-subtitle d-block text-muted h-1x subtitle ajax"> <i
-                            data-feather="activity"></i>100 BPM | #dancehall #afro </a></div>
+                            data-feather="activity"></i><?php echo $row['bpm']; ?> BPM | <?php echo $row['tags']; ?> </a></div>
         </div>
         <div class="list-action show-row">
             <div class="d-flex align-items-center">
                 <div class="px-3 text-sm text-muted d-none d-md-block">02:45
                 </div>
                 <a class="gumroad-buttonb btn btn-icon text-white"
-                   href="https://gum.co/JSPue" target="_blank"><i
+                   href="<?php echo $row['gumroad']; ?>" target="_blank"><i
                             data-feather="shopping-cart"
                             class="active-fill"></i></a>
                 <a class="btn btn-icon no-bg no-shadow btn-moreb"
@@ -43,4 +51,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>'
+
+
+<?php }?>
