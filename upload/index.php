@@ -17,7 +17,7 @@ include "../include/navbar.php";
 
             </div>
             <div class="col-6">
-                <form class="" method="post" enctype="multipart/form-data" >
+                <form class="" method="post" action="action.php" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="11">Title</label>
                         <input type="text" class="form-control" id="11" name="title" placeholder="Title">
