@@ -1,6 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "niconine_niconine";
+//$username = "niconine_niconine";
+$username = "nico";
 $password = "Black11060!";
 $dbname = "niconine_beatstore";
 //$dbport = 3306;
