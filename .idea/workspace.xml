@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/include/connect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
-              <caret line="78" column="82" lean-forward="true" selection-start-line="78" selection-start-column="82" selection-end-line="78" selection-end-column="82" />
+              <caret line="78" column="82" selection-start-line="78" selection-start-column="82" selection-end-line="78" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -219,12 +219,12 @@
       <workItem from="1581313857876" duration="1893000" />
       <workItem from="1581343955771" duration="1223000" />
       <workItem from="1581400560661" duration="5818000" />
-      <workItem from="1581740133652" duration="8481000" />
+      <workItem from="1581740133652" duration="8502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61465000" />
+    <option name="totallyTimeSpent" value="61486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,7 +237,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" weight="0.30048466" />
       <window_info id="Structure" order="1" sideWeight="0.50259066" side_tool="true" weight="0.27382874" />
@@ -252,7 +251,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.46164384" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46164384" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -430,7 +429,7 @@
     <entry file="file://$PROJECT_DIR$/include/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -444,7 +443,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
-          <caret line="78" column="82" lean-forward="true" selection-start-line="78" selection-start-column="82" selection-end-line="78" selection-end-column="82" />
+          <caret line="78" column="82" selection-start-line="78" selection-start-column="82" selection-end-line="78" selection-end-column="82" />
         </state>
       </provider>
     </entry>
