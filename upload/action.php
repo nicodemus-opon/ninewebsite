@@ -1,10 +1,15 @@
 <?php
 session_start();
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
+ini_set('upload_max_filesize','100M');
+ini_set('max_file_uploads','100M');
+ini_set('post_max_size','100M');
 error_reporting(E_ALL);
 
-if (!empty($_POST)) {
+var_dump($_POST);
+//if (!empty($_POST)) {
     echo "gggg";
     require_once "../include/connect.php";
     $nm = $_POST["title"];
@@ -64,10 +69,10 @@ if (!empty($_POST)) {
 <span class="alert-inner--text"><strong>Error: </strong> Could not add  User</span>
 </div>
   ';
-    }
+   }/*
 } else {
-    echo "";
-}
+    echo "post issa emptia";
+}*/
 
 exit;
 ?>

@@ -12,9 +12,10 @@
                         <h5 class="mb-3 text-muted">Pages</h5>
                         <ul class="list-unstyled l-h-2x text-highlight">
 
-                            <li><a href="#">Discogarphy</a></li>
-                            <li><a href="#">Licences</a></li>
-                            <li><a href="#">Mixing & Mastering </a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/drumkits">Drumkits</a></li>
+                            <li><a href="/licence">Licensing & Pricing </a></li>
+                            <li><a href="/contact">Contact </a></li>
 
                         </ul>
                     </div>
@@ -31,10 +32,12 @@
                         <h5 class="mb-3 text-muted">My Socials</h5>
                         <div class="mb-2 text-leftn">
 
-                            <a href="youtube.com/niconine" class="text-highlight display-7"><i
-                                        class="fab fa-youtube"></i></a>
-                            <a href="twitter.com/byniconine" class="text-highlight"> <i class="fab fa-twitter"></i></a>
-                            <a href="instagram.com/by.niconine" class="text-highlight"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/niconine" target="_blank" class="text-highlight display-7"><i
+                                        data-feather="youtube"></i></a>
+                            <a href="https://www.twitter.com/byniconine" target="_blank" class="text-highlight"> <i
+                                        data-feather="twitter"></i></i></a>
+                            <a href="https://www.instagram.com/by.niconine" target="_blank" class="text-highlight"><i
+                                        data-feather="instagram"></i></a>
 
                         </div>
                     </div>

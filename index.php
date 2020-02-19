@@ -19,26 +19,41 @@ include "include/navbar.php";
                     <div class="page-hero" data-id="2"
                          data-source="">
                         <div class="media bg-media">
-                            <div class="media-content" style="background-image:url('../assets/img/b10.jpg')">
+                            <div class="media-content" style="background-image:url('../assets/img/b10.webp')">
                             </div>
                         </div>
-                        <div class="pos-rlt">
-                            <span class="hide title">Shallow</span> <span class="hide subtitle">Lady Gaga & Bradley
-                                    Cooper</span>
+                        <div class="pos-rlt text-white"><a href="#"
+                                                           class="ajax text-primary h5 subtitle">Featured</a>
+                            <?php
+                            if (isset($_GET['ft']) && !empty($_GET['ft'])) {
+                                $sqql = "SELECT * FROM beats where name='" . $_GET['ft'] . "';";
+
+                            } else {
+                                $sqql = "SELECT * FROM beats LIMIT 1";
+                            }
+
+                            ?>
+
+                            <h1 class="display-3 font-weight-bold mb-0 text-white title">
+                                <img src="assets/img/compact.png" style="height: 72px">
+                                MAHMA</h1>
                             <div class="py-4 toolbar align-items-center">
-                                    <span class="text-muted">10 tracks, 5
-                                        playlist</span>
-                                <button class="btn btn-sm btn-outline-light btn-rounded mx-3"
-                                        data-toggle-class><span class="d-inline">Follow</span> <span
-                                            class="d-none">Following</span></button>
+                                <button class="btn btn-raised btn-rounded btn-icon gd-primary text-white btn-play"
+                                        data-toggle-class></button>
+                                <span class="text-fade">12,000</span>
+                                <a class="gumroad-buttonb btn btn-icon text-white"
+                                   href="#" target="_blank"><i
+                                            data-feather="shopping-cart"
+                                            class="active-fill"></i></a>
+
                             </div>
-                            <div class="mb-2"><span class="text-muted">Social: </span>
-                                <a href="youtube.com/niconine" class="text-highlight display-7"><i
-                                            class="fab fa-youtube"></i></a>
-                                <a href="twitter.com/byniconine" class="text-highlight"> <i class="fab fa-twitter"></i></a>
-                                <a href="instagram.com/by.niconine" class="text-highlight"><i
-                                            class="fab fa-instagram"></i></a>
-                            </div>
+                            <div class="mb-2"><span class="text-fade">In: </span><a href="genres.html"
+                                                                                    class="text-white ajax">Classical</a>,
+                                <a href="genres.html" class="text-white ajax">World</a></div>
+                        </div>
+                        <div class="pos-rlt">
+
+
                         </div>
                     </div>
                     <div class="d-md-flex pos-rlt">
@@ -76,7 +91,7 @@ include "include/navbar.php";
                                     <div class="list-item list-overlay r">
                                         <div class="media card"><a href="#" class="ajax media-content r"
 
-                                                                   style="background-image:url('../assets/img/bb.jpg');background-color: darkslateblue;height:200px;"></a>
+                                                                   styhle="background-image:url('../assets/img/bb.jpg');background-color: darkslateblue;height:200px;"></a>
                                             <div class="media-action"></div>
                                         </div>
                                         <div class="list-content p-5 text-center">

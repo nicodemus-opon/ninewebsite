@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+<?php
+session_start();
 
+ini_set('upload_max_filesize','100M');
+ini_set('max_file_uploads','100M');
+ini_set('post_max_size','100M');
+?>
 <?php
 include "../include/head.php";
 ?>
@@ -17,7 +23,7 @@ include "../include/navbar.php";
 
             </div>
             <div class="col-6">
-                <form class="" method="post" action="action.php" enctype="multipart/form-data">
+                <form class="" method="post" action="../upload/action.php" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="11">Title</label>
                         <input type="text" class="form-control" id="11" name="title" placeholder="Title">

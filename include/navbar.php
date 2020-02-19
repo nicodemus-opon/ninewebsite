@@ -24,10 +24,26 @@
                             data-feather="search"></i></button>
                 </span>
                 <input type="text" class="form-control no-border no-shadow no-bg typeahead"
-                        placeholder="Search Beats..."
+                       placeholder="Search Beats..."
                        data-plugin="typeahead">
             </form>
         </div>
+        <ul class="nav navbar-menu order-1 order-lg-2">
+
+            <li class="nav-item d-none d-sm-block"><a class="nav-link px-2" href="https://www.youtube.com/niconine"
+                                                      target="_blank"><i data-feather="youtube"></i></a></li>
+            <li class="nav-item d-none d-sm-block"><a class="nav-link px-2" href="https://www.twitter.com/byniconine"
+                                                      target="_blank"><i data-feather="instagram"></i></a></li>
+            <li class="nav-item d-none d-sm-block"><a class="nav-link px-2" href="https://www.instagram.com/by.niconine"
+                                                      target="_blank"><i data-feather="twitter"></i></a></li>
+
+            <li class="nav-item dropdown"><a class="nav-link px-2"><i data-feather="user" class="d-lg-none"></i><span
+                            class="btn btn-roundedb btn-light text-dark d-none d-lg-block">SIGN UP</span></a>
+            </li>
+
+            <li class="nav-item d-lg-none"><a href="#" class="nav-link px-2" data-toggle="collapse" data-toggle-class
+                                              data-target="#navbarCollapse"><i data-feather="menu"></i></a></li>
+        </ul>
 
     </div>
 </header>

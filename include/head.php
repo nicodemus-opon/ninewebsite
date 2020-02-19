@@ -22,7 +22,7 @@
 
     <link rel="preload" href="../libs/plyrist/src/plyrist.css" as="style">
     <link rel="stylesheet" href="../assets/css/site.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156968536-1"></script>
