@@ -1,6 +1,7 @@
 <head>
     <meta charset="utf-8">
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport'/>
 
     <?php
     include "include/seo.php";
@@ -16,7 +17,24 @@
 
     <!-- Favicon -->
 
-    <link href="/assets/img/fav.png" rel="icon" type="image/png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/img/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/img/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/img/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/img/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/img/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/img/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/fav/favicon-16x16.png">
+    <link rel="manifest" href="../manifest.webmanifest">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 
 
@@ -28,10 +46,16 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156968536-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-156968536-1');
     </script>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/87145b121862fe21460630174/7e09487473170430beea8ab70.js");</script>
+    <script id="mcjs">!function (c, h, i, m, p) {
+            m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+        }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/87145b121862fe21460630174/7e09487473170430beea8ab70.js");</script>
 </head>

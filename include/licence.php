@@ -4,13 +4,13 @@
 </div>
 
 <div class="container">
-    <div class="card-deck mb-3 text-center ">
-        <div class="card mb-3 box-shadow">
+    <div class="card-deckl row  text-center ">
+        <div class="card col-lg-3 box-shadow">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Basic Lease <br>(Mp3)</h4>
             </div>
             <div class="card-body">
-                <h1 class="card-title pricing-card-title">$29.95 </h1>
+                <h1 class="card-title pricing-card-title">$19.95 </h1>
                 <ul class="list-unstyled mt-3 mb-4 ">
                     <li>• Recieve MP3 Untagged</li>
                     <li>• NON EXCLUSIVE</li>
@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <div class="card mb-3 box-shadow">
+        <div class="card col-lg-3 box-shadow">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Premium Lease <br>(Wav + Mp3 )</h4>
             </div>
@@ -40,7 +40,7 @@
                 <button type="button" class="btn  btn-block btn-primary">Read Full License</button>
             </div>
         </div>
-        <div class="card mb-3 box-shadow">
+        <div class="card col-lg-3 box-shadow">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Trackouts Lease <br>(Stems + Wav + Mp3)</h4>
             </div>
@@ -58,7 +58,7 @@
                 <button type="button" class="btn  btn-block btn-primary">Read Full License</button>
             </div>
         </div>
-        <div class="card mb-3 box-shadow shadow ">
+        <div class="card col-lg-3 box-shadow shadow ">
             <div class="card-header ">
                 <h4 class="my-0 font-weight-normal">Exclusive License <br>(Stems + Wav + Mp3)</h4>
             </div>

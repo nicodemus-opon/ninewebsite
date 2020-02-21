@@ -32,24 +32,40 @@ include "include/navbar.php";
                                 $sqql = "SELECT * FROM beats LIMIT 1";
                             }
 
-                            ?>
+                            include "include/connect.php";
 
-                            <h1 class="display-3 font-weight-bold mb-0 text-white title">
-                                <img src="assets/img/compact.png" style="height: 72px">
-                                MAHMA</h1>
-                            <div class="py-4 toolbar align-items-center">
-                                <button class="btn btn-raised btn-rounded btn-icon gd-primary text-white btn-play"
-                                        data-toggle-class></button>
-                                <span class="text-fade">12,000</span>
-                                <a class="gumroad-buttonb btn btn-icon text-white"
-                                   href="#" target="_blank"><i
-                                            data-feather="shopping-cart"
-                                            class="active-fill"></i></a>
 
+                            $result = $con->query($sqql);
+                            while ($row = $result->fetch_assoc()) { ?>
+
+
+                                <h1 class="display-3 font-weight-bold mb-0 text-white title">
+                                    <img src="upload/<?php echo $row['image']; ?>" class="r shadow"
+                                         style="height: 72px">
+                                    <?php echo $row['name']; ?></h1>
+                                <div class="py-4 toolbar align-items-center">
+                                    <button class="btn btn-raised btn-rounded btn-icon gd-primary text-white btn-play"
+                                            data-toggle-class
+                                            data-source="upload/upload/<?php echo $row['audio']; ?>"></button>
+                                    <span class="text-fade">12,000</span>
+                                    <a class="gumroad-buttonb btn btn-icon text-white"
+                                       href="<?php echo $row['gumroad']; ?>" target="_blank"><i
+                                                data-feather="shopping-cart"
+                                                class="active-fill"></i></a>
+
+                                </div>
+
+                            <?php } ?>
+                            <div class="py-2 d-flex sr-item" id="filter-category">
+
+                                <div class="mx-3"><a href="/" class="btn btn-sm btn-white m-1">All genres </a>
+                                    <a href="/?g=afro" class="btn btn-sm btn-white m-1">Afro Beat</a>
+                                    <a href="/?g=dancehall" class="btn btn-sm btn-white m-1">Dancehall </a>
+                                    <a href="/?g=trap" class="btn btn-sm btn-white m-1">Trap </a>
+                                    <a href="/?g=reggaeton" class="btn btn-sm btn-white m-1">Reggaeton </a>
+                                    <a href="/?g=moombahton" class="btn btn-sm btn-white m-1">Moombahton </a>
+                                </div>
                             </div>
-                            <div class="mb-2"><span class="text-fade">In: </span><a href="genres.html"
-                                                                                    class="text-white ajax">Classical</a>,
-                                <a href="genres.html" class="text-white ajax">World</a></div>
                         </div>
                         <div class="pos-rlt">
 
@@ -122,6 +138,12 @@ include "include/navbar.php";
 <?php
 include "include/licence.php";
 ?>
+
+<?php
+include "include/contact.php";
+?>
+
+
 <?php
 include "include/footer.php";
 ?>

@@ -12,7 +12,7 @@ while ($row = $result->fetch_assoc()) {?>
         <div class="media">
             <a href="/item.detail<?php echo $row['idx']; ?>"
                class="ajaxh media-content"
-               style="background-image:url('upload/upload/<?php echo $row['image']; ?>')"></a>
+               style="background-image:url('upload/<?php echo $row['image']; ?>')"></a>
             <div class="media-action media-action-overlay">
                 <button
                         class="btn btn-icon no-bg no-shadow hide-row"
