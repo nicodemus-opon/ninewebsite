@@ -10,7 +10,7 @@
 
         </div>
         <div class="col-lg-6">
-            <form id="contact-form" method="post" action="contact.php" role="form">
+            <form id="contact-form" method="post" action="https://www.formbackend.com/f/029123bf03ecc5f7" role="form">
 
                 <div class="messages"></div>
 

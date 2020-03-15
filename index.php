@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+<title>Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats</title>
 
 <?php
 include "include/head.php";
@@ -56,14 +57,15 @@ include "include/navbar.php";
                                 </div>
 
                             <?php } ?>
-                            <div class="py-2 d-flex sr-item" id="filter-category">
+                            <div class="py-2 d-flex sr-item" id="filter-categoryh">
 
-                                <div class="mx-3"><a href="/" class="btn btn-sm btn-white m-1">All genres </a>
-                                    <a href="/?g=afro" class="btn btn-sm btn-white m-1">Afro Beat</a>
-                                    <a href="/?g=dancehall" class="btn btn-sm btn-white m-1">Dancehall </a>
-                                    <a href="/?g=trap" class="btn btn-sm btn-white m-1">Trap </a>
-                                    <a href="/?g=reggaeton" class="btn btn-sm btn-white m-1">Reggaeton </a>
-                                    <a href="/?g=moombahton" class="btn btn-sm btn-white m-1">Moombahton </a>
+                                <div class="mx-3">
+                                    <a href="../" class="btn btn-sm btn-white m-1">All genres </a>
+                                    <a href="../?g=afro" class="btn btn-sm btn-white m-1">Afro Beat</a>
+                                    <a href="../?g=dancehall" class="btn btn-sm btn-white m-1">Dancehall </a>
+                                    <a href="../?g=trap" class="btn btn-sm btn-white m-1">Trap </a>
+                                    <a href="../?g=reggaeton" class="btn btn-sm btn-white m-1">Reggaeton </a>
+                                    <a href="../?g=moombahton" class="btn btn-sm btn-white m-1">Moombahton </a>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +105,7 @@ include "include/navbar.php";
                         <div style="min-width: 4rem"></div>
                         <div class="w-xl w-auto-sm no-shrink ">
                             <div class="sticky ">
-                                <div class="list mb-5 ">
+                                <!--div class="list mb-5 ">
                                     <div class="list-item list-overlay r">
                                         <div class="media card"><a href="#" class="ajax media-content r"
 
@@ -121,7 +123,7 @@ include "include/navbar.php";
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div-->
                                 <?php
                                 /*include "include/toptracks.php";*/
                                 ?>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+<title>Niconine Beats - Upload</title>
 <?php
 session_start();
 

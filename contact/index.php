@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
-
+<title>Niconine Beats - Contact</title>
 <?php
 include "../include/head.php";
 ?>

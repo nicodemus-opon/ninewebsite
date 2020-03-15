@@ -4,15 +4,15 @@
                     class="hidden-folded d-inline l-s-n-1xh pl-lg-5 ">Niconine Beats</span></a>
         <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarCollapse">
             <ul class="navbar-nav" data-nav>
-                <li class="nav-item"><a href="/about" class="nav-link"><span class="nav-text">About</span></a>
+                <li class="nav-item"><a href="../about" class="nav-link"><span class="nav-text">About</span></a>
                 </li>
-                <li class="nav-item"><a href="/drumkits" class="nav-link"><span class="nav-text">Drumkits</span></a>
+                <li class="nav-item"><a href="../drumkits" class="nav-link"><span class="nav-text">Drumkits</span></a>
                 </li>
 
-                <li class="nav-item"><a href="/licence" class="nav-link"><span
+                <li class="nav-item"><a href="../licence" class="nav-link"><span
                                 class="nav-text">Licences & Pricing</span></a>
                 </li>
-                <li class="nav-item"><a href="/contact" class="nav-link"><span class="nav-text">Contact</span></a>
+                <li class="nav-item"><a href="../contact" class="nav-link"><span class="nav-text">Contact</span></a>
                 </li>
 
 

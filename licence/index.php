@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+<title>Niconine Beats - Licence</title>
 
 <?php
 include "../include/head.php";
