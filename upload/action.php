@@ -8,12 +8,16 @@ ini_set('max_file_uploads', '100M');
 ini_set('post_max_size', '100M');
 error_reporting(E_ALL);
 
+    echo ini_get('post_max_size');
+
+
+
 var_dump($_POST);
 //if (!empty($_POST)) {
 echo "gggg";
 require_once "../include/connect.php";
 $nm = $_POST["title"];
-$idx = md5($nm);
+$idx = time().substr(md5($nm), 0, 5);
 $gumroad = $_POST["gumroad"];
 $tags = $_POST["tags"];
 $bpm = $_POST["bpm"];
@@ -74,6 +78,7 @@ if ($con->query($sql) === true) {
                   <div class="alert alert-success" role="alert">
     <span class="alert-inner--text"><strong>Success: </strong> Published track ' . $nm . ' Successfully </span>
     <a href="../">click here to go back</a>
+    <a href="../upload">click here upload again</a>
 </div>
                   ';
     //header("Location:dashboard.php");

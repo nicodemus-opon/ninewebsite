@@ -14,7 +14,7 @@ include "../include/navbar.php";
 <div class="p-5"></div>
 
 <?php
-include "../include/licence.php";
+include "../include/drumkit.php";
 ?>
 
 

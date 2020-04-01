@@ -1,5 +1,5 @@
 <script src="../assets/js/site.min.js"></script>
-<script src="https://gumroad.com/js/gumroad.js"></script>
+
 <script>
 ! function(g, s, q, r, d) {
     r = g[r] = g[r] || function() {
