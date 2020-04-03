@@ -1,7 +1,10 @@
 <?php
-$cart_count = "0";
+session_start();
+$cart_count = 0;
 if (!empty($_SESSION["shopping_cart"])) {
+    echo"eteetetettetete";
     $cart_count = count(array_keys($_SESSION["shopping_cart"]));
+    echo $cart_count;
 }
 ?>
 <style>
@@ -49,21 +52,15 @@ if (!empty($_SESSION["shopping_cart"])) {
                                                       target="_blank"><i data-feather="twitter"></i></a></li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link px-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link px-2 launch_cart"  id="navbarDropdown" role="button" >
                     <i data-feather="shopping-cart"
                        class="d-lg-nonen"></i>
-                    <span class="text-sm badge badge-circleu badge-lightb" style="">
-                        <?php echo($cart_count); ?>
+                    <span class="text-sm badge cart_total" style="">
+0
                     </span>
                 </a>
 
-                <div class="dropdown-menu-left  pull-right dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+
             </li>
 
 

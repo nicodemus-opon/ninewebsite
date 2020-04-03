@@ -55,7 +55,7 @@ include "include/navbar.php";
                             </div>
                         </div>
                         <div class="pos-rlt text-white"><a href="#"
-                                                           class="ajax text-primary h5 subtitle">Featured</a>
+                                                           class="ajax text-muted h5 subtitle">Featured</a>
 
                             <!--i was here-->
                             <div class="row">
@@ -93,7 +93,7 @@ include "include/navbar.php";
 
                                 <button class="btn-m btn btn-iconb btn-sm btn-light text-dark text-align-auto"
 
-                                        data-toggle="modal" data-target="#exampleModalCenter"
+                                        data-toggle="modal" data-target="#buy_modal"
                                         namex="<?php echo $row['name']; ?>"
                                         imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>">$19.95 <i
                                             data-feather="shopping-cart"
@@ -125,6 +125,7 @@ include "include/navbar.php";
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="overview">
                                     <div class="heading pt-0 pb-3 d-flex">
+
                                         <div>
                                             <h5 class="text-highlight sr-item">Tracks</h5>
 
@@ -182,7 +183,7 @@ include "include/end.php";
 ?>
 
 <!-- Modal -->
-<div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+<div class="modal fade " id="buy_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
      aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="blur-thisb ">
@@ -204,7 +205,8 @@ include "include/end.php";
 
                             <div class="form-group pt-3">
                                 <label class="text-muted" for="form_need">Please Select licence *</label>
-                                <select id="form_need" name="need" class="form-control " required="required"
+                                <select id="price_selected" name="need" class="form-control selectpicker"
+                                        required="required"
                                         data-error="Please specify your need.">
                                     <option value="1">Mp3 ($19.95)</option>
                                     <option value="2">Wav & Mp3 ($49.95)</option>
@@ -219,28 +221,86 @@ include "include/end.php";
                 </div>
                 <div class="modal-footer">
 
-                    <button type="button" class="btn btn-light btn-block text-dark btn-buy">Add to Cart</button>
+                    <button type="button" idx="" imgx="" namex="" class="btn btn-light btn-block text-dark btn-buy">Add
+                        to Cart
+                    </button>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <h5 class="modal-title text-dark" id="exampleModalLabel">
+                   Your Cart
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-image">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Track</th>
+                        <th scope="col">Licence</th>
+
+                        <th scope="col">Price</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody id="fill_cart">
+
+                    </tbody>
+                </table>
+                <div class="d-flex justify-content-end">
+                    <h5 class="text-dark">Total: $<span class="price text-success cart_full"></span></h5>
+                </div>
+            </div>
+            <div class="modal-footer border-top-0 d-flex justify-content-between">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script>
+    $(".launch_cart").click(function () {
+        get_total_amount();
+        get_total();
+        view_cart();
+    });
+
+
     $(".btn-m").click(function () {
         console.log($(this).attr("id"));
-        let imgx = "upload/" + $(this).attr("imgx");
-        let namex = "Purchase " + $(this).attr("namex") + ' (Instrumental) ';
+        var idx = $(this).attr("id");
+        var imgx = "upload/" + $(this).attr("imgx");
+        var namex = "Purchase " + $(this).attr("namex") + ' (Instrumental) ';
+        var nmm = $(this).attr("namex");
         $(".dis-img").attr("src", imgx);
+        $(".btn-buy").attr("idx", idx);
+        $(".btn-buy").attr("namex", nmm);
+        $(".btn-buy").attr("imgx", imgx);
         $("#titlename").html(namex);
-        let style = "background-image: url('" + imgx + "');background-color: rgba(0,0,0,0.65);background-blend-mode:darken";
+        var style = "background-image: url('" + imgx + "');background-color: rgba(0,0,0,0.65);background-blend-mode:darken";
         $(".wh-modal").attr("style", style);
     });
 
     $(".btn-buy").click(function () {
-        var product_id = $(this).attr("id");
-        var product_name = $('#name' + product_id + '').val();
-        var product_price = $('#price' + product_id + '').val();
+        $('#buy_modal').modal('hide');
+        var product_id = $(this).attr("idx");
+        var pr = $('#price_selected').val();
+        var product_name = $(this).attr("namex");
+        var product_img = $(this).attr("imgx");
+
 
         var action = "add";
 
@@ -249,19 +309,118 @@ include "include/end.php";
             method: "POST",
             data: {
                 product_id: product_id,
-                product_name: product_name,
-                product_price: product_price,
+                product_name: product_name, product_img: product_img,
+                pr: pr,
                 action: action
             },
             success: function (data) {
-
-                alert("Item has been Added into Cart");
+                //alert(data);
+                get_total_amount();
+                get_total();
+                view_cart();
             }
         });
 
 
     });
 
+    $(".delete_itemc").click(function () {
+        console.log("ll");
+        var ii = $(this).attr("idx");
+        remove(ii);
+    });
+
+
+    function get_total() {
+        $.ajax({
+            url: "include/cart.php",
+            method: "POST",
+            data: {
+                action: "get_total"
+            },
+            success: function (data) {
+                get_total_amount();
+                $(".cart_total").html(data);
+            }
+        });
+    }
+
+    function view_cart() {
+        $.ajax({
+            url: "include/cart.php",
+            method: "POST",
+            data: {
+                action: "view"
+            },
+            success: function (data) {
+
+                $("#fill_cart").html(data);
+                feather.replace();
+                $('#cartModal').modal('show');
+            }
+        });
+    }
+
+    function get_total_amount() {
+        $.ajax({
+            url: "include/cart.php",
+            method: "POST",
+            data: {
+                action: "get_total_amount"
+            },
+            success: function (data) {
+                console.log(data);
+                $(".cart_full").html(data);
+            }
+        });
+    }
+
+    function remove(idx) {
+        var row = "#row" + idx;
+        $(row).remove();
+        $.ajax({
+            url: "include/cart.php",
+            method: "POST",
+            data: {
+                action: "remove",
+                product_id: idx
+
+            },
+            success: function (data) {
+                console.log(data);
+                get_total_amount();
+                get_total();
+            }
+        });
+    }
+
+    function clear_cart() {
+        $.ajax({
+            url: "include/cart.php",
+            method: "POST",
+            data: {
+                action: "clear_cart"
+            },
+            success: function (data) {
+                console.log(data);
+                get_total();
+            }
+        });
+    }
+
+    $(document).on("click", ".delete_item", function(event){
+        console.log("ll");
+        var ii = $(this).attr("idx");
+        remove(ii);
+    });
+
+    $(document).ready(function () {
+        feather.replace();
+
+
+        get_total_amount();
+        get_total();
+    });
 
 </script>
 

@@ -45,7 +45,7 @@ while ($row = $result->fetch_assoc()) { ?>
 
 
                     <button class="gumroad-buttonb btn btn-iconb btn-sm btn-light text-dark text-align-auto btn-m"
-                            data-toggle="modal" data-target="#exampleModalCenter" namex="<?php echo $row['name']; ?>"
+                            data-toggle="modal" data-target="#buy_modal" namex="<?php echo $row['name']; ?>"
                             imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"><span
                                 class="d-none d-lg-inline d-sm-block"> $19.95</span> <i
                                 data-feather="shopping-cart"
