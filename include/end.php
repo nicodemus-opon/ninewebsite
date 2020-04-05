@@ -2,7 +2,7 @@
 
 
 
-<script>
+<!--script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
             navigator.serviceWorker.register('/sw.js').then(function (registration) {
@@ -15,7 +15,7 @@
         });
     }
 
-</script>
+</script-->
 
 <!-- Modal -->
 <div class="modal fade " id="buy_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
