@@ -1,12 +1,4 @@
-<?php
-session_start();
-$cart_count = 0;
-if (!empty($_SESSION["shopping_cart"])) {
-    echo"eteetetettetete";
-    $cart_count = count(array_keys($_SESSION["shopping_cart"]));
-    echo $cart_count;
-}
-?>
+
 <style>
     #login-nav input {
         margin-bottom: 15px;
@@ -52,7 +44,7 @@ if (!empty($_SESSION["shopping_cart"])) {
                                                       target="_blank"><i data-feather="twitter"></i></a></li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link px-2 launch_cart"  id="navbarDropdown" role="button" >
+                <a class="nav-link px-2 launch_cart kill_cart" id="navbarDropdown" role="button">
                     <i data-feather="shopping-cart"
                        class="d-lg-nonen"></i>
                     <span class="text-sm badge cart_total" style="">

@@ -48,7 +48,7 @@ if (isset($_POST["action"])) {
             echo '<tr id="row' . $_SESSION["shopping_cart"][$keys[$i]]["idx"] . '">
                         <td class="">
                             <img src="' . $_SESSION["shopping_cart"][$keys[$i]]["img"] . '"
-                                 class="img-fluid img-thumbnail" style="height: 48px" alt="Sheep">
+                                 class="img-fluidb img-thumbnailb r" style="height: 48px" alt="Sheep">
                         </td>
                         <td><b style="text-transform: uppercase">' . $_SESSION["shopping_cart"][$keys[$i]]["name"] . '</b></td>
 
@@ -56,7 +56,7 @@ if (isset($_POST["action"])) {
                         <td>$ ' . $_SESSION["shopping_cart"][$keys[$i]]["price"] . '</td>
                         <td>
                             <button idx="' . $_SESSION["shopping_cart"][$keys[$i]]["idx"] . '" class="btn bg-transparent btn-sm delete_item">
-                                <i data-feather="trash-2" class="active-fill text-danger " style="f"></i> remove
+                                <i data-feather="trash-2" class="active-fill text-danger " style="f"></i>
                             </button>
                         </td>
                     </tr>';
@@ -88,6 +88,19 @@ if (isset($_POST["action"])) {
         unset($_SESSION["shopping_cart"][$_POST["product_id"]]);
 
         //echo $_POST["product_id"] . " has been removed";
+
+    } else if ($_POST["action"] == "get_items") {
+
+        $keys = array_keys($_SESSION["shopping_cart"]);
+        //print_r($keys);
+        $items = "";
+
+        for ($i = 0; $i < count($_SESSION["shopping_cart"]); $i++) {
+            $items = $items . "-" . $_SESSION["shopping_cart"][$keys[$i]]["name"] . "+" . $_SESSION["shopping_cart"][$keys[$i]]["lease"];
+
+        }
+        echo($items);
+        $_SESSION["item_s"] = $items;
 
     }
 }

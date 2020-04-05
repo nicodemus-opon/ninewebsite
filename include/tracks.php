@@ -32,7 +32,7 @@ while ($row = $result->fetch_assoc()) { ?>
             <div class="list-content text-center">
                 <div class="list-body">
                     <a href="../track/?q=<?php echo $row['idx']; ?>"
-                       class="list-title title ajax h-1x"><?php echo $row['name']; ?> </a>
+                       class="list-title title ajax h-1x" style="text-transform: capitalize"><?php echo $row['name']; ?> </a>
                     <a
                             href="#"
                             class="list-subtitle d-block text-muted h-1x subtitle ajax"><?php echo $row['bpm']; ?> BPM
