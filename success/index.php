@@ -59,6 +59,20 @@ include "../include/navbar.php";
 
 </div>
 
+<?php
+require_once "../include/connect.php";
+$sql = $sql = "insert into transactions values('" . $_SESSION["id_s"] . "','" . $_SESSION["email_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["amount_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["time_s"] . "')";
+if (isset($_SESSION["email_s"])) {
+    if ($con->query($sql) === true) {
+
+        echo "";
+    }
+} else {
+    echo '';
+}
+
+
+?>
 
 <?php
 $transid=$_SESSION["id_s"];
@@ -319,6 +333,7 @@ $retval = mail($to, $subject, $message, $header);
 $retval="test";
 if ($retval == true) {
     echo "Message sent successfully...";
+    session_destroy();
 } else {
     echo "Message could not be sent...";
 }
@@ -326,20 +341,6 @@ if ($retval == true) {
 
 ?>
 
-<?php
-require_once "../include/connect.php";
-$sql = $sql = "insert into transactions values('" . $_SESSION["id_s"] . "','" . $_SESSION["email_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["amount_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["time_s"] . "')";
-if (isset($_SESSION["email_s"])) {
-    if ($con->query($sql) === true) {
-        session_destroy();
-        echo "";
-    }
-} else {
-    echo '';
-}
-
-
-?>
 
 <?php
 include "../include/footer.php";
