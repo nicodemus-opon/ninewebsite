@@ -8,8 +8,7 @@ ini_set('max_file_uploads', '100M');
 ini_set('post_max_size', '100M');
 error_reporting(E_ALL);
 
-    echo ini_get('post_max_size');
-
+echo ini_get('post_max_size');
 
 
 var_dump($_POST);
@@ -17,11 +16,13 @@ var_dump($_POST);
 echo "gggg";
 require_once "../include/connect.php";
 $nm = $_POST["title"];
-$idx = time().substr(md5($nm), 0, 5);
+$idx = time() . substr(md5($nm), 0, 5);
 $gumroad = $_POST["gumroad"];
 $tags = $_POST["tags"];
 $bpm = $_POST["bpm"];
-
+$mp3link = $_POST["mp3link"];
+$wavlink = $_POST["wavlink"];
+$ziplink = $_POST["ziplink"];
 
 if ($_FILES["audio"]["error"] > 0)
     echo "Return Code: " . $_FILES["audio"]["error"] . "<br>";
@@ -55,7 +56,7 @@ require '../vendor/autoload.php';
 
 use WebPConvert\WebPConvert;
 
-$source = 'upload'. '/'.$_FILES["image"]["name"];;
+$source = 'upload' . '/' . $_FILES["image"]["name"];;
 $destination = $source . '.webp';
 $options = [];
 try {
@@ -69,7 +70,7 @@ $audio = $_FILES["audio"]["name"];
 $image = $destination;
 
 
-$sql = "insert into beats values('" . $nm . "','" . $image . "','" . $bpm . "','" . $tags . "','" . $audio . "','" . $gumroad . "','" . $idx . "')";
+$sql = "insert into beats values('" . $nm . "','" . $image . "','" . $bpm . "','" . $tags . "','" . $audio . "','" . $gumroad . "','" . $idx . "','" . $mp3link . "','" . $wavlink . "','" . $ziplink . "')";
 //echo $sql;
 //print $sql;
 if ($con->query($sql) === true) {
@@ -88,7 +89,38 @@ if ($con->query($sql) === true) {
 <span class="alert-inner--text"><strong>Error: </strong> Could not add  User</span>
 </div>
   ';
-}/*
+}
+
+
+$text="[";
+$sqll = "select * from beats ORDER BY idx DESC";
+$result = $con->query($sqll);
+
+
+while ($row = $result->fetch_assoc()) {
+
+    $text=$text.'
+  {
+    "type": "audio",
+    "id": "'.$row['idx'].'",
+    "title": "'.$row['name'].'",
+    "subtitle": "'.$row['tags'].'",
+    "thumb": "'.$row['img'].'",
+    "uri": "'.$row['audio'].'",
+    "previewurl": "",
+    "img": ".'.$row['img'].'",
+    "category": "Pop",
+    "tag": "USA"
+  },';
+}
+$text=rtrim($text, ",");
+$text=$text."]";
+$myfile = fopen("../assets/api/music.json", "w") or die("Unable to open file!");
+fwrite($myfile, $text);
+fclose($myfile);
+echo "wrote to file";
+
+/*
 } else {
     echo "post issa emptia";
 }*/

@@ -16,7 +16,7 @@
         source: engine,
         templates: {
           suggestion: function(data) {
-              return '<a class="dropdown-item" href="../html/item.detail.html"><span class="d-block font-weight-500">' + data.title + '</span><small class="text-muted">'+data.subtitle+'</small></a>';
+              return '<a class="dropdown-item" href="../track/?q='+data.id+'"><span class="d-block font-weight-500">' + data.title + '</span><small class="text-muted">'+data.subtitle+'</small></a>';
           }
         }
       }

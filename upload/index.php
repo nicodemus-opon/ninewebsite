@@ -48,7 +48,19 @@ include "../include/navbar.php";
                     </div>
                     <div class="form-group">
                         <label for="formGroupExampleInput2">Gumroad</label>
-                        <input type="text" class="form-control" name="gumroad" placeholder="Gumroad link">
+                        <input type="text" class="form-control" name="gumroad" value="gum" placeholder="Gumroad link">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Mp3 Link</label>
+                        <input type="text" class="form-control" name="mp3link" placeholder="Gumroad link">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Wav Link</label>
+                        <input type="text" class="form-control" name="wavlink" placeholder="Gumroad link">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Zip Link</label>
+                        <input type="text" class="form-control" name="ziplink" placeholder="Gumroad link">
                     </div>
                     <input type="submit" class="btn btn-primary btn-block" value="Upload">
                 </form>

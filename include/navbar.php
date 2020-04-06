@@ -17,8 +17,6 @@
             <ul class="navbar-nav" data-nav>
                 <li class="nav-item"><a href="../about" class="nav-link"><span class="nav-text">About</span></a>
                 </li>
-                <li class="nav-item"><a href="../drumkits" class="nav-link"><span class="nav-text">Drumkits</span></a>
-                </li>
 
                 <li class="nav-item"><a href="../licence" class="nav-link"><span
                                 class="nav-text">Licences & Pricing</span></a>

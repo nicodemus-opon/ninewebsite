@@ -13,7 +13,6 @@
                         <ul class="list-unstyled l-h-2x text-highlight">
 
                             <li><a href="/about">About</a></li>
-                            <li><a href="/drumkits">Drumkits</a></li>
                             <li><a href="/licence">Licensing & Pricing </a></li>
                             <li><a href="/contact">Contact </a></li>
 
