@@ -206,7 +206,7 @@ $message = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "htt
 <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 0px; font-family: Georgia, serif"><![endif]-->
 <div style="color:#000000;font-family:Georgia, Times, Times New Roman, serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:0px;padding-left:10px;">
 <div style="font-size: 14px; line-height: 1.2; color: #000000; font-family: Georgia, Times, Times New Roman, serif; mso-line-height-alt: 17px;">
-<p style="font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;"><strong><span style="font-size: 72px;">Purchase Order </span></strong></p>
+<p style="font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;"><strong><span style="font-size: 62px;">Purchase Order </span></strong></p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
