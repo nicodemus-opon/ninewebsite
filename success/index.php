@@ -331,7 +331,7 @@ require_once "../include/connect.php";
 $sql = $sql = "insert into transactions values('" . $_SESSION["id_s"] . "','" . $_SESSION["email_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["amount_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["time_s"] . "')";
 if (isset($_SESSION["email_s"])) {
     if ($con->query($sql) === true) {
-        //session_destroy();
+        session_destroy();
         echo "";
     }
 } else {
