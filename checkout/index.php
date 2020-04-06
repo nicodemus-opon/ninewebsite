@@ -153,7 +153,7 @@ include "../include/end.php";
                     },
                     success: function (data) {
                         console.log(data);
-                        window.location.replace("/success");
+                        //window.location.replace("/success");
                     }
                 });
 
