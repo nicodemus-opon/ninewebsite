@@ -1,17 +1,19 @@
-<!DOCTYPE html>
-<html lang="en-US" dir="ltr">
-<title>Niconine Beats - Success</title>
 <?php
 session_start();
+print_r($_SESSION);
 
 if (isset($_SESSION["email_s"])) {
     echo "";
 } else {
     //echo '<script>window.location.replace("/");</script>';
-    echo "";
+    echo "no sessh vars";
 }
 
 ?>
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<title>Niconine Beats - Success</title>
+
 
 <?php
 ini_set('display_errors', 1);
@@ -313,8 +315,8 @@ $header = "From:hello@niconinebeats \r\n";
 $header .= "MIME-Version: 1.0\r\n";
 $header .= "Content-type: text/html\r\n";
 
-$retval = mail($to, $subject, $message, $header);
-
+//$retval = mail($to, $subject, $message, $header);
+$retval="test";
 if ($retval == true) {
     echo "Message sent successfully...";
 } else {

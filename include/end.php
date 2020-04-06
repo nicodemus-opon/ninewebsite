@@ -117,13 +117,17 @@
 </script>
 <script>
     $(".launch_cart").click(function () {
+        show_spinner();
         get_total_amount();
         get_total();
 
         if ($(".cart_total").html() === "0") {
             get_total();
+            hide_spinner();
         } else {
+
             view_cart();
+            hide_spinner();
         }
 
     });
