@@ -105,7 +105,16 @@
     </div>
 </div>
 
-
+<script>
+    function show_spinner () {
+        document.getElementById("spinner-front").classList.add("show");
+        document.getElementById("spinner-back").classList.add("show");
+    }
+    function hide_spinner () {
+        document.getElementById("spinner-front").classList.remove("show");
+        document.getElementById("spinner-back").classList.remove("show");
+    }
+</script>
 <script>
     $(".launch_cart").click(function () {
         get_total_amount();
@@ -144,7 +153,7 @@
 
 
         var action = "add";
-
+        show_spinner();
         $.ajax({
             url: "../include/cart.php",
             method: "POST",
@@ -159,6 +168,7 @@
                 get_total_amount();
                 get_total();
                 view_cart();
+                hide_spinner();
             }
         });
 
@@ -236,6 +246,7 @@
     function remove(idx) {
         var row = "#row" + idx;
         $(row).remove();
+        show_spinner();
         $.ajax({
             url: "../include/cart.php",
             method: "POST",
@@ -248,6 +259,7 @@
                 console.log(data);
                 get_total_amount();
                 get_total();
+                hide_spinner();
             }
         });
     }
@@ -273,6 +285,7 @@
     });
 
     $(document).ready(function () {
+
         feather.replace();
 
 

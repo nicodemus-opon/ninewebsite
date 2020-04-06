@@ -1,4 +1,9 @@
+<!-- [THE SPINNER - THIS IS ALL YOU NEED] -->
+<div id="spinner-front">
+    <img src="assets/img/91.svg"/><br>
 
+</div>
+<div id="spinner-back"></div>
 <style>
     #login-nav input {
         margin-bottom: 15px;
