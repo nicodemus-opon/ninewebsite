@@ -25,7 +25,7 @@
             <div class="modal-content gd-dark wh-modal "
                  style="background-image: url('');background-color: rgba(0,0,0,0.65);background-blend-mode:darken">
                 <div class="modal-header">
-                    <h5 class="modal-title text-white" id="titlename">MAHMA/ radio button </h5>
+                    <h5 class="modal-title text-white" id="titlename">Please refresh-Missing Parameters </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
