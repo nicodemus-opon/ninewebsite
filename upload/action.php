@@ -85,14 +85,11 @@ if ($con->query($sql) === true) {
                   ';
     //header("Location:dashboard.php");
 } else {
-    print '
-  <div class="alert alert-warning" role="alert">
-<span class="alert-inner--text"><strong>Error: </strong> Could not add  User</span>
-</div>
-  ';
+    echo mysqli_error($con);
+
 }
 
-
+/*
 $text="[";
 $sqll = "select * from beats ORDER BY idx DESC";
 $result = $con->query($sqll);
