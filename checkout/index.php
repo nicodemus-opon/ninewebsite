@@ -129,7 +129,7 @@ include "../include/end.php";
                     },
                     success: function (data) {
                         console.log("items");
-                        console.log(data);
+                        //console.log(data);
                         itemsx=data;
                         window.location.replace("/success");
                     }
@@ -152,8 +152,8 @@ include "../include/end.php";
                         item:itemsx
                     },
                     success: function (data) {
-                        console.log(data);
-                        //window.location.replace("/success");
+                        //console.log(data);
+                        window.location.replace("/success");
                     }
                 });
 
