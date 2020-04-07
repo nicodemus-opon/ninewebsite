@@ -106,10 +106,10 @@ while ($row = $result->fetch_assoc()) {
     "id": "'.$row['idx'].'",
     "title": "'.$row['name'].'",
     "subtitle": "'.$row['tags'].'",
-    "thumb": "'.$row['img'].'",
+    "thumb": "'.$row['image'].'",
     "uri": "'.$row['audio'].'",
     "previewurl": "",
-    "img": ".'.$row['img'].'",
+    "img": ".'.$row['image'].'",
     "category": "Pop",
     "tag": "USA"
   },';
