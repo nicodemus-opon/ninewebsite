@@ -45,7 +45,6 @@ include "../include/navbar.php";
                         }
 
                         include "../include/connect.php";
-                        echo $sqql;
 
                         $result = $con->query($sqql);
                         while ($row = $result->fetch_assoc()) { ?>
