@@ -84,7 +84,7 @@ include "../include/end.php";
 
 
 <script
-        src="https://www.paypal.com/sdk/js?client-id=AWGRFNLCNAgOeVqJ2eNEc69zax8sYwc2OsjdF1O5O2faHhbCJTsB1wMRp4S9_8w-RxlDli-5l_7-MJ0b"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
+        src="https://www.paypal.com/sdk/js?client-id=ARZa6dzDbp7BVzyqHTpT7cB2uhSzHGW_R5dm6Fg3krx3l4MFc_wKQO3sRTwsz9qgDzOqT4eC2n1HttP3"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
 </script>
 <script>
     var amt = '';
