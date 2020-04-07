@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/checkout/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/checkout/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="159" column="15" lean-forward="true" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
+            <state relative-caret-position="47">
+              <caret line="124" column="47" lean-forward="true" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -249,12 +247,12 @@
       <workItem from="1585809481016" duration="1184000" />
       <workItem from="1585815738848" duration="479000" />
       <workItem from="1585897075562" duration="23316000" />
-      <workItem from="1585934282555" duration="50626000" />
+      <workItem from="1585934282555" duration="50843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215677000" />
+    <option name="totallyTimeSpent" value="215894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +267,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.21163167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.21163167" />
       <window_info id="Structure" order="1" sideWeight="0.50259066" side_tool="true" weight="0.27382874" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -282,7 +280,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33013698" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33013698" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -632,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checkout/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="159" column="15" lean-forward="true" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
+        <state relative-caret-position="47">
+          <caret line="124" column="47" lean-forward="true" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
         </state>
       </provider>
     </entry>
