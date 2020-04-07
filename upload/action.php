@@ -61,7 +61,8 @@ $destination = $source . '.webp';
 $options = [];
 try {
     WebPConvert::convert($source, $destination, $options);
-} catch (\Exception $e) {
+} catch (Exception $e) {
+    echo "webp error";
     echo $e;
 }
 
