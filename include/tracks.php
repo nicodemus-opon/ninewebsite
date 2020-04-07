@@ -35,7 +35,7 @@ while ($row = $result->fetch_assoc()) { ?>
                        class="list-title title ajax h-1x" style="text-transform: capitalize"><?php echo $row['name']; ?> </a>
                     <a
                             href="#"
-                            class="list-subtitle d-block text-muted h-1x subtitle ajax" style="text-transform: uppercase"><?php echo $row['bpm']; ?> BPM
+                            class="list-subtitle d-block text-muted h-1x subtitle ajax" style="text-transform: capitalize"><?php echo $row['bpm']; ?> BPM
                         | <?php echo $row['tags']; ?> </a></div>
             </div>
             <div class="list-action show-row">
