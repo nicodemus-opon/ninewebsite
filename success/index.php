@@ -44,7 +44,12 @@ include "../include/navbar.php";
             <h5> An email containing download links & Licence has been sent to <span
                         class="text-primary"><?php echo($_SESSION["email_s"]); ?></span>
             </h5>
-
+            <br>
+            <br>
+            <h5> Feel free to contact <a class="btn-link text-primary" href="mailto:hello@niconinebeats.com">hello@niconinebeats.com</a>
+                incase of any enquiries<span
+                        class="text-primary"><?php echo($_SESSION["email_s"]); ?></span>
+            </h5>
 
 
             </h5>

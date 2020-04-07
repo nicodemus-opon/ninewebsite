@@ -52,10 +52,12 @@
                     </a></div>
             </div>
             <div class="list-action show-row">
-                <a class="gumroad-buttonb btn btn-iconb btn-sm btn-light text-dark text-align-auto"
-                   href="#" data-toggle="modal" data-target="#exampleModalCenter"> <i
+                <button class="gumroad-buttonb btn btn-iconb btn-sm btn-light text-dark text-align-auto btn-m"
+                        data-toggle="modal" data-target="#buy_modal" namex="<?php echo $row['name']; ?>"
+                        imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"><span
+                            class="d-none d-lg-inline d-sm-block"> </span> <i
                             data-feather="shopping-cart"
-                            class="active-fill " style="f"></i></a>
+                            class="active-fill " style="f"></i></button>
             </div>
         </div>
     </div>
