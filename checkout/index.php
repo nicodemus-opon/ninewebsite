@@ -131,7 +131,7 @@ include "../include/end.php";
                         console.log("items");
                         console.log(data);
                         itemsx=data;
-                        //window.location.replace("/success");
+                        window.location.replace("/success");
                     }
                 });
 

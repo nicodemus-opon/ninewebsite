@@ -5,8 +5,9 @@ session_start();
 if (isset($_SESSION["email_s"])) {
     echo "";
 } else {
-    //echo '<script>window.location.replace("/");</script>';
-    echo "no sessh vars";
+    echo "Unauthorized";
+    echo '<script>window.location.replace("/");</script>';
+
 }
 
 ?>
@@ -16,9 +17,10 @@ if (isset($_SESSION["email_s"])) {
 
 
 <?php
+/*
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+error_reporting(E_ALL);*/
 include "../include/head.php";
 ?>
 
@@ -42,9 +44,7 @@ include "../include/navbar.php";
             <h5> An email containing download links & Licence has been sent to <span
                         class="text-primary"><?php echo($_SESSION["email_s"]); ?></span>
             </h5>
-            <h5> or <br>
-                <a href="/download/?q=<?php echo($_SESSION["id_s"]); ?>" class="btn btn-light text-dark "> Download</a></h5>
-            <h5>
+
 
 
             </h5>
@@ -67,18 +67,19 @@ $subject = "New Order";
 $txt = "Some one ordered from site";
 $headers = "From: hello@niconinebeats.com";
 
-mail($to,$subject,$txt,$headers);
+
 
 
 $sql = $sql = "insert into transactions values('" . $_SESSION["id_s"] . "','" . $_SESSION["email_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["amount_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["time_s"] . "')";
 if (isset($_SESSION["email_s"])) {
+    mail($to,$subject,$txt,$headers);
     if ($con->query($sql) === true) {
         echo "";
         session_unset();
         session_destroy();
     }
 } else {
-    echo '';
+    echo 'Invalid session';
 }
 
 

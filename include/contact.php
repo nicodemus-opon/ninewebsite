@@ -10,7 +10,7 @@
 
         </div>
         <div class="col-lg-6">
-            <form id="contact-form" method="post" action="https://www.formbackend.com/f/029123bf03ecc5f7" role="form">
+            <form id="contact-form" method="post" action="https://getform.io/f/e7d21e9a-b4b0-4c9e-839e-afb612ad517a" role="form">
 
                 <div class="messages"></div>
 

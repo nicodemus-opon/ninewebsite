@@ -7,7 +7,7 @@
                 <div class="card-body">
 <div class="text-highlight"><h3 class="text-highlight"> 20% off on all beats</h3></div>
                     <br>
-                    <a class="text-light" href="#">Get Coupon Code</a>
+                    <a class="text-light" href="#">;)</a>
                 </div>
             </div>
         </div>
