@@ -1,6 +1,6 @@
 <?php
 session_start();
-print_r($_SESSION);
+//print_r($_SESSION);
 
 if (isset($_SESSION["email_s"])) {
     echo "";
@@ -62,7 +62,7 @@ include "../include/navbar.php";
 <?php
 require_once "../include/connect.php";
 
-$to = "cbsoftlabke@gmail.com.com";
+$to = "cbsoftlabke@gmail.com";
 $subject = "New Order";
 $txt = "Some one ordered from site";
 $headers = "From: hello@niconinebeats.com";

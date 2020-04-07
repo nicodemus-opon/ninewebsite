@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/success/mailtoclient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/success/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/success/index.php" afterDir="false" />
     </list>
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/success/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+            <state relative-caret-position="86">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -50,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/success/mailtoclient.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="445">
-              <caret line="260" column="22" lean-forward="true" selection-start-line="260" selection-start-column="4" selection-end-line="260" selection-end-column="22" />
+              <caret line="260" column="22" selection-start-line="260" selection-start-column="4" selection-end-line="260" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -59,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/checkout/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -250,12 +249,12 @@
       <workItem from="1585809481016" duration="1184000" />
       <workItem from="1585815738848" duration="479000" />
       <workItem from="1585897075562" duration="23316000" />
-      <workItem from="1585934282555" duration="44655000" />
+      <workItem from="1585934282555" duration="45204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209706000" />
+    <option name="totallyTimeSpent" value="210255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,7 +269,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.21163167" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.21163167" />
       <window_info id="Structure" order="1" sideWeight="0.50259066" side_tool="true" weight="0.27382874" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -283,7 +282,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.46164384" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46164384" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -611,7 +610,7 @@
     <entry file="file://$PROJECT_DIR$/checkout/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -625,14 +624,14 @@
     <entry file="file://$PROJECT_DIR$/success/mailtoclient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
-          <caret line="260" column="22" lean-forward="true" selection-start-line="260" selection-start-column="4" selection-end-line="260" selection-end-column="22" />
+          <caret line="260" column="22" selection-start-line="260" selection-start-column="4" selection-end-line="260" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/success/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        <state relative-caret-position="86">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
