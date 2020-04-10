@@ -1,7 +1,6 @@
 <script src="../assets/js/site.min.js"></script>
 
 
-
 <!--script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
