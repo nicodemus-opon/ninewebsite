@@ -303,3 +303,20 @@
 
 </script>
 
+<script>
+    let deff="Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers";
+    let deffimg="";
+    $(".seotitle").attr("content",document.title);
+    console.log($(".seotitle").attr("content"));
+    $(".seourl").attr("content",window.location.href);
+    if (window.location.href.indexOf('track') > 0) {
+        // ... do something
+        console.log("on trck");
+        let texto=$(".track-details").attr("name")+" "+$(".track-details").attr("tags")+" instrumental beat - by Niconine for lease";
+        let imgg=$(".track-details").attr("image");
+        $(".seodescription").attr("content",texto);
+        $(".seoimage").attr("content",imgg);
+
+    }
+
+</script>

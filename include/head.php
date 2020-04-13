@@ -3,25 +3,25 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
           name='viewport'/>
 
-    <meta name="title" content="Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats">
-    <meta name="description"
+    <meta class="seotitle" name="title" content="Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats">
+    <meta class="seodescription" name="description"
           content="Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://niconinebeats.com/">
-    <meta property="og:title" content="Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats">
-    <meta property="og:description"
+    <meta property="og:url" class="seourl" content="https://niconinebeats.com/">
+    <meta property="og:title" class="seotitle" content="Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats">
+    <meta property="og:description" class="seodescription"
           content="Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers">
-    <meta property="og:image" content="../../assets/img/niconine.png">
+    <meta property="og:image" class="seoimage" content="../../assets/img/niconine.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://niconinebeats.com/">
-    <meta property="twitter:title" content="Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats">
-    <meta property="twitter:description"
+    <meta property="twitter:url" class="seourl" content="https://niconinebeats.com/">
+    <meta property="twitter:title" class="seotitle" content="Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats">
+    <meta property="twitter:description" class="seodescription"
           content="Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers">
-    <meta property="twitter:image" content="../../assets/img/niconine.png">
+    <meta property="twitter:image" class="seoimage" content="../../assets/img/niconine.png">
 
     <link rel='manifest' href='/manifest.webmanifest'>
     <!-- Chrome, Firefox OS and Opera -->

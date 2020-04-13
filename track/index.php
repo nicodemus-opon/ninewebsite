@@ -33,6 +33,7 @@ include "../include/navbar.php";
         <div>
             <div class="page-content page-container" id="page-content">
                 <div class="padding sr">
+
                     <div class="page-hero" data-id="2"
                          data-source="">
 
@@ -70,7 +71,7 @@ include "../include/navbar.php";
 
 
                         </script>
-
+                        <div class="track-details" tags="<?php echo $row['tags']; ?>" image="../upload/<?php echo $row['image']; ?>" name="<?php echo $row['name']; ?>"></div>
                         <div class="media bg-media blur-this">
                             <div class="media-content blur-this"
                                  style="background-image:url('../upload/<?php echo $row['image']; ?>')">
