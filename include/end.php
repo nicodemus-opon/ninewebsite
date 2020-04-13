@@ -307,6 +307,7 @@
     let deff="Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers";
     let deffimg="";
     $(".seotitle").attr("content",document.title);
+    document.getElementsByTagName('meta')["title"].content=document.title;
     console.log($(".seotitle").attr("content"));
     $(".seourl").attr("content",window.location.href);
     if (window.location.href.indexOf('track') > 0) {
