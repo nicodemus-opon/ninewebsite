@@ -3,3 +3,5 @@ Disallow:
 Disallow: /upload
 Disallow: /checkout
 Disallow: /success
+
+Sitemap: https://niconinebeats.com/sitemap.xml
