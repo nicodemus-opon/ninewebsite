@@ -6,7 +6,7 @@ if (isset($_SESSION["email_s"])) {
     echo "";
 } else {
     echo "Unauthorized";
-    echo '<script>window.location.replace("/");</script>';
+    //echo '<script>window.location.replace("/");</script>';
 
 }
 
