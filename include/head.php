@@ -68,17 +68,7 @@
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-MCSZ9LQ');</script>
     <!-- End Google Tag Manager -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-156968536-1');
-    </script>
 
     <style>
         /* [THE LOADING SPINNER] */
