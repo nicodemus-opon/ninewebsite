@@ -48,7 +48,8 @@ include "../include/navbar.php";
 
                         $result = $con->query($sqql);
                         while ($row = $result->fetch_assoc()) { ?>
-                        <title>Niconine Beats - <?php echo $row['name']; ?> <?php echo $row['tags']; ?> Instrumental Beat </title>
+                        <title>Niconine Beats - <?php echo $row['name']; ?> <?php echo $row['tags']; ?> Instrumental
+                            Beat </title>
                         <script type="application/ld+json">
                             {
                                 "@context": "https://schema.org/",
@@ -56,15 +57,18 @@ include "../include/navbar.php";
                                 "name": "<?php echo $row['name']; ?> <?php echo $row['tags']; ?> Instrumental Beat",
                                 "image": "https://niconinebeats.com/upload/<?php echo $row['image']; ?>",
                                 "description": "<?php echo $row['tags']; ?> instrumental beat for lease",
+"sku": "<?php echo $row['idx']; ?>",
                                 "brand": "niconine",
                                 "offers": {
                                     "@type": "AggregateOffer",
                                     "url": "https://niconinebeats.com/tracks/?q=<?php echo $row['idx']; ?>",
                                     "priceCurrency": "USD",
                                     "lowPrice": "19.95",
-                                    "highPrice": "30.00"
+                                    "highPrice": "112.95"
                                 }
                             }
+
+
                         </script>
 
                         <div class="media bg-media blur-this">
