@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow:
+Disallow: /upload
+Disallow: /checkout
+Disallow: /success
