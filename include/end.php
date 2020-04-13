@@ -20,7 +20,7 @@
     }
 
 </script-->
-
+<script async data-uid="731914f8be" src="https://fierce-builder-852.ck.page/731914f8be/index.js"></script>
 <!-- Modal -->
 <div class="modal fade " id="buy_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
      aria-hidden="true">
@@ -307,7 +307,7 @@
     let deff="Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers";
     let deffimg="";
     $(".seotitle").attr("content",document.title);
-    document.getElementsByTagName('meta')["title"].content=document.title;
+    //document.getElementsByTagName('meta')["title"].content=document.title;
     console.log($(".seotitle").attr("content"));
     $(".seourl").attr("content",window.location.href);
     if (window.location.href.indexOf('track') > 0) {
