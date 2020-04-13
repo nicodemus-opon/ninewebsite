@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
-<title>Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats</title>
+<title>
+    <?php
+    if (isset($_GET['g']) && !empty($_GET['g'])) {
+        echo "Niconine Beats - ".$_GET['g']." Instrumental Beats";
+
+    } else {
+        echo("Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats");
+    }
+    ?>
+</title>
 
 
 <style>
