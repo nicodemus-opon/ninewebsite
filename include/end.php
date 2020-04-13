@@ -20,7 +20,7 @@
     }
 
 </script-->
-<script async data-uid="731914f8be" src="https://fierce-builder-852.ck.page/731914f8be/index.js"></script>
+
 <!-- Modal -->
 <div class="modal fade " id="buy_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
      aria-hidden="true">
@@ -312,7 +312,7 @@
     $(".seourl").attr("content",window.location.href);
     if (window.location.href.indexOf('track') > 0) {
         // ... do something
-        console.log("on trck");
+
         let texto=$(".track-details").attr("name")+" "+$(".track-details").attr("tags")+" instrumental beat - by Niconine for lease";
         let imgg=$(".track-details").attr("image");
         $(".seodescription").attr("content",texto);
