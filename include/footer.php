@@ -16,6 +16,7 @@
                             <li><a href="../licence">Licensing & Pricing </a></li>
                             <li><a href="../contact">Contact </a></li>
                             <li><a href="../privacy-policy">Privacy Policy </a></li>
+                            <li><a href="../cookie-policy">Cookie Policy </a></li>
                         </ul>
                     </div>
 
