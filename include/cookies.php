@@ -1,7 +1,7 @@
 
 <div class="container content">
-    <h4 class="center name"></h4>
-    <h2 class="center">NICONINE BEATS COOKIE POLICY</h2>
+    <div class="pt-3"></div>
+    <h2 class="center text-center">NICONINE BEATS COOKIE POLICY</h2>
         <h4>WHAT ARE COOKIES?</h4>
         <p>Cookies are the small files which hold certain amount of data, which are placed on the User’s internet enabled device (computer, mobile phone etc.). The cookie data can allow us to understand the User’s experience on our website efficiently and perform certain functions. Cookies do not collect any personal data stored on your hard drive or computer.</p>
         <br>

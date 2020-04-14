@@ -28,6 +28,35 @@
         z-index: -10;
     }
 </style>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Niconine",
+        "url": "https://www.niconinebeats.com/",
+        "image": "https://www.niconinebeats.com/images/profile.png",
+        "sameAs": [
+            "https://www.facebook.com/byniconine-109054163959147/",
+            "https://www.twitter.com/byniconine/",
+            "https://www.instagram.com/by.niconine/",
+            "https://www.youtube.com/niconine"
+        ],
+        "jobTitle": "Music Producer"
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Niconine Beats",
+        "url": "https://www.niconinebeats.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.niconinebeats.com/?ft={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>
 <?php
 include "include/head.php";
 ?>
