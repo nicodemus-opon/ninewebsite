@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/artist-bundle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/licence.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/licence.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/toptracks.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/toptracks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/artist-bundle/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -59,6 +50,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/free-beats/index.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -251,12 +247,12 @@
       <workItem from="1586690882414" duration="489000" />
       <workItem from="1586756382244" duration="8894000" />
       <workItem from="1586845274005" duration="3540000" />
-      <workItem from="1586947027917" duration="9752000" />
+      <workItem from="1586947027917" duration="9926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240546000" />
+    <option name="totallyTimeSpent" value="240720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -283,7 +279,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33013698" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33013698" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -295,11 +291,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.codekit3">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47422" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/genres.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -649,6 +640,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free-beats/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

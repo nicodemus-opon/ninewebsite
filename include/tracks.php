@@ -9,12 +9,12 @@ $result = $con->query($sql);
 while ($row = $result->fetch_assoc()) { ?>
 
     <div class="col-12" data-id="<?php echo $row['idx']; ?>" data-category="other" data-tag="USA"
-         data-source="upload/upload/<?php echo $row['audio']; ?>">
+         data-source="../upload/upload/<?php echo $row['audio']; ?>">
         <div class="list-item r">
             <div class="media">
                 <a href="../track/?q=<?php echo $row['idx']; ?>"
                    class="ajaxh media-content"
-                   style="background-image:url('upload/<?php echo $row['image']; ?>')"></a>
+                   style="background-image:url('../upload/<?php echo $row['image']; ?>')"></a>
                 <div class="media-action media-action-overlay">
                     <button
                             class="btn btn-icon no-bg no-shadow hide-row"
