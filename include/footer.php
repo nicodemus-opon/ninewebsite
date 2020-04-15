@@ -5,14 +5,14 @@
                 <div class="row mb-5">
                     <div class="col-6 col-md-4">
                         <div class="mb-3"><a href="/" class="navbar-brand text-white"><span
-                                        class="hidden-folded d-inline l-s-n-1x">NICONINE</span></a></div>
+                                        class="hidden-folded d-inline l-s-n-1x">NICONINE BEATS</span></a></div>
 
                     </div>
                     <div class="col-6 col-md-2">
                         <h5 class="mb-3 text-muted">Pages</h5>
                         <ul class="list-unstyled l-h-2x text-highlight">
 
-                            <li><a href="../about">About</a></li>
+                            <li><a href="../artist-bundle">Artist Bundle</a></li>
                             <li><a href="../licence">Licensing & Pricing </a></li>
                             <li><a href="../contact">Contact </a></li>
                             <li><a href="../privacy-policy">Privacy Policy </a></li>

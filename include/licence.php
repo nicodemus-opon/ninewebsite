@@ -64,7 +64,7 @@
         </div>
             </div>
     <div class="col-lg-3">
-        <div class="card  box-shadow shadow gd-primary">
+        <div class="card  box-shadow shadow  border-primary border">
             <div class="card-header ">
                 <h4 class="my-0 font-weight-normal border-bottom-0">Exclusive License <br>(Stems + Wav + Mp3)</h4>
             </div>
@@ -77,7 +77,7 @@
                     <li>• INSTANT DELIVERY</li>
 
                 </ul>
-                <button type="button" class="btn  btn-block btn-dark text-light">Make an Offer</button>
+                <button type="button" class="btn  btn-block btn-light text-primary">Make an Offer</button>
             </div>
         </div>
     </div>

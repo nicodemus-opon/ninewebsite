@@ -112,4 +112,23 @@
 
         _gs('GSN-861552-Y');
     </script>
+
+
+
+    <style>
+        .blur-this {
+            /* Add the blur effect */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -10;
+        }
+    </style>
     </head>
