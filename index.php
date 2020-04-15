@@ -83,12 +83,12 @@ include "include/navbar.php";
                                 <div class="col-lg-1 col-md-1 col-sm-2 pr-0" data-id="<?php echo $row['idx']; ?>"
                                      data-category="other"
                                      data-tag="USA"
-                                     data-source="upload/upload/<?php echo $row['audio']; ?>">
+                                     data-source="../upload/upload/<?php echo $row['audio']; ?>">
                                     <div class="list-item r pr-0">
                                         <div class="media pr-0" style="height: 92px;width: 92px">
                                             <a href="../track/?q=<?php echo $row['idx']; ?>"
                                                class="ajaxh media-content"
-                                               style="background-image:url('upload/<?php echo $row['image']; ?>');"> </a>
+                                               style="background-image:url('../upload/<?php echo $row['image']; ?>');"> </a>
 
                                             <div class="media-action media-action-overlay">
 
