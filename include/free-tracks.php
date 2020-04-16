@@ -2,7 +2,7 @@
 
 include "connect.php";
 
-$sql = "select * from beats ORDER BY idx DESC";
+$sql = "select * from beats where gumroad <> 'gum' ORDER BY idx DESC ";
 $result = $con->query($sql);
 //$mm=array_reverse();
 
@@ -45,7 +45,7 @@ while ($row = $result->fetch_assoc()) { ?>
 
 
                     <a class="gumroad-buttonb btn btn-iconb btn-sm btn-light text-dark text-align-auto btn-m"
-                            href="<?php echo $row['gumroad']; ?>"><span
+                            href="<?php echo $row['gumroad']; ?>" target="_blank"><span
                             class="d-none d-lg-inline d-sm-block"> FREE</span> <i
                             data-feather="download"
                             class="active-fill " style="f"></i></a>
