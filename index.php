@@ -3,7 +3,7 @@
 <title>
     <?php
     if (isset($_GET['g']) && !empty($_GET['g'])) {
-        echo "Niconine Beats - ".$_GET['g']." Instrumental Beats";
+        echo "Niconine Beats - " . $_GET['g'] . " Instrumental Beats";
 
     } else {
         echo("Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats");
@@ -40,6 +40,8 @@
         }
     }
 </script>
+<link rel="canonical" href="https://niconinebeats.com/"/>
+
 <?php
 include "include/head.php";
 ?>

@@ -64,24 +64,10 @@ include "../include/end.php";
                 // This function shows a transaction success message to your buyer.
                 let emailx = details.payer.email_address;
                 let trans_id=details.id;
-                let trans_amt=amt;
+                let trans_amt=24.95;
                 var d = new Date();
                 let trans_time=d.toLocaleString();
-                let itemsx="";
-                $.ajax({
-                    url: "../include/cart.php",
-                    method: "POST",
-                    data: {
-                        action: "get_items"
-                    },
-                    success: function (data) {
-                        console.log("items");
-                        //console.log(data);
-                        itemsx=data;
-                        //window.location.replace("/success");
-                    }
-                });
-
+                let itemsx="artist bundle";
 
 
                 console.log(emailx);
