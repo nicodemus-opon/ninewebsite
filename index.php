@@ -6,7 +6,7 @@
         echo "Niconine Beats - " . $_GET['g'] . " Instrumental Beats";
 
     } else {
-        echo("Niconine Beats - Dancehall, Afro, Moombahton and Trap Instrumental Beats");
+        echo("Niconine Beats - Buy Dancehall Beats, Afrobeats, Afro Pop, Afro Trap, Soca, Moombahton, Riddims,Instrumental Beats for Sale | Royalty free Beats");
     }
     ?>
 </title>
