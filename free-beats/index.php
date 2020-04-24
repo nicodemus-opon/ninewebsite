@@ -39,8 +39,8 @@ include "../include/navbar.php";
                             </div>
                         </div>
                         <div class="pos-rlt text-white"><a href="#"
-                                                           class="ajax text-muted h5 subtitle">FREE BEATS (non-profit use)</a>
-
+                                                           class="ajax text-muted h5 subtitle">FREE BEATS (non-profit
+                                use)</a>
 
 
                             <?php } ?>
@@ -74,14 +74,17 @@ include "../include/navbar.php";
                                         </div>
                                         <span class="flex"></span>
                                     </div>
-                                    <div class="row list-row list-indexb">
+                                    <div class="row list-row  list-indexb">
                                         <?php
                                         include "../include/free-tracks.php";
                                         ?>
 
 
                                     </div>
+                                    <div class="row list-row pt-5 list-indexb">
+                                        <a class="btn btn-block btn-primary" href="../"> More beats</a>
 
+                                    </div>
 
                                     <!--genres should be here-->
 

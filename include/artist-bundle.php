@@ -17,7 +17,7 @@
                 <li class="list-group-item">1. 5 Beats of your choice (unlimited Licence)</li>
                 <li class="list-group-item">2. A pdf containing music industry placement contacts</li>
                 <li class="list-group-item">3. Discounts on Music distribution platforms(Distrokid/Tunecore)</li>
-                <li class="list-group-item">4. 1 on 1 Consultation with me</li>
+                <li class="list-group-item">4. 1 on 1 Consultation </li>
 
             </ul>
             <div class="card-body">

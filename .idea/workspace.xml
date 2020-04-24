@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist-bundle/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/artist-bundle/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/free-beats/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/free-beats/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/artist-bundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/artist-bundle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,23 +37,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/artist-bundle/index.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/free-beats/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/artist-bundle.php">
+        <entry file="file://$PROJECT_DIR$/include/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="235">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/head.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
             </state>
           </provider>
         </entry>
@@ -84,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hacc" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/assets/css/site.min.css" />
@@ -122,19 +138,20 @@
         <option value="$PROJECT_DIR$/cookie-policy/index.php" />
         <option value="$PROJECT_DIR$/include/cookies.php" />
         <option value="$PROJECT_DIR$/Artist Bundle/index.php" />
-        <option value="$PROJECT_DIR$/include/head.php" />
-        <option value="$PROJECT_DIR$/include/navbar.php" />
         <option value="$PROJECT_DIR$/include/footer.php" />
         <option value="$PROJECT_DIR$/include/licence.php" />
         <option value="$PROJECT_DIR$/include/tracks.php" />
         <option value="$PROJECT_DIR$/include/toptracks.php" />
         <option value="$PROJECT_DIR$/track/index.php" />
-        <option value="$PROJECT_DIR$/free-beats/index.php" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/include/free-tracks.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/include/artist-bundle.php" />
         <option value="$PROJECT_DIR$/artist-bundle/index.php" />
+        <option value="$PROJECT_DIR$/include/artist-bundle.php" />
+        <option value="$PROJECT_DIR$/free-beats/index.php" />
+        <option value="$PROJECT_DIR$/include/navbar.php" />
+        <option value="$PROJECT_DIR$/include/head.php" />
+        <option value="$PROJECT_DIR$/sitemap.xml" />
       </list>
     </option>
   </component>
@@ -161,16 +178,6 @@
             <path>
               <item name="ninewebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ninewebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ninewebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="artist-bundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ninewebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ninewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,12 +268,14 @@
       <workItem from="1586947027917" duration="14312000" />
       <workItem from="1587188598468" duration="484000" />
       <workItem from="1587212137059" duration="1099000" />
-      <workItem from="1587231745276" duration="451000" />
+      <workItem from="1587231745276" duration="970000" />
+      <workItem from="1587366190689" duration="1478000" />
+      <workItem from="1587743501237" duration="424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247140000" />
+    <option name="totallyTimeSpent" value="249561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,7 +290,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" weight="0.24474959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.25282714" />
       <window_info id="Structure" order="1" sideWeight="0.50259066" side_tool="true" weight="0.27382874" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -294,7 +303,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33013698" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33013698" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -306,7 +315,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/license/index.php" />
     <entry file="file://$PROJECT_DIR$/include/socials.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -494,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/success/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/policy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-527">
@@ -526,13 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" lean-forward="true" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="105" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -610,24 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/free-beats/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="132" column="12" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -638,20 +618,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/artist-bundle.php">
+    <entry file="file://$PROJECT_DIR$/artist-bundle/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1394">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/artist-bundle/index.php">
+    <entry file="file://$PROJECT_DIR$/success/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/artist-bundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free-beats/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="65" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="185" />
         </state>
       </provider>
     </entry>
