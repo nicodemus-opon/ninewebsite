@@ -82,8 +82,9 @@ include "../include/navbar.php";
 
                                     </div>
                                     <div class="row list-row pt-5 list-indexb">
+                                        <div class="container">
                                         <a class="btn btn-block btn-primary" href="../"> More beats</a>
-
+                                        </div>
                                     </div>
 
                                     <!--genres should be here-->

@@ -18,8 +18,7 @@
                 <?php
 
                 ?>
-                <li class="nav-item"><a href="../" class="nav-link"><span class="nav-text">View Beats</span></a>
-                </li>
+
 
 
                 <li class="nav-item"><a href="../artist-bundle" class="nav-link"><span class="nav-text">🔥Artist Growth Bundle</span></a>
