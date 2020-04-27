@@ -194,7 +194,7 @@ include "../include/end.php";
     function payWithRave() {
         var x = getpaidSetup({
             PBFPubKey: API_publicKey,
-            customer_email: "user@example.com",
+            customer_email: "hello@niconinebeats.com",
             amount: 10,
             // An Mpesa mobile number is required when collecting Mpesa payment.
             currency: "KES",
