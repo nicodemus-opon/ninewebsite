@@ -195,7 +195,7 @@ include "../include/end.php";
         var x = getpaidSetup({
             PBFPubKey: API_publicKey,
             customer_email: "hello@niconinebeats.com",
-            amount: 10,
+            amount: kshamt,
             // An Mpesa mobile number is required when collecting Mpesa payment.
             currency: "KES",
             country: "KE",
@@ -209,13 +209,16 @@ include "../include/end.php";
             callback: function (response) {
                 var txref = response.data.txRef; // collect flwRef returned and pass to a                   server page to complete status check.
                 console.log("This is the response returned after a charge", response);
+                console.log(response.data.chargeResponseCode);
+                console.log(response.data.status);
                 if (
-                    response.data.chargeResponseCode == "00" ||
-                    response.data.chargeResponseCode == "0"
+                    response.data.status=="success"
                 ) {
+                    console.log("succ");
                     window.location.replace("/success-mpesa");
                     // redirect to a success page
                 } else {
+                    console.log("no succ");
                     // redirect to a failure page.
                 }
 
