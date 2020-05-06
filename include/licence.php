@@ -19,7 +19,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• Must Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn  btn-block btn-outline-primary">Read Full License</button>
+                <button type="button" class="btn basic-lease btn-block btn-outline-primary" >Read Full License</button>
             </div>
         </div>
         </div>
@@ -39,7 +39,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• Must Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn  btn-block btn-primary">Read Full License</button>
+                <button type="button" class="btn  btn-block btn-primary premium-lease">Read Full License</button>
             </div>
         </div>
         </div>
@@ -59,7 +59,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• May Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn  btn-block btn-primary">Read Full License</button>
+                <button type="button" class="btn unlimited-lease  btn-block btn-primary">Read Full License</button>
             </div>
         </div>
             </div>
@@ -77,7 +77,7 @@
                     <li>• INSTANT DELIVERY</li>
 
                 </ul>
-                <button type="button" class="btn  btn-block btn-light text-primary">Make an Offer</button>
+                <a href="../contact"  class="btn  btn-block btn-light text-primary">Make an Offer</a>
             </div>
         </div>
     </div>
@@ -86,3 +86,26 @@
 
 
 </div>
+
+<!-- Modal -->
+<div class="modal  fade bd-example-modal-lg" id="basiclease" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content bg-dark">
+            <div class="modal-header">
+                <h5 class="modal-title lease-title" >Basic Lease</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" >
+                <div id="contentbasic"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">OK </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

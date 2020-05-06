@@ -4,7 +4,7 @@
 <!-- End Google Tag Manager (noscript) -->
 
 <script src="../assets/js/site.min.js"></script>
-
+<script src="../ven/node_modules/marked/marked.min.js"></script>
 
 <script>
     if ('serviceWorker' in navigator) {
@@ -319,5 +319,40 @@
         $(".seoimage").attr("content",imgg);
 
     }
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+    var basiclicence="";
+
+    $(".basic-lease").click(function () {
+        jQuery.get('../licence/basic.md', function(data) {
+            basiclicence=data;
+            document.getElementById('contentbasic').innerHTML =
+                marked(basiclicence);
+        });
+        $('#basiclease').modal('show');
+        $('.lease-title').html("Basic Lease (Mp3)")
+    });
+    $(".premium-lease").click(function () {
+        jQuery.get('../licence/premium.md', function(data) {
+            basiclicence=data;
+            document.getElementById('contentbasic').innerHTML =
+                marked(basiclicence);
+        });
+        $('#basiclease').modal('show');
+        $('.lease-title').html("Premium Lease (Mp3 + Wav)")
+    });
+    $(".unlimited-lease").click(function () {
+        jQuery.get('../licence/unl.md', function(data) {
+            basiclicence=data;
+            document.getElementById('contentbasic').innerHTML =
+                marked(basiclicence);
+        });
+        $('#basiclease').modal('show');
+        $('.lease-title').html("Trackouts Lease (Stems + Wav + Mp3)")
+    });
 
 </script>
