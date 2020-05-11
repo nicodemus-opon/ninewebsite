@@ -52,4 +52,4 @@
 <p></p>
 
 <h2>Credit & Contact Information</h2>
-<p>This privacy policy was created at <a style="color:inherit;text-decoration:none;" href="https://termsandconditionstemplate.com/privacy-policy-generator/" title="Privacy policy template generator" target="_blank">termsandconditionstemplate.com</a>. If you have any questions about this Privacy Policy, please contact us via <a href="mailto:hello@niconinebeats.com">email</a> or <a href="tel:0707584688">phone</a>.</p>
+<p>This privacy policy was created at <a style="color:inherit;text-decoration:none;" href="https://termsandconditionstemplate.com/privacy-policy-generator/" title="Privacy policy template generator" target="_blank">termsandconditionstemplate.com</a>. If you have any questions about this Privacy Policy, please contact us via <a href="mailto:hello@niconinebeats.com">email</a> </p>
