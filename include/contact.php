@@ -5,8 +5,8 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-6"
-             style="background-image: url('../assets/img/contact.webp');background-position: center;background-size:contain;background-repeat: no-repeat  ">
+        <div class="col-lg-6 lazyload"
+             data-bg="../assets/img/contact.webp"  style="background-position: center;background-size:contain;background-repeat: no-repeat  ">
 
         </div>
         <div class="col-lg-6">

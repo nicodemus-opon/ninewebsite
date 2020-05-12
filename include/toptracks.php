@@ -29,8 +29,8 @@
                  data-source="../upload/upload/<?php echo $row['audio']; ?>">
                 <div class="list-item r">
                     <div class="media"><a href="../track/?q=<?php echo $row['idx']; ?>"
-                                          class="ajax media-content"
-                                          style="background-image:url('../upload/<?php echo $row['image']; ?>')"></a>
+                                          class="ajax media-content lazyload" data-bg="../upload/<?php echo $row['image']; ?>
+                                          styble="background-image:url('../upload/<?php echo $row['image']; ?>')"></a>
                         <div class="media-action">
                             <button
                                     class="btn btn-icon no-bg no-shadow hide-row"
