@@ -5,6 +5,7 @@
 
 <script src="../assets/js/site.min.js"></script>
 <script src="../ven/node_modules/marked/marked.min.js"></script>
+<script src="../assets/js/lazysizes.min.js" async=""></script>
 
 <script>
     if ('serviceWorker' in navigator) {
