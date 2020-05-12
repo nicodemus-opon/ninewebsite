@@ -13,8 +13,8 @@ while ($row = $result->fetch_assoc()) { ?>
         <div class="list-item r">
             <div class="media">
                 <a href="../track/?q=<?php echo $row['idx']; ?>"
-                   class="ajaxh media-content lazyload" data-src="../upload/<?php echo $row['image']; ?>"
-                   style="background-image:url('../upload/<?php echo $row['image']; ?>')"></a>
+                   class="ajaxh media-content lazyload" data-bg=="../upload/<?php echo $row['image']; ?>"
+                   styleb="background-image:url('../upload/<?php echo $row['image']; ?>')"></a>
                 <div class="media-action media-action-overlay">
                     <button
                             class="btn btn-icon no-bg no-shadow hide-row"
@@ -32,10 +32,12 @@ while ($row = $result->fetch_assoc()) { ?>
             <div class="list-content text-center">
                 <div class="list-body">
                     <a href="../track/?q=<?php echo $row['idx']; ?>"
-                       class="list-title title ajax h-1x" style="text-transform: capitalize"><?php echo $row['name']; ?> </a>
+                       class="list-title title ajax h-1x"
+                       style="text-transform: capitalize"><?php echo $row['name']; ?> </a>
                     <a
                             href="#"
-                            class="list-subtitle d-block text-muted h-1x subtitle ajax" style="text-transform: capitalize"><?php echo $row['bpm']; ?> BPM
+                            class="list-subtitle d-block text-muted h-1x subtitle ajax"
+                            style="text-transform: capitalize"><?php echo $row['bpm']; ?> BPM
                         | <?php echo $row['tags']; ?> </a></div>
             </div>
             <div class="list-action show-row">
