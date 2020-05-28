@@ -4,13 +4,19 @@
         <div class="list-item list-overlay r">
             <div class="card gd-dark shadow hover-rotate hover border-primary border">
                 <div class="card-body">
-                    <div class="text-highlightv"><h3 class="text-highlight"> The Artist Growth Bundle</h3>
-                        <span class="card-text text-muted">5 banging beats , music industry contacts plus more cool stuff of $896.95 value <br>but now for
-                        only <b class="text-light"> $34.95</b> designed for upcoming artist to ensure that
-                    your next track is a hit </span>
+                    <div class="text-highlightv"><h3 class="text-highlight"> BULK DEALS</h3>
+                        <span class="card-text text-muted">
+                            For Basic,premium and Trackout Licences you can Either
+                            <br>BUY 2, GET 1 FREE
+
+                            <br>BUY 3, GET 2 FREE
+                            <br>
+                            of your choice<br>
+                            *free tracks will be submitted after purchase
+                        </span>
                     </div>
                     <br>
-                    <a class="btn-light btn text-primary btn-block" href="../artist-bundle">I WANT THIS</a>
+                    <a class="btn-light btn text-primary btn-block" href="#licenseinfo">VIEW LICENCES</a>
                 </div>
             </div>
         </div>
@@ -29,7 +35,8 @@
                  data-source="../upload/upload/<?php echo $row['audio']; ?>">
                 <div class="list-item r">
                     <div class="media"><a href="../track/?q=<?php echo $row['idx']; ?>"
-                                          class="ajax media-content lazyload" data-bg="../upload/<?php echo $row['image']; ?>"
+                                          class="ajax media-content lazyload"
+                                          data-bg="../upload/<?php echo $row['image']; ?>"
                                           styble="background-image:url('../upload/<?php echo $row['image']; ?>')"></a>
                         <div class="media-action">
                             <button

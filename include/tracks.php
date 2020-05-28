@@ -54,9 +54,10 @@ while ($row = $result->fetch_assoc()) { ?>
                                 class="active-fill " style="f"></i></button>
 
 
-                    <a class="btn btn-icon  no-bg no-shadow btn-moreb"
-                       href="#"><i
-                                data-feather="share"></i></a>
+                    <a tabindex="0" class="btn btn-icon no-bg no-shadow btn-moreb share-this " namex="<?php echo $row['name']; ?>"
+                       data-container="body" data-toggle="popover" data-placement="top"
+                       data-content="Link copied to clipboard!"><i
+                                data-feather="share-2"></i></a>
 
                 </div>
             </div>

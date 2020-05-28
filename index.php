@@ -53,6 +53,7 @@ include "include/navbar.php";
 ?>
 
 <div id="main" class="layout-row flex">
+
     <div id="content" class="flex">
         <div>
             <div class="page-content page-container" id="page-content">
@@ -121,7 +122,16 @@ include "include/navbar.php";
                                         imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>">$19.95 <i
                                             data-feather="shopping-cart"
                                             class="active-fill "></i></button>
+                                <a tabindex="0" class=" btn btn-iconb btn-sm btn-light text-dark share-this  text-align-auto"
 
+
+                                        namex="<?php echo $row['name']; ?>"
+                                        imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
+                                        data-container="body" data-toggle="popover" data-placement="top"
+                                        data-content="Link copied to clipboard!"
+                                ><i
+                                            data-feather="share-2"
+                                            class="active-fill "></i></a>
                             </div>
 
                             <?php } ?>

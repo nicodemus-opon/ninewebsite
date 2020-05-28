@@ -109,7 +109,26 @@
         </div>
     </div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="linkmodal" tabindex="-1" role="dialog" aria-labelledby="elinkmodal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-dark">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input class="form-control" type="text" placeholder="Readonly input here..." readonly>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
+            </div>
+        </div>
+    </div>
+</div>
 <script>
     function show_spinner () {
         document.getElementById("spinner-front").classList.add("show");
@@ -356,4 +375,23 @@
         $('.lease-title').html("Trackouts Lease (Stems + Wav + Mp3)")
     });
 
+
+    $(".share-this").click(function () {
+        var thislink=$(this).attr("namex");
+        var linktxt = "https://niconinebeats.com/?ft="+thislink;
+        navigator.clipboard.writeText(linktxt).then(function() {
+            console.log('Async: Copying to clipboard was successful!');
+        }, function(err) {
+            console.error('Async: Could not copy text: ', err);
+        });
+        //$("#linkmodal").modal("show");
+    });
+    $('body').on('click', function (e) {
+        $('[data-toggle=popover]').each(function () {
+            // hide any open popovers when the anywhere else in the body is clicked
+            if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                $(this).popover('hide');
+            }
+        });
+    });
 </script>

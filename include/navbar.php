@@ -21,8 +21,7 @@
 
 
 
-                <li class="nav-item"><a href="../artist-bundle" class="nav-link"><span class="nav-text">🔥Artist Growth Bundle</span></a>
-                </li>
+
                 <li class="nav-item"><a href="../free-beats" class="nav-link"><span class="nav-text">❤️Free Beats</span></a>
                 </li>
                 <li class="nav-item"><a href="../licence" class="nav-link"><span
