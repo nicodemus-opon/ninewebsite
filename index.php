@@ -115,14 +115,14 @@ include "include/navbar.php";
                             <div class="py-4 toolbar align-items-center">
 
 
-                                <button class="btn-m btn btn-iconb btn-sm btn-light text-dark text-align-auto"
+                                <button class="btn-m btn btn-iconb btn-smn btn-light text-dark text-align-auto"
 
                                         data-toggle="modal" data-target="#buy_modal"
                                         namex="<?php echo $row['name']; ?>"
                                         imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>">$19.95 <i
                                             data-feather="shopping-cart"
                                             class="active-fill "></i></button>
-                                <a tabindex="0" class=" btn btn-iconb btn-sm btn-light text-dark share-this  text-align-auto"
+                                <a tabindex="0" class=" btn btn-iconb btn-smn btn-light text-dark share-this  text-align-auto"
 
 
                                         namex="<?php echo $row['name']; ?>"
