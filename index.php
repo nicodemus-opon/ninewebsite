@@ -122,7 +122,7 @@ include "include/navbar.php";
                                         imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>">$19.95 <i
                                             data-feather="shopping-cart"
                                             class="active-fill "></i></button>
-                                <a tabindex="0" class=" btn btn-iconb btn-smn btn-light text-dark share-this  text-align-auto"
+                                <a tabindex="0" class=" btn btn-iconb btn-smn btn-light text-dark share-this  text-align-auto" s
 
 
                                         namex="<?php echo $row['name']; ?>"

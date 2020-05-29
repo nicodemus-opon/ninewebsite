@@ -6,7 +6,7 @@
                 <div class="card-body">
                     <div class="text-highlightv"><h3 class="text-highlight"> BULK DEALS</h3>
                         <span class="card-text text-muted">
-                            For Basic,premium and Trackout Licences you can Either
+                            For Basic,premium and Trackout Licences you can either:
                             <br>BUY 2, GET 1 FREE
 
                             <br>BUY 3, GET 2 FREE

@@ -48,7 +48,7 @@ include "../include/navbar.php";
             <br>
             <h5> Feel free to contact <a class="btn-link text-primary" href="mailto:hello@niconinebeats.com">hello@niconinebeats.com</a>
                 incase of any enquiries<span
-                        class="text-primary"><?php echo($_SESSION["email_s"]); ?></span>
+                        class="text-primary"></span>
             </h5>
 
 

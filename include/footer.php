@@ -12,9 +12,10 @@
                         <h5 class="mb-3 text-muted">Pages</h5>
                         <ul class="list-unstyled l-h-2x text-highlight">
 
-                            <li><a href="../artist-bundle">Artist Bundle</a></li>
+
                             <li><a href="../licence">Licensing & Pricing </a></li>
                             <li><a href="../contact">Contact </a></li>
+                            <!--li><a href="../refund-policy">Refund Policy</a></li-->
                             <li><a href="../privacy-policy">Privacy Policy </a></li>
                             <li><a href="../cookie-policy">Cookie Policy </a></li>
                         </ul>
