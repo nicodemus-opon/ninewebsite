@@ -14,7 +14,7 @@ while ($row = $result->fetch_assoc()) { ?>
             <div class="media">
                 <a href="../track/?q=<?php echo $row['idx']; ?>"
                    class="ajaxh media-content lazyload" data-bg="../upload/<?php echo $row['image']; ?>"
-                   style="background-image:url('../upload/upload/yeet.gif')"></a>
+                   style="background-image:url('../upload/upload/smol.jpg')"></a>
                 <div class="media-action media-action-overlay">
                     <button
                             class="btn btn-icon no-bg no-shadow hide-row"
