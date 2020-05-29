@@ -9,6 +9,7 @@ error_reporting(E_ALL);
 $ff="./upload/upload/me.png";
 $im = imagecreatefrompng($ff);
 
+$convname='./upload/upload/'+;
 imagejpeg($im, './upload/upload/example.jpeg', 0);
 
 
