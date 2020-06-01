@@ -14,7 +14,7 @@ while ($row = $result->fetch_assoc()) { ?>
             <div class="media">
                 <a href="../track/?q=<?php echo $row['idx']; ?>"
                    class="ajaxh media-content lazyload" data-bg="../upload/<?php echo $row['image']; ?>"
-                   style="background-image:url('../upload/upload/smol.jpg')"></a>
+                   style="background-image:url('../upload/upload/track-placeholder.svg')"></a>
                 <div class="media-action media-action-overlay">
                     <button
                             class="btn btn-icon no-bg no-shadow hide-row"
@@ -54,7 +54,8 @@ while ($row = $result->fetch_assoc()) { ?>
                                 class="active-fill " style="f"></i></button>
 
 
-                    <a tabindex="0" class="btn btn-icon no-bg no-shadow btn-moreb share-this " namex="<?php echo $row['name']; ?>"
+                    <a tabindex="0" class="btn btn-icon no-bg no-shadow btn-moreb share-this "
+                       namex="<?php echo $row['name']; ?>"
                        data-container="body" data-toggle="popover" data-placement="top"
                        data-content="Link copied to clipboard!"><i
                                 data-feather="share-2"></i></a>
