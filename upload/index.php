@@ -5,9 +5,9 @@
 <?php
 session_start();
 
-ini_set('upload_max_filesize','10000M');
-ini_set('max_file_uploads','10000M');
-ini_set('post_max_size','10000M');
+ini_set('upload_max_filesize', '10000M');
+ini_set('max_file_uploads', '10000M');
+ini_set('post_max_size', '10000M');
 ?>
 <?php
 include "../include/head.php";
@@ -22,7 +22,9 @@ include "../include/navbar.php";
     <div id="container" class="flexf container pt-5">
         <div class="row pt-5">
             <div class="col-3">
-
+                <form class="pt-5" method="post" action="yeet.php">
+                    <button type="submit" class="btn btn-block btn-light text-dark">UPDATE SEARCH</button>
+                </form>
             </div>
             <div class="col-6">
                 <form class="" method="post" action="action.php" enctype="multipart/form-data">
