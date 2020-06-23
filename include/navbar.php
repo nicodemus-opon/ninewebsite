@@ -20,9 +20,7 @@
                 ?>
 
 
-
-
-                <li class="nav-item"><a href="../free-beats" class="nav-link"><span class="nav-text">❤️Free Beats</span></a>
+                <li class="nav-item"><a href="../free-beats" class="nav-link"><span class="nav-text">Free Beats</span></a>
                 </li>
                 <li class="nav-item"><a href="../licence" class="nav-link"><span
                                 class="nav-text">Licences & Pricing</span></a>
