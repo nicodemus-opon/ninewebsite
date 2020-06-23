@@ -60,7 +60,37 @@ include "../include/navbar.php";
     <div class="container pt-3">
         <div class="col-lg-6 col-sm-12">
             <div class="container py-3">
-                <button type="button" class="btn btn-default text-light border-success btn-block"
+
+                <div class="row shadow">
+                    <div class="col-12">
+
+                        <div class="alert coup-alert alert-primary alert-dismissible fade show" role="alert">
+                            <strong class="altext"></strong>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-6 pr-0">
+                        <input type="text"
+                               class="form-control coupon-value input-group-sm form-control-sm bg-white text-light"
+                               placeholder="Coupon Code" style="text-transform: uppercase">
+
+                    </div>
+                    <div class="col-6 pl-2">
+                        <button class="btn check-coupon btn-sm text-left btn-secondary text-dark ">APPLY
+                            COUPON
+                        </button>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="container py-3">
+                <button type="button" class="btn btn-default text-light border-success btn-block mpesa-button"
                         onClick="payWithRave()"><img style="height: 20px;" class="img-fluid" src="../images/mpesa.png">
                     Pay with MPESA
                 </button>
@@ -82,12 +112,57 @@ include "../include/footer.php";
 <?php
 include "../include/end.php";
 ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.js"
+        integrity="sha256-SVfZ7rfF8boo4UH6df28wTQeoPEpoQ+xdInu0K2ulYk=" crossorigin="anonymous"></script>
+
 <script>
     $(".kill_cart").remove();
+    $(".coup-alert").hide();
+    $(".mpesa-button").hide();
+    show_spinner();
     $(document).ready(function () {
 
         display_cart();
+        $(".mpesa-button").show();
+        hide_spinner();
 
+    });
+
+    $(".check-coupon").click(function () {
+        let coup = $(".coupon-value").val();
+        $.ajax({
+            url: "../include/coupon.php",
+            method: "POST",
+            data: {
+                code: coup
+            },
+            success: function (data) {
+                console.log("coup verify");
+                console.log(data);
+                if (data === "conf") {
+                    var fulla = amt;
+                    amt = amt * 0.8;
+                    kshamt = amt * 100;
+                    $(".altext").html("Success! ");
+                    var fullt = "<strike> " + fulla + "</strike>" + " " + amt;
+                    $(".cart_full").html(fullt);
+                    $.toast({
+                        heading: 'Success',
+                        text: 'Coupon has been applied',
+                        showHideTransition: 'slide',
+                        icon: 'success'
+                    })
+                } else {
+                    $.toast({
+                        heading: 'UH-OH',
+                        text: 'Could not apply coupon',
+                        showHideTransition: 'slide',
+                        icon: 'warning'
+                    })
+                }
+
+            }
+        });
     });
 </script>
 
@@ -96,10 +171,11 @@ include "../include/end.php";
 <script
         src="https://www.paypal.com/sdk/js?client-id=ARZa6dzDbp7BVzyqHTpT7cB2uhSzHGW_R5dm6Fg3krx3l4MFc_wKQO3sRTwsz9qgDzOqT4eC2n1HttP3"> // Required. Replace SB_CLIENT_ID with your sandbox client ID.
 </script>
+
 <script>
 
     var amt = '';
-    var kshamt=0;
+    var kshamt = 0;
     $.ajax({
         url: "../include/cart.php",
         method: "POST",
@@ -109,7 +185,7 @@ include "../include/end.php";
         success: function (data) {
             console.log(data);
             amt = data;
-            kshamt=parseInt(data) * 100;
+            kshamt = parseInt(data) * 100;
         }
     });
     $.ajax({
@@ -212,7 +288,7 @@ include "../include/end.php";
                 console.log(response.data.chargeResponseCode);
                 console.log(response.data.status);
                 if (
-                    response.data.status=="success"
+                    response.data.status == "success"
                 ) {
                     console.log("succ");
                     window.location.replace("/success-mpesa");

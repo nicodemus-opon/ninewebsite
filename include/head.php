@@ -54,7 +54,7 @@
     <link rel="preload" href="../libs/plyrist/src/plyrist.css" as="style">
     <link rel="stylesheet" href="../assets/css/site.min.css">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css" integrity="sha256-zlmAH+Y2JhZ5QfYMC6ZcoVeYkeo0VEPoUnKeBd83Ldc=" crossorigin="anonymous" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156968536-1"></script>
     <!-- Google Tag Manager -->

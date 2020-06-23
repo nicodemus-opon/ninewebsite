@@ -1,6 +1,8 @@
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCSZ9LQ"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCSZ9LQ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <script src="../assets/js/site.min.js"></script>
@@ -75,10 +77,10 @@
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header border-bottom-0">
-                <h5 class="modal-title text-dark" id="exampleModalLabel">
-                    Your Cart
+                <h5 class="modal-title text-dark " id="exampleModalLabel">
+                   <b> Your Cart</b>
                 </h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -103,8 +105,16 @@
                 </div>
             </div>
             <div class="modal-footer border-top-0 d-flex justify-content-between">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a href="../checkout" class="btn btn-success">Checkout</a>
+
+                <!--button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button-->
+                <div class="align-self-start">
+                    <img class="text-left justify-content-start text-left"
+                         style="width: 200px" src="../images/payments.png">
+                    <img class="text-left justify-content-start text-left" style="height: 24px"
+                         src="../images/mpesa.png">
+                </div>
+
+                <a href="../checkout" class="btn btn-success">CHECKOUT</a>
             </div>
         </div>
     </div>
@@ -130,11 +140,12 @@
     </div>
 </div>
 <script>
-    function show_spinner () {
+    function show_spinner() {
         document.getElementById("spinner-front").classList.add("show");
         document.getElementById("spinner-back").classList.add("show");
     }
-    function hide_spinner () {
+
+    function hide_spinner() {
         document.getElementById("spinner-front").classList.remove("show");
         document.getElementById("spinner-back").classList.remove("show");
     }
@@ -324,19 +335,19 @@
 </script>
 
 <script>
-    let deff="Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers";
-    let deffimg="";
-    $(".seotitle").attr("content",document.title);
+    let deff = "Music Producer Specialized in Dancehall, Afro, Moombahton, Reggaeton and Trap Instrumental Beats. Beat Leases and Exclusive purchases available & special offers";
+    let deffimg = "";
+    $(".seotitle").attr("content", document.title);
     //document.getElementsByTagName('meta')["title"].content=document.title;
     console.log($(".seotitle").attr("content"));
-    $(".seourl").attr("content",window.location.href);
+    $(".seourl").attr("content", window.location.href);
     if (window.location.href.indexOf('track') > 0) {
         // ... do something
 
-        let texto=$(".track-details").attr("name")+" "+$(".track-details").attr("tags")+" instrumental beat - by Niconine for lease";
-        let imgg=$(".track-details").attr("image");
-        $(".seodescription").attr("content",texto);
-        $(".seoimage").attr("content",imgg);
+        let texto = $(".track-details").attr("name") + " " + $(".track-details").attr("tags") + " instrumental beat - by Niconine for lease";
+        let imgg = $(".track-details").attr("image");
+        $(".seodescription").attr("content", texto);
+        $(".seoimage").attr("content", imgg);
 
     }
 
@@ -345,11 +356,11 @@
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <script>
-    var basiclicence="";
+    var basiclicence = "";
 
     $(".basic-lease").click(function () {
-        jQuery.get('../licence/basic.md', function(data) {
-            basiclicence=data;
+        jQuery.get('../licence/basic.md', function (data) {
+            basiclicence = data;
             document.getElementById('contentbasic').innerHTML =
                 marked(basiclicence);
         });
@@ -357,8 +368,8 @@
         $('.lease-title').html("Basic Lease (Mp3)")
     });
     $(".premium-lease").click(function () {
-        jQuery.get('../licence/premium.md', function(data) {
-            basiclicence=data;
+        jQuery.get('../licence/premium.md', function (data) {
+            basiclicence = data;
             document.getElementById('contentbasic').innerHTML =
                 marked(basiclicence);
         });
@@ -366,8 +377,8 @@
         $('.lease-title').html("Premium Lease (Mp3 + Wav)")
     });
     $(".unlimited-lease").click(function () {
-        jQuery.get('../licence/unl.md', function(data) {
-            basiclicence=data;
+        jQuery.get('../licence/unl.md', function (data) {
+            basiclicence = data;
             document.getElementById('contentbasic').innerHTML =
                 marked(basiclicence);
         });
@@ -377,11 +388,11 @@
 
 
     $(".share-this").click(function () {
-        var thislink=$(this).attr("namex");
-        var linktxt = "https://niconinebeats.com/?ft="+thislink;
-        navigator.clipboard.writeText(linktxt).then(function() {
+        var thislink = $(this).attr("namex");
+        var linktxt = "https://niconinebeats.com/?ft=" + thislink;
+        navigator.clipboard.writeText(linktxt).then(function () {
             console.log('Async: Copying to clipboard was successful!');
-        }, function(err) {
+        }, function (err) {
             console.error('Async: Could not copy text: ', err);
         });
         //$("#linkmodal").modal("show");
