@@ -4,19 +4,17 @@
         <div class="list-item list-overlay r">
             <div class="card gd-dark shadow hover-rotate hover border-primary border">
                 <div class="card-body">
-                    <div class="text-highlightv"><h3 class="text-highlight"> BULK DEALS</h3>
+                    <div class="text-highlightv"><h3 class="text-highlight">🎉 Coupon Deal</h3>
                         <span class="card-text text-muted">
-                            For Basic,premium and Trackout Licences you can either:
-                            <br>BUY 2, GET 1 FREE
+                            Use promo code:
+                            <br><h4><b class=""> 20OFFBEATS</b></h4>
 
-                            <br>BUY 3, GET 2 FREE
-                            <br>
-                            of your choice<br>
-                            *free tracks will be submitted after purchase
+                            To get 20% off all beats at checkout
+
                         </span>
                     </div>
                     <br>
-                    <a class="btn-light btn text-primary btn-block" href="#licenseinfo">VIEW LICENCES</a>
+                    <!--a class="btn-light btn text-primary btn-block" href="#licenseinfo">VIEW LICENCES</a-->
                 </div>
             </div>
         </div>
