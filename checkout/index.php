@@ -142,7 +142,9 @@ include "../include/end.php";
                 if (data === "conf") {
                     var fulla = amt;
                     amt = amt * 0.8;
+                    amt = amt.toFixed(2);
                     kshamt = amt * 100;
+                    kshamt = kshamt.toFixed(2);
                     $(".altext").html("Success! ");
                     var fullt = "<strike> " + fulla + "</strike>" + " " + amt;
                     $(".cart_full").html(fullt);
