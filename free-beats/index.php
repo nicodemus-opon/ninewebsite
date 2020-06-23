@@ -40,7 +40,7 @@ include "../include/navbar.php";
                         </div>
                         <div class="pos-rlt text-white"><a href="#"
                                                            class="ajax text-muted h5 subtitle">FREE BEATS (non-profit
-                                use)</a>
+                                use/ only for preview)</a>
 
 
                             <?php } ?>
