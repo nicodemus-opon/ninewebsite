@@ -8,9 +8,19 @@ session_start();
 ini_set('upload_max_filesize', '10000M');
 ini_set('max_file_uploads', '10000M');
 ini_set('post_max_size', '10000M');
+
+if (isset($_SESSION["auth"])) {
+    echo "";
+} else {
+    echo "Unauthorized";
+    echo '<script>window.location.replace("../auth");</script>';
+
+}
+
 ?>
 <?php
 include "../include/head.php";
+
 ?>
 
 

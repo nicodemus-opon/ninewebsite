@@ -48,7 +48,7 @@ if (isset($_POST["action"])) {
             echo '<tr id="row' . $_SESSION["shopping_cart"][$keys[$i]]["idx"] . '">
                         <td class="">
                             <img src="' . $_SESSION["shopping_cart"][$keys[$i]]["img"] . '"
-                                 class="img-fluidb img-thumbnailb r" style="height: 48px" alt="Sheep">
+                                 class="img-fluidb img-thumbnailb r" style="height: 48px" alt="Preview">
                         </td>
                         <td><b style="text-transform: uppercase">' . $_SESSION["shopping_cart"][$keys[$i]]["name"] . '</b></td>
 
