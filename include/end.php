@@ -41,7 +41,8 @@
                     <div class="row">
                         <div class="col-md-4 pb-lg-0 pb-md-3 pb-sm-3">
                             <img src="" class="r shadow dis-img img-fluid"
-                                 style="height: 112px;width: 112px;background-position: center;background-size: cover;">
+                                 style="height: 112px;width: 112px;
+  object-position: center; /* Center the image within the element */">
                         </div>
                         <div class="col-md-8">
 
