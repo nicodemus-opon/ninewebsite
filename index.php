@@ -46,7 +46,7 @@
 include "include/head.php";
 ?>
 <style>
-    .btn:focus,.btn:active {
+    .btn:focus, .btn:active {
         outline: none !important;
         box-shadow: none;
     }
@@ -127,14 +127,16 @@ include "include/navbar.php";
                                         imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>">$19.95 <i
                                             data-feather="shopping-cart"
                                             class="active-fill "></i></button>
-                                <a tabindex="0" class=" btn btn-iconb btn-smn btn-light text-dark share-this  text-align-auto" s
+                                <a tabindex="0"
+                                   class=" btn btn-iconb btn-smn btn-light text-dark share-this  text-align-auto"
 
 
-                                        namex="<?php echo $row['name']; ?>"
-                                        imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
-                                        data-container="body" data-toggle="popover" data-placement="top"
-                                        data-content="Link copied to clipboard!"
-                                ><i
+                                   namex="<?php echo $row['name']; ?>"
+                                   imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
+                                   data-container="body" data-toggle="popover" data-placement="top"
+                                   data-content="Link copied to clipboard!"
+                                >
+                                    <i
                                             data-feather="share-2"
                                             class="active-fill "></i></a>
                             </div>
@@ -146,7 +148,6 @@ include "include/navbar.php";
                                     <a href="../" class="btn btn-sm btn-white m-1">All genres </a>
                                     <a href="../?g=afro" class="btn btn-sm btn-white m-1">Afro Beat</a>
                                     <a href="../?g=dancehall" class="btn btn-sm btn-white m-1">Dancehall </a>
-                                    <a href="../?g=trap" class="btn btn-sm btn-white m-1">Trap </a>
                                     <a href="../?g=reggaeton" class="btn btn-sm btn-white m-1">Reggaeton </a>
                                     <a href="../?g=moombahton" class="btn btn-sm btn-white m-1">Moombahton </a>
                                 </div>

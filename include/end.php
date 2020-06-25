@@ -41,7 +41,7 @@
                     <div class="row">
                         <div class="col-md-4 pb-lg-0 pb-md-3 pb-sm-3">
                             <img src="" class="r shadow dis-img img-fluid"
-                                 style="height: 112px">
+                                 style="height: 112px;width: 112px;">
                         </div>
                         <div class="col-md-8">
 
