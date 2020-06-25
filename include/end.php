@@ -47,7 +47,7 @@
 
                             <div class="form-group pt-3">
                                 <label class="text-muted" for="form_need">Please Select licence *</label>
-                                <select id="price_selected" name="need" class="form-control selectpicker"
+                                <select id="price_selected" name="need" class="form-control selectpicker bg-dark"
                                         required="required"
                                         data-error="Please specify your need.">
                                     <option value="1">Mp3 ($19.95)</option>
