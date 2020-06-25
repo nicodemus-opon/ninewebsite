@@ -38,9 +38,13 @@ include "../include/navbar.php";
                                  style="background-image:url('../upload/<?php echo $row['image']; ?>')">
                             </div>
                         </div>
-                        <div class="pos-rlt text-white"><a href="#"
-                                                           class="ajax text-muted h5 subtitle">FREE BEATS (non-profit
-                                use/ only for preview)</a>
+                        <div class="pos-rlt text-white">
+                            <h4 href="#"
+                               class="text-muted  subtitle">FREE BEATS </h4>
+                            <h6 href="#"
+                               class="text-muted  subtitle">(Downloads are only for preview)
+                                please consider purchasing a lease before uploading  </h6>
+
 
 
                             <?php } ?>
@@ -83,7 +87,7 @@ include "../include/navbar.php";
                                     </div>
                                     <div class="row list-row pt-5 list-indexb">
                                         <div class="container">
-                                        <a class="btn btn-block btn-primary" href="../"> More beats</a>
+                                            <a class="btn btn-block btn-primary" href="../"> More beats</a>
                                         </div>
                                     </div>
 

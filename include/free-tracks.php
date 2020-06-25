@@ -44,16 +44,12 @@ while ($row = $result->fetch_assoc()) { ?>
                     </div>
 
 
-                    <a class="gumroad-buttonb btn btn-iconb btn-sm btn-light text-dark text-align-auto btn-m"
+                    <a class="btn btn-smb btn-light text-dark text-align-auto btn-m"
                             href="<?php echo $row['gumroad']; ?>" target="_blank"><span
-                            class="d-none d-lg-inline d-sm-block"> FREE</span> <i
+                            class="d-none d-lg-inline d-sm-block"> Download</span> <i
                             data-feather="download"
-                            class="active-fill " style="f"></i></a>
+                            class="active-fill "styhle="font-size: 16px"></i></a>
 
-
-                    <a class="btn btn-icon  no-bg no-shadow btn-moreb"
-                       href="#"><i
-                            data-feather="share"></i></a>
 
                 </div>
             </div>

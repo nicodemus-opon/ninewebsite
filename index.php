@@ -45,7 +45,12 @@
 <?php
 include "include/head.php";
 ?>
-
+<style>
+    .btn:focus,.btn:active {
+        outline: none !important;
+        box-shadow: none;
+    }
+</style>
 
 <body class="layout-column bg-dark" style="background-color: black;">
 <?php
@@ -199,6 +204,7 @@ include "include/navbar.php";
     </div>
 </div>
 </div>
+
 <?php
 include "include/licence.php";
 ?>
@@ -215,7 +221,6 @@ include "include/footer.php";
 <?php
 include "include/end.php";
 ?>
-
 
 </body>
 
