@@ -41,7 +41,7 @@
                     <div class="row">
                         <div class="col-md-4 pb-lg-0 pb-md-3 pb-sm-3">
                             <img src="" class="r shadow dis-img img-fluid"
-                                 style="height: 112px;width: 112px;">
+                                 style="height: 112px;width: 112px;background-position: center;background-size: cover;">
                         </div>
                         <div class="col-md-8">
 
@@ -63,7 +63,8 @@
                 </div>
                 <div class="modal-footer">
 
-                    <button type="button" idx="" imgx="" namex="" class="btn btn-light btn-block text-dark btn-buy" style="text-transform: uppercase">Add
+                    <button type="button" idx="" imgx="" namex="" class="btn btn-light btn-block text-dark btn-buy"
+                            style="text-transform: uppercase">Add
                         to Cart
                     </button>
                 </div>
@@ -78,7 +79,7 @@
         <div class="modal-content">
             <div class="modal-header border-bottom-0">
                 <h5 class="modal-title text-dark " id="exampleModalLabel">
-                   <b> Your Cart</b>
+                    <b> Your Cart</b>
                 </h5>
                 <button type="button" class="close text-dark" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
