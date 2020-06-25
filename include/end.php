@@ -32,7 +32,7 @@
             <div class="modal-content gd-dark wh-modal "
                  style="background-image: url('');background-color: rgba(0,0,0,0.65);background-blend-mode:darken">
                 <div class="modal-header">
-                    <h5 class="modal-title text-white" id="titlename">Please refresh-Missing Parameters </h5>
+                    <h5 class="modal-title text-white text-muted" id="titlename">Please refresh-Missing Parameters </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="modal-footer">
 
-                    <button type="button" idx="" imgx="" namex="" class="btn btn-light btn-block text-dark btn-buy">Add
+                    <button type="button" idx="" imgx="" namex="" class="btn btn-light btn-block text-dark btn-buy" style="text-transform: uppercase">Add
                         to Cart
                     </button>
                 </div>
