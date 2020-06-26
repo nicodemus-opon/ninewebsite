@@ -13,7 +13,7 @@ if (isset($_SESSION["auth"])) {
     echo "";
 } else {
     echo "Unauthorized";
-    echo '<script>window.location.replace("../auth");</script>';
+    //echo '<script>window.location.replace("../auth");</script>';
 
 }
 
