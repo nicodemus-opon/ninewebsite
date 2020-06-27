@@ -37,8 +37,20 @@
     <meta name="keywords" itemprop="keywords"
           content="buy afrobeats, buy afrobeats online, buy dancehall beats, buy dancehall beats online, buy reggae beats, buy reggae beats online, buy azonto beats, buy azonto beats online, buy zouk beats, buy zouk beats online, buy tropical beats, buy tropical beats online, buy beats online, Beats By Big H, myflowbeats, my flow beats, buy afto beats online, buy afrobeats, sanchobeatz.com, Dancehall and reggaeton beats, Afrobeats for sale! Buy Afrobeats now! | Russian Bounce, beatsbysv, beats by sv,tropical beats, buy tropical beats, buy reggaeton beats, buy beats online, buy beats, vybe beats, mad real beats, tone jonez beats, tone jonez, buy r&amp;b beats,buy beats with hook, beat with hooks, beat with hook, kizomba beats, buy kizomba beats, afrobeat, afrobeats, instrumental afrobeat, 2015, 2016, the beat plug, thebeatplug, taz taylor beats, taztaylor beats, mj nichols beats, mjnichols beats, beatsbybig h, myflow beats, beatstars, oge beats, ogebeats, oge riddims, soca beats, soca riddim, reggae riddims, reggae beats, drake type beat, rihanna type beat, future type beat, trap beats, trap beats for sale, deep house beats, tropical beats, instrumentals for sale, tropical deep house beats, mindkeyz, mantra beats, stunnah beats, lease beats, exclusive beats, hip hop beats, trap beats, deep,house beats, tropical beats, pop beats, kizomba beats, zouk beats, caribbean beats, african beats, beats for sale, vybz kartel, mavado, popcann, free beats, 2017, dancehall 2017, soca 2017, hip hop beats 2017, rap beats 2017, pop beats 2017, tropical beats 2017, oge beats, house beats 2017, electro beats 2017, free beat instrumental 2017, penacho beats, beats craze, ditty beatz, bo beatz, mindkeyz beats, african beats 2017, prodlem, nagra beats, blasian beats 2017, dez wright, gummy beats, beatsbysv, prodbylttb, prod by lttb, afrobeat instrumental, afro trap, afropop, afrohop"/>
     <!-- Favicon -->
-    <meta name="description" itemprop="description" content="Buy the Hottest Dancehall and Afrobeats Online | Quality Beats by professionals" />
-    <script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/niconinebeats.com\/","name":"Buy Beats For Sale Online | Lease Royalty Free dancehall, moombahton,gengetone , afro beat Instrumentals","potentialAction":{"@type":"SearchAction","target":"https:\/\/niconinebeats.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+    <meta name="description" itemprop="description"
+          content="Buy the Hottest Dancehall and Afrobeats Online | Quality Beats by professionals"/>
+    <script type='application/ld+json'>{
+            "@context": "https:\/\/schema.org",
+            "@type": "WebSite",
+            "@id": "#website",
+            "url": "https:\/\/niconinebeats.com\/",
+            "name": "Buy Beats For Sale Online | Lease Royalty Free dancehall, moombahton,gengetone , afro beat Instrumentals",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https:\/\/niconinebeats.com\/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }</script>
 
     <link rel="apple-touch-icon" sizes="512x512" href="../images/icons/icon-512x512.png">
     <link rel="icon" type="image/png" sizes="512x512" href="../images/icons/icon-512x512.png">
@@ -50,11 +62,13 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="preload" href="../libs/plyrist/src/plyrist.css" as="style">
     <link rel="stylesheet" href="../assets/css/site.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css" integrity="sha256-zlmAH+Y2JhZ5QfYMC6ZcoVeYkeo0VEPoUnKeBd83Ldc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css"
+          integrity="sha256-zlmAH+Y2JhZ5QfYMC6ZcoVeYkeo0VEPoUnKeBd83Ldc=" crossorigin="anonymous"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156968536-1"></script>
     <!-- Google Tag Manager -->
@@ -109,6 +123,12 @@
             opacity: 0.7;
         }
 
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .btn{
+            text-transform: uppercase;
+        }
 
     </style>
 
