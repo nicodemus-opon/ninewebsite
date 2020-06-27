@@ -9,18 +9,15 @@
         margin-bottom: 15px;
     }
 </style>
-<header id="header" class="page-header scroll-header fixed">
+<header id="header" class="page-header px-0 scroll-header fixed">
     <div class="navbar navbar-expand-lg">
         <a href="../" class="navbar-brand text-white">  <span
                     class="hidden-folded d-inline l-s-n-1xh pl-lg-5 ">Niconine Beats</span></a>
         <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarCollapse">
             <ul class="navbar-nav" data-nav>
-                <?php
 
-                ?>
-
-
-                <li class="nav-item"><a href="../free-beats" class="nav-link"><span class="nav-text">Free Beats</span></a>
+                <li class="nav-item"><a href="../free-beats" class="nav-link"><span
+                                class="nav-text">Free Beats</span></a>
                 </li>
                 <li class="nav-item"><a href="../licence" class="nav-link"><span
                                 class="nav-text">Licences & Pricing</span></a>
