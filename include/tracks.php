@@ -48,13 +48,15 @@ while ($row = $result->fetch_assoc()) { ?>
 
                     <button class="gumroad-buttonb btn btn-iconb btn-smn btn-light text-dark text-align-auto btn-m"
                             data-toggle="modal" data-target="#buy_modal" namex="<?php echo $row['name']; ?>"
-                            imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"><span
-                                class="d-none d-lg-inline d-sm-block"> <b>$19.95 </b></span> <i
+                            imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
+                            style="font-weight: 600"><span
+                                class="d-none d-lg-inline d-sm-block"> $19.95 </span> <i
                                 data-feather="shopping-cart"
-                                class="active-fill " style="f"></i></button>
+                                class="active-fill " style="font-weight: 600"></i></button>
 
 
-                    <a tabindex="0" class="btn btn-icon no-bg no-shadow btn-moreb share-this d-none d-lg-inline d-sm-block"
+                    <a tabindex="0"
+                       class="btn btn-icon no-bg no-shadow btn-moreb share-this d-none d-lg-inline d-sm-block"
                        namex="<?php echo $row['name']; ?>"
                        data-container="body" data-toggle="popover" data-placement="top"
                        data-content="Link copied to clipboard!"><i
