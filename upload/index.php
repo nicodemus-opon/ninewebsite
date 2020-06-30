@@ -34,6 +34,7 @@ include "../include/navbar.php";
             <div class="col-3">
                 <form class="pt-5" method="post" action="yeet.php">
                     <button type="submit" class="btn btn-block btn-light text-dark">UPDATE SEARCH</button>
+
                 </form>
             </div>
             <div class="col-6">
@@ -90,6 +91,7 @@ include "include/footer.php";
 <?php
 include "include/end.php";
 ?>
+
 
 </body>
 

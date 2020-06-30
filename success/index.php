@@ -1,6 +1,9 @@
 <?php
 session_start();
 //print_r($_SESSION);
+$trimo = str_replace("+", " ", $_SESSION["item_s"]);
+$trimoo = str_replace("-", " ", $trimo);
+$trimot = ltrim($trimoo, " ");
 
 if (isset($_SESSION["email_s"])) {
     echo "";
@@ -42,7 +45,8 @@ include "../include/navbar.php";
     <div class="row">
         <div class="col-lg-6">
             <h5> An email containing download links & Licence has been sent to <span
-                        class="text-primary"><?php echo($_SESSION["email_s"]); ?></span>
+                        class="text-primary"><?php echo($_SESSION["email_s"]);
+                    ?></span>
             </h5>
             <br>
             <br>
@@ -64,6 +68,76 @@ include "../include/navbar.php";
 
 </div>
 
+
+<?php
+include "../include/footer.php";
+?>
+<?php
+include "../include/end.php";
+?>
+
+<!--script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+        'transactionId': '<?php echo($_SESSION["id_s"]); ?>',
+        'transactionAffiliation': 'Niconine Beats',
+        'transactionTotal': <?php echo($_SESSION["amount_s"]); ?>,
+        'transactionProducts': [{
+            'sku': '<?php echo($_SESSION["id_s"]); ?>',
+            'name': '<?php echo($_SESSION["item_s"]); ?>',
+            'category': 'Beats',
+            'price': <?php echo($_SESSION["amount_s"]); ?>,
+            'quantity': 1
+        }]
+    });
+    'products': [
+                    <?php foreach ($_SESSION["shopping_cart"] as $key): ?>
+                    {
+                        'name': '<?php echo $key["name"]; ?>',
+                        'id': '<?php echo $key["idx"]; ?>',
+                        'price': '<?php echo $key["price"]; ?>',
+                        'category': '<?php echo $key["lease"]; ?>',
+                        'quantity': 1
+
+                    },
+                    <?php endforeach; ?>
+
+
+                ]
+</script-->
+
+<script>
+    // Send transaction data with a pageview if available
+    // when the page loads. Otherwise, use an event when the transaction
+    // data becomes available.
+    dataLayer.push({
+        'event': 'transaction',
+        'ecommerce': {
+            'purchase': {
+                'actionField': {
+                    'id': '<?php echo($_SESSION["id_s"]); ?>',
+                    'affiliation': 'Niconine Beats',
+                    'revenue': '<?php echo($_SESSION["amount_s"]); ?>'
+                },
+                'products': [
+                    <?php foreach ($_SESSION["shopping_cart"] as $key): ?>
+                    {
+                        'name': '<?php echo $key["name"]; ?>',
+                        'id': '<?php echo $key["idx"]; ?>',
+                        'price': '<?php echo $key["price"]; ?>',
+                        'category': '<?php echo $key["lease"]; ?>',
+                        'quantity': 1
+
+                    },
+                    <?php endforeach; ?>
+
+
+                ]
+
+            }
+        }
+    });
+</script>
 <?php
 require_once "../include/connect.php";
 
@@ -73,11 +147,9 @@ $txt = "Some one ordered from site";
 $headers = "From: hello@niconinebeats.com";
 
 
-
-
 $sql = $sql = "insert into transactions values('" . $_SESSION["id_s"] . "','" . $_SESSION["email_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["amount_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["time_s"] . "')";
 if (isset($_SESSION["email_s"])) {
-    mail($to,$subject,$txt,$headers);
+    mail($to, $subject, $txt, $headers);
     if ($con->query($sql) === true) {
         echo "";
         session_unset();
@@ -89,14 +161,6 @@ if (isset($_SESSION["email_s"])) {
 
 
 ?>
-
-<?php
-include "../include/footer.php";
-?>
-<?php
-include "../include/end.php";
-?>
-
 </body>
 
 </html>

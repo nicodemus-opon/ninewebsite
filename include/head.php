@@ -71,6 +71,9 @@
           integrity="sha256-zlmAH+Y2JhZ5QfYMC6ZcoVeYkeo0VEPoUnKeBd83Ldc=" crossorigin="anonymous"/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156968536-1"></script>
+    <script>
+        dataLayer = [];
+    </script>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || [];
