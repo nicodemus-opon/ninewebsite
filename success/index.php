@@ -4,7 +4,7 @@ session_start();
 $trimo = str_replace("+", " ", $_SESSION["item_s"]);
 $trimoo = str_replace("-", " ", $trimo);
 $trimot = ltrim($trimoo, " ");
-//$_SESSION["email_s"]="cbsoftlabke@gmail.com";
+
 if (isset($_SESSION["email_s"])) {
     echo "";
 } else {
@@ -106,7 +106,7 @@ include "../include/end.php";
                 ]
 </script-->
 
-<!--script>
+<script>
     // Send transaction data with a pageview if available
     // when the page loads. Otherwise, use an event when the transaction
     // data becomes available.
@@ -137,7 +137,7 @@ include "../include/end.php";
             }
         }
     });
-</script-->
+</script>
 
 <script>
     <?php foreach ($_SESSION["shopping_cart"] as $key): ?>
