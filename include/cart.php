@@ -37,6 +37,7 @@ if (isset($_POST["action"])) {
             "price" => $price,
             "img" => $img,
             "lease" => $lease,
+            "leaseid" => $pr,
         );
         print_r($_SESSION["shopping_cart"]);
 

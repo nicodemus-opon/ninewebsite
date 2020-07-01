@@ -1,5 +1,8 @@
 {
     "require": {
-        "rosell-dk/webp-convert": "^2.3"
+        "rosell-dk/webp-convert": "^2.3",
+        "mailjet/mailjet-apiv3-php": "^1.4",
+      "ext-json": "*",
+      "ext-curl": "*"
     }
 }

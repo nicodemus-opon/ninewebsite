@@ -4,7 +4,7 @@ session_start();
 $trimo = str_replace("+", " ", $_SESSION["item_s"]);
 $trimoo = str_replace("-", " ", $trimo);
 $trimot = ltrim($trimoo, " ");
-
+//$_SESSION["email_s"]="cbsoftlabke@gmail.com";
 if (isset($_SESSION["email_s"])) {
     echo "";
 } else {
@@ -106,7 +106,7 @@ include "../include/end.php";
                 ]
 </script-->
 
-<script>
+<!--script>
     // Send transaction data with a pageview if available
     // when the page loads. Otherwise, use an event when the transaction
     // data becomes available.
@@ -137,8 +137,31 @@ include "../include/end.php";
             }
         }
     });
+</script-->
+
+<script>
+    <?php foreach ($_SESSION["shopping_cart"] as $key): ?>
+    $.ajax({
+        url: "../include/delivery.php",
+        method: "POST",
+        data: {
+            product_image: 'https://www.niconinebeats.com/<?php echo substr($key["img"], 3);?>',
+            product_link: 'https://www.niconinebeats.com/d/?prod=<?php echo $key["idx"]; ?>&auth=<?php echo $key["leaseid"]; ?>',
+            email: '<?php echo $_SESSION["email_s"] ?>',
+            licence_link: 'https://www.niconinebeats.com/l/?prod=<?php echo $key["idx"]; ?>&auth=<?php echo $key["leaseid"]; ?>'
+
+        },
+        success: function (data) {
+            console.log(data);
+
+        }
+    });
+
+    <?php endforeach; ?>
 </script>
-<?php
+
+
+<!--?php
 require_once "../include/connect.php";
 
 $to = "cbsoftlabke@gmail.com";
@@ -160,7 +183,7 @@ if (isset($_SESSION["email_s"])) {
 }
 
 
-?>
+?-->
 </body>
 
 </html>
