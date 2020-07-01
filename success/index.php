@@ -161,7 +161,7 @@ include "../include/end.php";
 </script>
 
 
-<!--?php
+<?php
 require_once "../include/connect.php";
 
 $to = "cbsoftlabke@gmail.com";
@@ -172,7 +172,7 @@ $headers = "From: hello@niconinebeats.com";
 
 $sql = $sql = "insert into transactions values('" . $_SESSION["id_s"] . "','" . $_SESSION["email_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["amount_s"] . "','" . $_SESSION["item_s"] . "','" . $_SESSION["time_s"] . "')";
 if (isset($_SESSION["email_s"])) {
-    mail($to, $subject, $txt, $headers);
+    //mail($to, $subject, $txt, $headers);
     if ($con->query($sql) === true) {
         echo "";
         session_unset();
@@ -183,7 +183,7 @@ if (isset($_SESSION["email_s"])) {
 }
 
 
-?-->
+?>
 </body>
 
 </html>

@@ -10,8 +10,8 @@ error_reporting(E_ALL);
 set_time_limit(0);
 
 
-//$emailx = $_POST["email"];
-$emailx="nicodemusopon@gmail.com";
+$emailx = $_POST["email"];
+
 $namex = "passenger";
 $imagex = $_POST["product_image"];
 $prodl = $_POST["product_link"];
