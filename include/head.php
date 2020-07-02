@@ -136,7 +136,7 @@
             text-transform: uppercase;
             font-weight: 500;
             box-shadow: rgba(0, 0, 0, 0.05);
-            border-radius: 4px;
+
 
 
         }
