@@ -2,7 +2,14 @@
 
 include "connect.php";
 
-$sql = "select * from beats ORDER BY idx DESC";
+//$sql = "select * from beats ORDER BY idx DESC";
+
+if (isset($_GET['g']) && !empty($_GET['g'])) {
+    $sql = "SELECT * FROM beats where `tags` LIKE '%".$_GET['g']."%' ORDER BY idx DESC";
+} else {
+    $sql = "SELECT * FROM beats ORDER BY idx DESC";
+}
+
 $result = $con->query($sql);
 //$mm=array_reverse();
 
