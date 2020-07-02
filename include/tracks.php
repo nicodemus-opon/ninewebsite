@@ -41,11 +41,11 @@ while ($row = $result->fetch_assoc()) { ?>
                     <a href="<?php echo('http://' . $_SERVER['HTTP_HOST']); ?>/track/?q=<?php echo $row['idx']; ?>"
                        class="list-title title ajax h-1x"
                        style="text-transform: capitalize"><?php echo $row['name']; ?> </a>
-                    <a
+                    <span
                             href="#"
-                            class="list-subtitle d-block text-muted h-1x subtitle ajax"
+                            class="list-subtitle d-block text-muted h-1x subtitle ajaxn"
                             style="text-transform: capitalize"><?php echo $row['bpm']; ?> BPM
-                        | <?php echo $row['tags']; ?> </a></div>
+                        |<a class="text-muted " href="#"> <?php echo $row['tags']; ?></a>  </span></div>
             </div>
             <div class="list-action show-row">
                 <div class="d-flex align-items-center">
@@ -58,7 +58,7 @@ while ($row = $result->fetch_assoc()) { ?>
                             imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
                             style="vertical-align: middle;">
                         <i class="icon-add-cart align-middle" style="font-size: 22px;font-weight: 500"></i>
-                        <span class="d-none d-lg-inline d-sm-block align-middle ml-1"> $19.95</span></button>
+                        <span class="d-none d-lg-inline d-sm-block align-middleb ml-1"> $19.95</span></button>
 
 
                     <a tabindex="0"
