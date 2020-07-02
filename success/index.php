@@ -42,12 +42,41 @@ include "../include/navbar.php";
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row pb-3">
         <div class="col-lg-6">
-            <h5> An email containing download links & Licence has been sent to <span
+            <h5 class="text-muted"> An email containing download links & Licence has been sent to: <br> <span
                         class="text-primary"><?php echo($_SESSION["email_s"]);
                     ?></span>
             </h5>
+            <div class="pt-2"></div>
+            <div class="card">
+                <div class="card-body text-leftb">
+
+                    <table class="table text-white group table-striped">
+                        <tbody>
+                        <?php foreach ($_SESSION["shopping_cart"] as $key): ?>
+                            <tr>
+                                <td>
+                                    <img src="../upload/<?php echo $key["img"]; ?>"
+                                         class="img-fluidb img-thumbnailb r"
+                                         style="height: 48px" alt="Preview">
+                                    <span class="ml-1"
+                                          style="text-transform: capitalize"> <?php echo $key["name"]; ?><span
+                                                class="m-1b"> </span><?php echo $key["lease"]; ?></span>
+                                </td>
+                                <td class="text-right"><a target="_blank"
+                                                          href="https://www.niconinebeats.com/d/?prod=<?php echo $key["idx"]; ?>&auth=<?php echo $key["leaseid"]; ?>"
+                                                          class="btn btn-link text-white"><!--i data-feather="download"
+                                                                    class="icon-downloadb active-fill align-middle"
+                                                                    style="font-size: 22px;font-weight: 500"></i-->
+                                        Download</a></td>
+                            </tr>
+
+                        <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
             <br>
             <br>
             <h5> Feel free to contact <a class="btn-link text-primary" href="mailto:hello@niconinebeats.com">hello@niconinebeats.com</a>
@@ -58,7 +87,7 @@ include "../include/navbar.php";
 
             </h5>
         </div>
-        <div class="col-lg-6"
+        <div class="col-lg-6 d-none d-lg-block"
              style="background-image: url('../assets/img/payc.png');background-position: center;background-size:contain;background-repeat: no-repeat;min-height: 192px;  ">
 
         </div>
@@ -75,36 +104,6 @@ include "../include/footer.php";
 <?php
 include "../include/end.php";
 ?>
-
-<!--script>
-    window.dataLayer = window.dataLayer || [];
-    dataLayer.push({
-        'transactionId': '<?php echo($_SESSION["id_s"]); ?>',
-        'transactionAffiliation': 'Niconine Beats',
-        'transactionTotal': <?php echo($_SESSION["amount_s"]); ?>,
-        'transactionProducts': [{
-            'sku': '<?php echo($_SESSION["id_s"]); ?>',
-            'name': '<?php echo($_SESSION["item_s"]); ?>',
-            'category': 'Beats',
-            'price': <?php echo($_SESSION["amount_s"]); ?>,
-            'quantity': 1
-        }]
-    });
-    'products': [
-                    <?php foreach ($_SESSION["shopping_cart"] as $key): ?>
-                    {
-                        'name': '<?php echo $key["name"]; ?>',
-                        'id': '<?php echo $key["idx"]; ?>',
-                        'price': '<?php echo $key["price"]; ?>',
-                        'category': '<?php echo $key["lease"]; ?>',
-                        'quantity': 1
-
-                    },
-                    <?php endforeach; ?>
-
-
-                ]
-</script-->
 
 <script>
     // Send transaction data with a pageview if available
@@ -145,7 +144,7 @@ include "../include/end.php";
         url: "../include/delivery.php",
         method: "POST",
         data: {
-            product_image: 'https://www.niconinebeats.com/<?php echo substr($key["img"], 3);?>',
+            product_image: 'https://www.niconinebeats.com/<?php echo substr($key["img"], 3); ?>',
             product_link: 'https://www.niconinebeats.com/d/?prod=<?php echo $key["idx"]; ?>&auth=<?php echo $key["leaseid"]; ?>',
             email: '<?php echo $_SESSION["email_s"] ?>',
             licence_link: 'https://www.niconinebeats.com/l/?prod=<?php echo $key["idx"]; ?>&auth=<?php echo $key["leaseid"]; ?>'
@@ -184,6 +183,7 @@ if (isset($_SESSION["email_s"])) {
 
 
 ?>
+
 </body>
 
 </html>
