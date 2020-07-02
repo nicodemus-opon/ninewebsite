@@ -48,8 +48,7 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link px-2 launch_cart kill_cart" id="navbarDropdown" role="button">
-                    <i data-feather="shopping-cart"
-                       class="d-lg-nonen"></i>
+                    <i class="icon-cart align-middle" style="font-size: 22px;font-weight: 500"></i>
                     <span class="text-sm badge cart_total" style="">
 0
                     </span>

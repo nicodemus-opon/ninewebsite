@@ -64,10 +64,7 @@
                         <button class="gumroad-buttonb btn btn-iconb btn-sm btn-light text-dark text-align-auto btn-m"
                                 data-toggle="modal" data-target="#buy_modal" namex="<?php echo $row['name']; ?>"
                                 imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"><span
-                                    class="d-none d-lg-inline d-sm-block"> </span> <svg style="vertical-align: middle;" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" stroke="currentColor" stroke-width="0.5" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M14 5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5zM1 4v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4H1z"/>
-                                <path d="M8 1.5A2.5 2.5 0 0 0 5.5 4h-1a3.5 3.5 0 1 1 7 0h-1A2.5 2.5 0 0 0 8 1.5z"/>
-                            </svg></button>
+                                    class="d-none d-lg-inline d-sm-block"> </span> <i class="icon-add-cart align-middle" style="font-size: 22px;font-weight: 500"></i></button>
                     </div>
                 </div>
             </div>
