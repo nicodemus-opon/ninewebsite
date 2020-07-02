@@ -149,7 +149,7 @@
 
     </style>
 
-    <script>
+    <!--script>
         !function (g, s, q, r, d) {
             r = g[r] = g[r] || function () {
                 (r.q = r.q || []).push(
@@ -162,7 +162,7 @@
         }(window, document, 'script', '_gs');
 
         _gs('GSN-861552-Y');
-    </script>
+    </script-->
 
 
     <style>
