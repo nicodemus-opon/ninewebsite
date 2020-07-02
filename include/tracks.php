@@ -46,13 +46,18 @@ while ($row = $result->fetch_assoc()) { ?>
                     </div>
 
 
-                    <button class="gumroad-buttonb btn btn-iconb btn-smn btn-light text-dark text-align-auto btn-m"
+                    <button class="gumroad-buttonb btn btn-iconb btn-smn btn-light text-dark text-align-autob btn-m"
                             data-toggle="modal" data-target="#buy_modal" namex="<?php echo $row['name']; ?>"
                             imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
-                            style="font-weight: 600"><span
-                                class="d-none d-lg-inline d-sm-block"> $19.95 </span> <i
-                                data-feather="shopping-cart"
-                                class="active-fill " style="font-weight: 600"></i></button>
+                            style="vertical-align: middle;">
+                        <svg style="vertical-align: middle;"  width="1em" height="1em" viewBox="0 0 18 16"
+                             class="bi bi-bag" fill="currentColor" stroke="currentColor" stroke-width="0.5"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M14 5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5zM1 4v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4H1z"/>
+                            <path d="M8 1.5A2.5 2.5 0 0 0 5.5 4h-1a3.5 3.5 0 1 1 7 0h-1A2.5 2.5 0 0 0 8 1.5z"/>
+                        </svg>
+                        <span class="d-none d-lg-inline d-sm-block align-middleb">$19.95</span></button>
 
 
                     <a tabindex="0"

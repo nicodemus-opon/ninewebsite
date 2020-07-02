@@ -132,6 +132,7 @@
         .btn{
             text-transform: uppercase;
             font-weight: 600 !important;
+
         }
 
     </style>
