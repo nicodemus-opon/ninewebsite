@@ -54,7 +54,7 @@ include "../include/navbar.php";
                                     <a href="../" class="btn btn-sm btn-white m-1">All genres </a>
                                     <a href="../?g=afro" class="btn btn-sm btn-white m-1">Afro Beat</a>
                                     <a href="../?g=dancehall" class="btn btn-sm btn-white m-1">Dancehall </a>
-                                    <a href="../?g=trap" class="btn btn-sm btn-white m-1">Trap </a>
+
                                     <a href="../?g=reggaeton" class="btn btn-sm btn-white m-1">Reggaeton </a>
                                     <a href="../?g=moombahton" class="btn btn-sm btn-white m-1">Moombahton </a>
                                 </div>
