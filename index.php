@@ -70,7 +70,11 @@ include "include/navbar.php";
                             $sqql = "SELECT * FROM beats where name='" . $_GET['ft'] . "';";
 
                         } else {
-                            $sqql = "SELECT * FROM beats ORDER BY idx DESC LIMIT 1";
+                            if (isset($_GET['g']) && !empty($_GET['g'])) {
+                                $sqql = "SELECT * FROM beats LIKE '%".$_GET['g']."%' ORDER BY idx DESC LIMIT 1";
+                            } else {
+                                $sqql = "SELECT * FROM beats ORDER BY idx DESC LIMIT 1";
+                            }
                         }
 
                         include "include/connect.php";
@@ -124,7 +128,10 @@ include "include/navbar.php";
 
                                         data-toggle="modal" data-target="#buy_modal"
                                         namex="<?php echo $row['name']; ?>"
-                                        imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>" style="vertical-align: middle;" ><i class="icon-add-cart align-middle" style="font-size: 22px;font-weight: 500"></i> <span class="align-middle">$19.95</span></button>
+                                        imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
+                                        style="vertical-align: middle;"><i class="icon-add-cart align-middle"
+                                                                           style="font-size: 22px;font-weight: 500"></i>
+                                    <span class="align-middle">$19.95</span></button>
                                 <a tabindex="0"
                                    class=" btn btn-iconb btn-smn btn-light text-dark share-this  text-align-auto"
 
