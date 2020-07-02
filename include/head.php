@@ -131,10 +131,20 @@
         body {
             font-family: 'Poppins', sans-serif;
         }
-        .btn{
-            text-transform: uppercase;
-            font-weight: 500 !important;
 
+        .btn {
+            text-transform: uppercase;
+            font-weight: 500;
+            box-shadow: rgba(0, 0, 0, 0.05);
+            border-radius: 4px;
+            height: 40px;
+
+        }
+
+        .btn-m {
+
+            display: flex;
+            font-weight: 500 !important;
         }
 
     </style>

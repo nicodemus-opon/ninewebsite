@@ -58,7 +58,7 @@ while ($row = $result->fetch_assoc()) { ?>
                             imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
                             style="vertical-align: middle;">
                         <i class="icon-add-cart align-middle" style="font-size: 22px;font-weight: 500"></i>
-                        <span class="d-none d-lg-inline d-sm-block align-middleb">$19.95</span></button>
+                        <span class="d-none d-lg-inline d-sm-block align-middle ml-1"> $19.95</span></button>
 
 
                     <a tabindex="0"
