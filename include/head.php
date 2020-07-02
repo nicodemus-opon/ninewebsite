@@ -142,7 +142,7 @@
         }
 
         .btn-m {
-            height: 40px;
+
             display: flex;
             font-weight: 500 !important;
         }
