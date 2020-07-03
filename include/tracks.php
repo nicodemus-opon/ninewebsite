@@ -17,8 +17,8 @@ if (isset($_GET['g']) && !empty($_GET['g'])) {
 $result = $con->query($sql);
 //$mm=array_reverse();
 if(mysqli_num_rows($result)!=0) {
-    $tty=$result->fetch_assoc();
-    print_r($_SESSION["tracks_list"]);
+
+
     while ($row = $result->fetch_assoc()) { ?>
 
         <div class="col-12" data-id="<?php echo $row['idx']; ?>" data-category="other" data-tag="USA"
