@@ -95,14 +95,15 @@ include "../include/navbar.php";
                         <div class="pos-rlt text-white ">
                             <div class="pricing-header pt-0 px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center"
                                  ibd="licenseinfo">
-                                <h1 class="display-4 text-muted" style="font-weight: 600;">Tracks</h1>
+                                <h1 class="display-4 text-muted" style="font-weight: 600;">All Tracks</h1>
                                 <p class="lead"></p>
                             </div>
 
 
-                            <div class=" row justify-content-center">
+                            <div class=" row justify-content-center ">
                                 <div class="col-12 col-md-10 col-lg-8">
-                                    <form class="card card-sm   " style="background-color: #ffffff !important;">
+                                    <form class="card card-sm  mb-0 parento"
+                                          style="background-color: #ffffff !important;">
                                         <div class="card-body p-1 row no-gutters align-items-center">
                                             <div class="col-auto">
                                                 <!--i class="align-middle text-dark h4b ml-2" data-feather="search"></i-->
@@ -111,12 +112,14 @@ include "../include/navbar.php";
                                             <div class="col">
                                                 <input class="form-control search-tag form-control-lgb form-control-borderless text-dark"
                                                        name="search-tag" type="search"
-                                                       placeholder="Search tracks or genres" >
+                                                       placeholder="Search tracks or genres" autocomplete="off">
+
                                             </div>
                                             <!--end of col-->
                                             <div class="col-auto">
-                                                <button class="btn btn btn-dark text-light align-middle search-b" type="submit"
-                                                        ripple="ripple" style="height: 52px" >
+                                                <button class="btn btn btn-dark text-light align-middle search-b"
+                                                        type="submit"
+                                                        ripple="ripple" style="height: 52px">
                                                     <span class="text-light"><i class="align-middle "
                                                                                 data-feather="search"></i> Search</span>
                                                 </button>
@@ -124,10 +127,33 @@ include "../include/navbar.php";
                                             <!--end of col-->
                                         </div>
                                     </form>
+                                    <?php } ?>
+                                    <div id="searchlist" class="card  pt-0n mt-2 sonento "
+                                         style="background-color: #ffffff !important;z-index: 10;
+                                         position: absolute;width:657px;box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);height: auto">
+                                        <ul class="list-group listo bg-light text-dark  "
+                                            style="background-color: #ffffff !important;display: none;">
+                                            <?php
+
+                                            $resultx = $con->query("select * from beats;");
+                                            while ($rowc = $resultx->fetch_assoc()) { ?>
+                                                <a href="#" class="list-group-item text-dark lolo" style=" text-overflow: ellipsis;">
+                                                    <!--i class="icon-beats align-middle" style="font-size: 32px; ">  </i-->
+                                                    <img src="/upload/upload/track-placeholder.svg"
+                                                         data-src="/upload/<?php echo $rowc['image']; ?>"
+                                                         class="r lazyload"
+                                                         style="height: 40px">
+                                                    <span class="ml-1" style="font-weight: 500;"><?php echo $rowc['name']; ?> -</span>
+                                                    <span class="ml-1 text-mutedv " style="text-transform: capitalize; text-overflow: ellipsis;"><?php echo $rowc['tags']; ?></span>
+                                                </a>
+
+                                            <?php } ?>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
-                            <?php } ?>
+
                             <!--div class="py-2 px-0 pl-0 d-flex sr-item" id="filter-categoryh">
 
                                 <div class="mx-0">

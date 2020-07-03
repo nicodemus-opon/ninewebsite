@@ -3,7 +3,7 @@
 
         <div class="dropdown my-2 mr-2">
             <button class="btn btn-clean text-white sorting" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               All Genres
+              <span class="mr-1">All Genres</span>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="../tracks/?g=dancehall">Dancehall</a>
@@ -14,10 +14,10 @@
         </div>
         <div class="dropdown my-2 mr-2">
             <button class="btn btn-clean text-white sorting" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               All BPM
+               <span class="mr-1">All BPM</span>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">104</a>
+                <a class="dropdown-item" href="#">102</a>
                 <a class="dropdown-item" href="#">100</a>
                 <a class="dropdown-item" href="#">98</a>
                 <a class="dropdown-item" href="#">96</a>
@@ -30,7 +30,7 @@
         </div>
         <div class="dropdown my-2 mr-2">
             <button class="btn btn-clean text-white sorting" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Sort by
+                <span class="mr-1">Sort by</span>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Popularity</a>

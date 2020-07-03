@@ -464,38 +464,63 @@
 </script>
 
 <script>
-    $(".search-tag").keyup(function () {
-        if ($.trim($('.search-tag').val()).length === 0){
-            //$('.search-b').prop('disabled', true);
-            $('.search-b').attr("type","button");
-        }else{
-            $('.search-b').attr("type","submit");
-        }
-    });
-    $(".search-tagb").keyup(function () {
 
+    $(".search-tag").keyup(function () {
+        if ($.trim($('.search-tag').val()).length === 0) {
+            //$('.search-b').prop('disabled', true);
+            $('.search-b').attr("type", "button");
+        } else {
+            $('.search-b').attr("type", "submit");
+        }
         console.log("jj");
         // Retrieve the input field text and reset the count to zero
         var filter = $(this).val(),
             count = 0;
 
-        // Loop through the comment list
-        $('#results div').each(function () {
+        if ($.trim($('.search-tag').val()).length >= 2) {
+            // Loop through the comment list
+
+            $('.lolo').each(function () {
 
 
-            // If the list item does not contain the text phrase fade it out
-            if ($(this).text().search(new RegExp(filter, "i")) < 0) {
-                $(this).hide();  // MY CHANGE
+                // If the list item does not contain the text phrase fade it out
+                if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+                    $(this).hide();  // MY CHANGE
 
-                // Show the list item if the phrase matches and increase the count by 1
-            } else {
-                $(this).show(); // MY CHANGE
-                count++;
-            }
+                    // Show the list item if the phrase matches and increase the count by 1
+                } else {
+                    if (count <= 3) {
 
-        });
+                        $(this).show(); // MY CHANGE
+                        count += 1;
+                    }
+                }
+
+            });
+
+            $('.listo').show();
+
+        } else {
+            $('.listo').hide();
+        }
 
     });
 
 
+</script>
+<script>
+    $(document).ready(function () {
+        $(".sonento").css({
+            'width': ($(".parento").width() + 'px')
+        });
+        $('.search-tag').blur(function () {
+            $('.listo').hide();
+        });
+    });
+
+    $(window).resize(function () {
+        $(".sonento").css({
+            'width': ($(".parento").width() + 'px')
+        });
+    });
 </script>

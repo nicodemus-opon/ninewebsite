@@ -2,7 +2,7 @@
 <html lang="en-US" dir="ltr">
 <title>
     <?php
-    $limit=15;
+    $limit = 10;
     if (isset($_GET['g']) && !empty($_GET['g'])) {
         echo "Niconine Beats - " . $_GET['g'] . " Instrumental Beats";
 
@@ -141,7 +141,7 @@ include "include/navbar.php";
                                    imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
                                    data-container="body" data-toggle="popover" data-placement="top"
                                    data-content="Link copied to clipboard!"
-                                 ripple="ripple">
+                                   ripple="ripple">
                                     <i
                                             data-feather="share-2"
                                             class="active-fill "></i> share</a>
@@ -186,7 +186,8 @@ include "include/navbar.php";
                                     </div>
                                     <div class="row list-row pt-5 list-indexb">
                                         <div class="container">
-                                            <a class="btn btn-block btn-primary" href="../tracks" ripple="ripple"> Browse All beats</a>
+                                            <a class="btn btn-block btn-primary" href="../tracks" ripple="ripple">
+                                                Browse All beats</a>
                                         </div>
                                     </div>
 
