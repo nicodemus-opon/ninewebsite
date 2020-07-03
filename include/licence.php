@@ -19,7 +19,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• Must Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn basic-lease btn-block btn-outline-primary" >Read Full License</button>
+                <button type="button" class="btn basic-lease btn-block btn-outline-primaryb btn-clean text-white" ripple="ripple">Read Full License</button>
             </div>
         </div>
         </div>
@@ -39,7 +39,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• Must Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn  btn-block btn-primary premium-lease">Read Full License</button>
+                <button type="button" class="btn  btn-block btn-clean text-white premium-lease" ripple="ripple">Read Full License</button>
             </div>
         </div>
         </div>
@@ -59,7 +59,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• May Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn unlimited-lease  btn-block btn-primary">Read Full License</button>
+                <button type="button" class="btn unlimited-lease  btn-block btn-clean text-white" ripple="ripple">Read Full License</button>
             </div>
         </div>
             </div>
@@ -77,7 +77,7 @@
                     <li>• INSTANT DELIVERY</li>
 
                 </ul>
-                <a href="../contact"  class="btn  btn-block btn-light text-primary">Make an Offer</a>
+                <a href="../contact"  class="btn  btn-block btn-primary text-light" ripple="ripple">Make an Offer</a>
             </div>
         </div>
     </div>
@@ -89,7 +89,7 @@
 
 <!-- Modal -->
 <div class="modal  fade bd-example-modal-lg" id="basiclease" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog " role="document">
+    <div class="modal-dialog modal-lg " role="document">
         <div class="modal-content bg-dark">
             <div class="modal-header">
                 <h5 class="modal-title lease-title" >Basic Lease</h5>
@@ -98,7 +98,7 @@
                 </button>
             </div>
             <div class="modal-body" >
-                <div id="contentbasic"></div>
+                <div id="contentbasic" class="text-left"></div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -107,5 +107,3 @@
         </div>
     </div>
 </div>
-
-

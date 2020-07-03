@@ -136,6 +136,7 @@
             text-transform: uppercase;
             font-weight: 500;
             box-shadow: rgba(0, 0, 0, 0.05);
+            border-style: hidden !important;
 
 
 
@@ -145,6 +146,18 @@
 
             display: flex;
             font-weight: 500 !important;
+        }
+
+        .btn-clean{
+            background-color: rgba(255,255,255,.15);
+            border-color:rgba(255,255,255,.15);
+            border-style: hidden;
+        }
+
+        .btn:focus,
+        .btn:active{
+            box-shadow:none !important;
+            outline:0px !important;
         }
 
     </style>
@@ -182,5 +195,64 @@
         }
     </style>
 
+<style>
+
+
+    [ripple] {
+        position: relative;
+        overflow: hidden;
+    }
+    [ripple] .ripple--container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    [ripple] .ripple--container span {
+        transform: scale(0);
+        border-radius: 100%;
+        position: absolute;
+        opacity: 0.75;
+        background-color: #fff;
+        animation: ripple 1000ms;
+    }
+    @-moz-keyframes ripple {
+        to {
+            opacity: 0;
+            transform: scale(2);
+        }
+    }
+    @-webkit-keyframes ripple {
+        to {
+            opacity: 0;
+            transform: scale(2);
+        }
+    }
+    @-o-keyframes ripple {
+        to {
+            opacity: 0;
+            transform: scale(2);
+        }
+    }
+    @keyframes ripple {
+        to {
+            opacity: 0;
+            transform: scale(2);
+        }
+    }
+
+</style>
+<style>
+    .form-control-borderless {
+        border: none;
+    }
+
+    .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+</style>
 
 </head>

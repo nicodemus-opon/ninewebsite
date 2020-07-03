@@ -44,7 +44,7 @@ while ($row = $result->fetch_assoc()) { ?>
                     </div>
 
 
-                    <a class="btn btn-smb btn-light text-dark text-align-auto btn-m"
+                    <a class="btn btn-smb btn-lightb text-light btn-clean text-align-auto btn-m"
                             href="<?php echo $row['gumroad']; ?>" target="_blank"><span
                             class="d-none d-lg-inline d-sm-block"> Download</span> <i
                             data-feather="download"

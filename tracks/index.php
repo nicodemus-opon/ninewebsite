@@ -2,7 +2,8 @@
 <html lang="en-US" dir="ltr">
 <title>
     <?php
-    $limit=15;
+
+    $limit=100;
     if (isset($_GET['g']) && !empty($_GET['g'])) {
         echo "Niconine Beats - " . $_GET['g'] . " Instrumental Beats";
 
@@ -44,7 +45,7 @@
 <link rel="canonical" href="https://niconinebeats.com/"/>
 
 <?php
-include "include/head.php";
+include "../include/head.php";
 ?>
 <style>
     .btn:focus, .btn:active {
@@ -55,7 +56,7 @@ include "include/head.php";
 
 <body class="layout-column bg-dark" style="background-color: black;">
 <?php
-include "include/navbar.php";
+include "../include/navbar.php";
 ?>
 
 <div id="main" class="layout-row flex">
@@ -63,9 +64,12 @@ include "include/navbar.php";
     <div id="content" class="flex">
         <div>
             <div class="page-content page-container" id="page-content">
-                <div class="padding sr">
+
+                <div class="padding pt-0 sr">
                     <div class="page-hero" data-id="2"
                          data-source="">
+
+
                         <?php
                         if (isset($_GET['ft']) && !empty($_GET['ft'])) {
                             $sqql = "SELECT * FROM beats where name='" . $_GET['ft'] . "';";
@@ -78,7 +82,7 @@ include "include/navbar.php";
                             }
                         }
 
-                        include "include/connect.php";
+                        include "../include/connect.php";
 
 
                         $result = $con->query($sqql);
@@ -88,67 +92,37 @@ include "include/navbar.php";
                                  style="background-image:url('../upload/<?php echo $row['image']; ?>')">
                             </div>
                         </div>
-                        <div class="pos-rlt text-white"><a href="#"
-                                                           class="ajax text-muted h5 subtitle">Featured</a>
-
-                            <!--i was here-->
-                            <div class="row">
-                                <div class="col-lg-1 col-md-1 col-sm-2 pr-0" data-id="<?php echo $row['idx']; ?>"
-                                     data-category="other"
-                                     data-tag="USA"
-                                     data-source="../upload/upload/<?php echo $row['audio']; ?>">
-                                    <div class="list-item r pr-0">
-                                        <div class="media pr-0" style="height: 92px;width: 92px">
-                                            <a href="../track/?q=<?php echo $row['idx']; ?>"
-                                               class="ajaxh media-content"
-                                               style="background-image:url('../upload/<?php echo $row['image']; ?>');"> </a>
-
-                                            <div class="media-action media-action-overlay">
-
-                                                <button
-                                                        class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-
-                                                <div class="dropdown-menu dropdown-menu-right"></div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-6 m-0 pr-0 pl-lg-5 pl-sm-3 pl-md-5 px-0i align-items-center text-left">
-                                    <h1 class="display-3 font-weight-bold mb-0 d-lg-inline text-white title "
-                                        style="text-transform: uppercase"><?php echo $row['name']; ?>  </h1>
-                                </div>
+                        <div class="pos-rlt text-white ">
+                            <div class="pricing-header pt-0 px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" ibd="licenseinfo">
+                                <h1 class="display-4 text-muted" style="font-weight: 600;">Tracks</h1>
+                                <p class="lead"></p>
                             </div>
 
-                            <div class="py-4 toolbar align-items-center">
 
-
-                                <button class="btn-m btn btn-iconb btn-smn btn-light text-dark text-align-auto"
-
-                                        data-toggle="modal" data-target="#buy_modal"
-                                        namex="<?php echo $row['name']; ?>"
-                                        imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
-                                        style="vertical-align: middle;"><i class="icon-add-cart align-middle"
-                                                                           style="font-size: 22px;font-weight: 500"></i>
-                                    <span class="align-middle ml-1" ripple="ripple">$19.95</span></button>
-                                <a tabindex="0"
-                                   class=" btn btn-iconb btn-clean btn-smn btn-lightn text-light share-this  text-align-auto"
-
-
-                                   namex="<?php echo $row['name']; ?>"
-                                   imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
-                                   data-container="body" data-toggle="popover" data-placement="top"
-                                   data-content="Link copied to clipboard!"
-                                 ripple="ripple">
-                                    <i
-                                            data-feather="share-2"
-                                            class="active-fill "></i> share</a>
+                            <div class=" row justify-content-center">
+                                <div class="col-12 col-md-10 col-lg-8">
+                                    <form class="card card-sm   " style="background-color: #ffffff !important;">
+                                        <div class="card-body p-1 row no-gutters align-items-center">
+                                            <div class="col-auto">
+                                                <!--i class="align-middle text-dark h4b ml-2" data-feather="search"></i-->
+                                            </div>
+                                            <!--end of col-->
+                                            <div class="col">
+                                                <input class="form-control form-control-lgb form-control-borderless text-dark" type="search" placeholder="Search tracks or genres">
+                                            </div>
+                                            <!--end of col-->
+                                            <div class="col-auto">
+                                                <button class="btn btn btn-dark text-light align-middle" type="submit" ripple="ripple" style="height: 52px">
+                                                     <span class="text-light"><i class="align-middle " data-feather="search"></i> Search</span></button>
+                                            </div>
+                                            <!--end of col-->
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
 
                             <?php } ?>
-                            <div class="py-2 px-0 pl-0 d-flex sr-item" id="filter-categoryh">
+                            <!--div class="py-2 px-0 pl-0 d-flex sr-item" id="filter-categoryh">
 
                                 <div class="mx-0">
                                     <a href="../" class="btn btn-sm btn-white m-1">All genres </a>
@@ -157,7 +131,8 @@ include "include/navbar.php";
                                     <a href="../?g=reggaeton" class="btn btn-sm btn-white m-1">Reggaeton </a>
                                     <a href="../?g=moombahton" class="btn btn-sm btn-white m-1">Moombahton </a>
                                 </div>
-                            </div>
+                            </div-->
+
                         </div>
                         <div class="pos-rlt">
 
@@ -179,16 +154,12 @@ include "include/navbar.php";
                                     </div>
                                     <div class="row list-row list-indexb">
                                         <?php
-                                        include "include/tracks.php";
+                                        include "../include/tracks.php";
                                         ?>
 
 
                                     </div>
-                                    <div class="row list-row pt-5 list-indexb">
-                                        <div class="container">
-                                            <a class="btn btn-block btn-primary" href="../tracks" ripple="ripple"> Browse All beats</a>
-                                        </div>
-                                    </div>
+
 
                                     <!--genres should be here-->
 
@@ -200,13 +171,7 @@ include "include/navbar.php";
 
                         <div style="min-width: 4rem"></div>
 
-                        <div class="w-xl w-auto-sm no-shrink pt-5">
 
-                            <?php
-                            include "include/toptracks.php";
-                            ?>
-
-                        </div>
                     </div>
                 </div>
 
@@ -217,20 +182,20 @@ include "include/navbar.php";
 </div>
 
 <?php
-include "include/licence.php";
+include "../include/licence.php";
 ?>
 
 <?php
-include "include/contact.php";
+include "../include/contact.php";
 ?>
 
 
 <?php
-include "include/footer.php";
+include "../include/footer.php";
 ?>
 
 <?php
-include "include/end.php";
+include "../include/end.php";
 ?>
 
 </body>

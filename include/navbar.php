@@ -17,7 +17,9 @@
                     class="hidden-folded d-inline l-s-n-1xh pl-lg-5 ">Niconine Beats</span></a>
         <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarCollapse">
             <ul class="navbar-nav" data-nav>
-
+                <li class="nav-item"><a href="../tracks" class="nav-link"><span
+                                class="nav-text">Browse Beats</span></a>
+                </li>
                 <li class="nav-item"><a href="../free-beats" class="nav-link"><span
                                 class="nav-text">Free Beats</span></a>
                 </li>

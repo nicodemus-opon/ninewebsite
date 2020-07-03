@@ -7,7 +7,7 @@ include "connect.php";
 if (isset($_GET['g']) && !empty($_GET['g'])) {
     $sql = "SELECT * FROM beats where `tags` LIKE '%".$_GET['g']."%' ORDER BY idx DESC";
 } else {
-    $sql = "SELECT * FROM beats ORDER BY idx DESC";
+    $sql = "SELECT * FROM beats ORDER BY idx DESC LIMIT ".$limit;
 }
 
 $result = $con->query($sql);
@@ -58,14 +58,14 @@ while ($row = $result->fetch_assoc()) { ?>
                             imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
                             style="vertical-align: middle;">
                         <i class="icon-add-cart align-middle" style="font-size: 22px;font-weight: 500"></i>
-                        <span class="d-none d-lg-inline d-sm-block align-middleb ml-1"> $19.95</span></button>
+                        <span class="d-none d-lg-inline d-sm-block align-middleb ml-1" > $19.95</span></button>
 
 
                     <a tabindex="0"
-                       class="btn btn-icon no-bg no-shadow btn-moreb share-this d-none d-lg-inline d-sm-block"
+                       class="btn btn-iconb btn-clean no-bgn ml-2 text-white no-shadow btn-moreb share-this d-none d-lg-inline d-sm-block"
                        namex="<?php echo $row['name']; ?>"
                        data-container="body" data-toggle="popover" data-placement="top"
-                       data-content="Link copied to clipboard!"><i
+                       data-content="Link copied to clipboard!" ripple="ripple"><i
                                 data-feather="share-2"></i></a>
 
                 </div>

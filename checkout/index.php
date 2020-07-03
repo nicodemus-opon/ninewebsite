@@ -78,7 +78,7 @@ include "../include/navbar.php";
 
                     </div>
                     <div class="col-6 pl-2">
-                        <button class="btn check-coupon btn-sm text-left btn-secondary text-dark ">APPLY
+                        <button class="btn check-coupon btn-sm text-left btn-secondaryn btn-clean text-light " ripple="ripple">APPLY
                             COUPON
                         </button>
                     </div>
