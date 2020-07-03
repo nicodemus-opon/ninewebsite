@@ -8,7 +8,7 @@ if (isset($_GET['g']) && !empty($_GET['g'])) {
     $sql = "SELECT * FROM beats where `tags` LIKE '%".$_GET['g']."%' ORDER BY idx DESC";
 } else {
     if (isset($_GET['search-tag']) && !empty($_GET['search-tag'])) {
-        $sql = "SELECT * FROM beats where `name` LIKE '%".$_GET['search-tag']."%' ORDER BY idx DESC";
+        $sql = "SELECT * FROM beats where concat(name,tags) LIKE '%".$_GET['search-tag']."%' ORDER BY idx DESC";
     }else {
         $sql = "SELECT * FROM beats ORDER BY idx DESC LIMIT " . $limit;
     }

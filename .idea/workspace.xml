@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/checkout/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/tracks.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/tracks.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/tracks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+            <state relative-caret-position="170">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -338,12 +337,12 @@
       <workItem from="1593667373526" duration="7500000" />
       <workItem from="1593684364667" duration="9670000" />
       <workItem from="1593757951807" duration="1108000" />
-      <workItem from="1593775231251" duration="15576000" />
+      <workItem from="1593775231251" duration="15806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383448000" />
+    <option name="totallyTimeSpent" value="383678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -741,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/tracks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+        <state relative-caret-position="170">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
         </state>
       </provider>
     </entry>
