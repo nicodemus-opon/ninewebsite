@@ -64,12 +64,6 @@ include "../include/navbar.php";
                 <div class="row shadow">
                     <div class="col-12">
 
-                        <div class="alert coup-alert alert-primary alert-dismissible fade show" role="alert">
-                            <strong class="altext"></strong>
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
                     </div>
                     <div class="col-6 pr-0">
                         <input type="text"

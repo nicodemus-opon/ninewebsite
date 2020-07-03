@@ -116,7 +116,7 @@ include "../include/navbar.php";
                                             <!--end of col-->
                                             <div class="col-auto">
                                                 <button class="btn btn btn-dark text-light align-middle search-b" type="submit"
-                                                        ripple="ripple" style="height: 52px" disabled>
+                                                        ripple="ripple" style="height: 52px" >
                                                     <span class="text-light"><i class="align-middle "
                                                                                 data-feather="search"></i> Search</span>
                                                 </button>

@@ -466,10 +466,14 @@
 <script>
     $(".search-tag").keyup(function () {
         if ($.trim($('.search-tag').val()).length === 0){
-            $('.search-b').prop('disabled', true);
+            //$('.search-b').prop('disabled', true);
+            $('.search-b').attr("type","button");
         }else{
-            $('.search-b').removeAttr('disabled');
+            $('.search-b').attr("type","submit");
         }
+    });
+    $(".search-tagb").keyup(function () {
+
         console.log("jj");
         // Retrieve the input field text and reset the count to zero
         var filter = $(this).val(),
