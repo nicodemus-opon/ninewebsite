@@ -489,10 +489,12 @@
 
                     // Show the list item if the phrase matches and increase the count by 1
                 } else {
-                    if (count <= 3) {
+                    if (count < 3) {
 
                         $(this).show(); // MY CHANGE
                         count += 1;
+                    }else {
+                        return false;
                     }
                 }
 
@@ -513,9 +515,7 @@
         $(".sonento").css({
             'width': ($(".parento").width() + 'px')
         });
-        $('.search-tag').blur(function () {
-            $('.listo').hide();
-        });
+
     });
 
     $(window).resize(function () {
