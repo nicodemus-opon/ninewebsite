@@ -137,7 +137,7 @@ include "../include/navbar.php";
 
                                             $resultx = $con->query("select * from beats;");
                                             while ($rowc = $resultx->fetch_assoc()) { ?>
-                                                <a href="#" class="list-group-item text-dark lolo" style=" text-overflow: ellipsis;">
+                                                <a href="../tracks/?search-tag=<?php echo $rowc['name']; ?>" class="list-group-item text-dark lolo" style=" text-overflow: ellipsis;">
                                                     <!--i class="icon-beats align-middle" style="font-size: 32px; ">  </i-->
                                                     <img src="/upload/upload/track-placeholder.svg"
                                                          data-src="/upload/<?php echo $rowc['image']; ?>"
