@@ -253,6 +253,22 @@
         outline: none;
         box-shadow: none;
     }
+
+    /* clears the 'X' from Internet Explorer */
+    input.hide-clear[type=search]::-ms-clear,
+    input.hide-clear[type=search]::-ms-reveal {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    /* clears the 'X' from Chrome */
+    input.hide-clear[type="search"]::-webkit-search-decoration,
+    input.hide-clear[type="search"]::-webkit-search-cancel-button,
+    input.hide-clear[type="search"]::-webkit-search-results-button,
+    input.hide-clear[type="search"]::-webkit-search-results-decoration {
+        display: none;
+    }
 </style>
 
 </head>

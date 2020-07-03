@@ -3,7 +3,7 @@
 <title>
     <?php
 
-    $limit=100;
+    $limit = 100;
     if (isset($_GET['g']) && !empty($_GET['g'])) {
         echo "Niconine Beats - " . $_GET['g'] . " Instrumental Beats";
 
@@ -93,7 +93,8 @@ include "../include/navbar.php";
                             </div>
                         </div>
                         <div class="pos-rlt text-white ">
-                            <div class="pricing-header pt-0 px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" ibd="licenseinfo">
+                            <div class="pricing-header pt-0 px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center"
+                                 ibd="licenseinfo">
                                 <h1 class="display-4 text-muted" style="font-weight: 600;">Tracks</h1>
                                 <p class="lead"></p>
                             </div>
@@ -108,12 +109,17 @@ include "../include/navbar.php";
                                             </div>
                                             <!--end of col-->
                                             <div class="col">
-                                                <input class="form-control form-control-lgb form-control-borderless text-dark" type="search" placeholder="Search tracks or genres">
+                                                <input class="form-control search-tag form-control-lgb form-control-borderless text-dark"
+                                                       name="search-tag" type="search"
+                                                       placeholder="Search tracks or genres" >
                                             </div>
                                             <!--end of col-->
                                             <div class="col-auto">
-                                                <button class="btn btn btn-dark text-light align-middle" type="submit" ripple="ripple" style="height: 52px">
-                                                     <span class="text-light"><i class="align-middle " data-feather="search"></i> Search</span></button>
+                                                <button class="btn btn btn-dark text-light align-middle search-b" type="submit"
+                                                        ripple="ripple" style="height: 52px" disabled>
+                                                    <span class="text-light"><i class="align-middle "
+                                                                                data-feather="search"></i> Search</span>
+                                                </button>
                                             </div>
                                             <!--end of col-->
                                         </div>
@@ -148,11 +154,13 @@ include "../include/navbar.php";
 
                                         <div>
                                             <h5 class="text-highlight sr-item">Tracks</h5>
-
+                                            <?php
+                                            include "options.php";
+                                            ?>
                                         </div>
                                         <span class="flex"></span>
                                     </div>
-                                    <div class="row list-row list-indexb">
+                                    <div id="results" class="row list-row list-indexb">
                                         <?php
                                         include "../include/tracks.php";
                                         ?>

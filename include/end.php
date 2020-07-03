@@ -413,23 +413,24 @@
 
 
 <script>
-    (function() { var cleanUp, debounce, i, len, ripple, rippleContainer, ripples, showRipple;
+    (function () {
+        var cleanUp, debounce, i, len, ripple, rippleContainer, ripples, showRipple;
 
-        debounce = function(func, delay) {
+        debounce = function (func, delay) {
             var inDebounce;
             inDebounce = undefined;
-            return function() {
+            return function () {
                 var args, context;
                 context = this;
                 args = arguments;
                 clearTimeout(inDebounce);
-                return inDebounce = setTimeout(function() {
+                return inDebounce = setTimeout(function () {
                     return func.apply(context, args);
                 }, delay);
             };
         };
 
-        showRipple = function(e) {
+        showRipple = function (e) {
             var pos, ripple, rippler, size, style, x, y;
             ripple = this;
             rippler = document.createElement('span');
@@ -442,7 +443,7 @@
             return rippler.setAttribute('style', style);
         };
 
-        cleanUp = function() {
+        cleanUp = function () {
             while (this.rippleContainer.firstChild) {
                 this.rippleContainer.removeChild(this.rippleContainer.firstChild);
             }
@@ -460,4 +461,37 @@
             ripple.appendChild(rippleContainer);
         }
     }());
+</script>
+
+<script>
+    $(".search-tag").keyup(function () {
+        if ($.trim($('.search-tag').val()).length === 0){
+            $('.search-b').prop('disabled', true);
+        }else{
+            $('.search-b').removeAttr('disabled');
+        }
+        console.log("jj");
+        // Retrieve the input field text and reset the count to zero
+        var filter = $(this).val(),
+            count = 0;
+
+        // Loop through the comment list
+        $('#results div').each(function () {
+
+
+            // If the list item does not contain the text phrase fade it out
+            if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+                $(this).hide();  // MY CHANGE
+
+                // Show the list item if the phrase matches and increase the count by 1
+            } else {
+                $(this).show(); // MY CHANGE
+                count++;
+            }
+
+        });
+
+    });
+
+
 </script>
