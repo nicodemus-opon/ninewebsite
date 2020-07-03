@@ -174,7 +174,7 @@
         console.log($(this).attr("id"));
         var idx = $(this).attr("id");
         var imgx = "../upload/" + $(this).attr("imgx");
-        var namex = "Purchase " + $(this).attr("namex") + ' (Instrumental) ';
+        var namex = "Purchase " + $(this).attr("namex") + ' - Instrumental ';
         var nmm = $(this).attr("namex");
         $(".dis-img").attr("src", imgx);
         $(".btn-buy").attr("idx", idx);
