@@ -62,9 +62,7 @@ include "../include/navbar.php";
             <div class="container py-3">
 
                 <div class="row shadow">
-                    <div class="col-12">
 
-                    </div>
                     <div class="col-6 pr-0">
                         <input type="text"
                                class="form-control coupon-value input-group-sm form-control-sm bg-white text-light"
@@ -72,7 +70,8 @@ include "../include/navbar.php";
 
                     </div>
                     <div class="col-6 pl-2">
-                        <button class="btn check-coupon btn-sm text-left btn-secondaryn btn-clean text-light " ripple="ripple">APPLY
+                        <button class="btn check-coupon btn-sm text-left btn-secondaryn btn-clean text-light "
+                                ripple="ripple">APPLY
                             COUPON
                         </button>
                     </div>
