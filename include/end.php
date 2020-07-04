@@ -516,6 +516,16 @@
             'width': ($(".parento").width() + 'px')
         });
 
+        $(".xoxog").blur(function () {
+            $('#searchlist').hide();
+        });
+       $(document).mouseup(function (e) {
+           var container=$(".xoxo");
+           if(!container.is(e.target)&& container.has(e.target).length===0){
+               $(".listo").hide()
+           }
+       })
+
     });
 
     $(window).resize(function () {

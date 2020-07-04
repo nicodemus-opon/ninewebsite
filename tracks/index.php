@@ -100,7 +100,7 @@ include "../include/navbar.php";
                             </div>
 
 
-                            <div class=" row justify-content-center ">
+                            <div class=" row justify-content-center xoxo">
                                 <div class="col-12 col-md-10 col-lg-8">
                                     <form class="card card-sm  mb-0 parento"
                                           style="background-color: #ffffff !important;">
@@ -119,7 +119,7 @@ include "../include/navbar.php";
                                             <div class="col-auto">
                                                 <button class="btn btn btn-dark text-light align-middle search-b"
                                                         type="submit"
-                                                        ripple="ripple" style="height: 52px">
+                                                        ripple="ripple" style="height: 48px">
                                                     <span class="text-light"><i class="align-middle "
                                                                                 data-feather="search"></i> Search</span>
                                                 </button>
