@@ -544,7 +544,12 @@
                     var duration = buffer.duration;
                     var minutes = parseInt(duration / 60, 10);
                     var seconds = parseInt(duration % 60);
-
+                    if (minutes < 10) {
+                       // minutes += "0";
+                    }
+                    if (seconds < 10) {
+                        seconds = "0"+seconds;
+                    }
                     var fullt=minutes + ':' + seconds;
                     $(thisForm).html(fullt);
                     // example 12.3234 seconds
