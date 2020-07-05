@@ -573,5 +573,17 @@
         });
     });
 
+    $(".pjaxContainer").on("pjax:beforeSend", function (e, xhr, settings) {
+
+            // URI can be found at https://github.com/medialize/URI.js
+            var uri = URI(settings.url);
+
+            // Remove _pjax from query string before reloading
+            uri.removeSearch("_pjax");
+
+            location.href = uri.toString();
+            return false;
+
+    });
 
 </script>

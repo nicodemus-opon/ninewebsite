@@ -45,7 +45,7 @@ if (mysqli_num_rows($result) != 0) {
                 <div class="list-content text-center">
                     <div class="list-body">
                         <a href="<?php echo('http://' . $_SERVER['HTTP_HOST']); ?>/track/?q=<?php echo $row['idx']; ?>"
-                           class="list-title title ajax h-1x"
+                           class="list-title title no-ajax h-1x"
                            style="text-transform: capitalize"><?php echo $row['name']; ?> </a>
                         <span
                                 href="#"
