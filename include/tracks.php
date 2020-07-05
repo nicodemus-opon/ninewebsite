@@ -5,18 +5,18 @@ include "connect.php";
 //$sql = "select * from beats ORDER BY idx DESC";
 
 if (isset($_GET['g']) && !empty($_GET['g'])) {
-    $sql = "SELECT * FROM beats where `tags` LIKE '%".$_GET['g']."%' ORDER BY idx DESC";
+    $sql = "SELECT * FROM beats where `tags` LIKE '%" . $_GET['g'] . "%' ORDER BY idx DESC";
 } else {
     if (isset($_GET['search-tag']) && !empty($_GET['search-tag'])) {
-        $sql = "SELECT * FROM beats where concat(name,tags) LIKE '%".$_GET['search-tag']."%' ORDER BY idx DESC";
-    }else {
+        $sql = "SELECT * FROM beats where concat(name,tags) LIKE '%" . $_GET['search-tag'] . "%' ORDER BY idx DESC";
+    } else {
         $sql = "SELECT * FROM beats ORDER BY idx DESC LIMIT " . $limit;
     }
 }
 
 $result = $con->query($sql);
 //$mm=array_reverse();
-if(mysqli_num_rows($result)!=0) {
+if (mysqli_num_rows($result) != 0) {
 
 
     while ($row = $result->fetch_assoc()) { ?>
@@ -55,6 +55,7 @@ if(mysqli_num_rows($result)!=0) {
                 </div>
                 <div class="list-action show-row">
                     <div class="d-flex align-items-center">
+
                         <div class="px-3 text-sm text-muted d-none d-md-block">02:45
                         </div>
 
@@ -81,7 +82,7 @@ if(mysqli_num_rows($result)!=0) {
 
 
     <?php }
-}else {
+} else {
     echo "<h5 class='text-center '>😟 We could not find any tracks that match your search.</h5>
  <br />";
 }

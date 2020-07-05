@@ -6,7 +6,7 @@
 <div class="container">
     <div class="card-deckl row  text-center ">
         <div class="col-lg-3">
-        <div class="card  box-shadow">
+        <div class="card  box-shadow ">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Basic Lease <br>(Mp3)</h4>
             </div>
@@ -44,7 +44,7 @@
         </div>
         </div>
             <div class="col-lg-3">
-        <div class="card  box-shadow">
+        <div class="card  box-shadow hover-rotate">
             <div class="card-header">
                 <h4 class="my-0 font-weight-normal">Trackouts Lease <br>(Stems + Wav + Mp3)</h4>
             </div>
