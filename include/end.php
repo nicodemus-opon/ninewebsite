@@ -542,7 +542,11 @@
                 audioContext.decodeAudioData(request.response, function (buffer) {
                     // Obtain the duration in seconds of the audio file (with milliseconds as well, a float value)
                     var duration = buffer.duration;
-                    $(thisForm).html(duration);
+                    var minutes = parseInt(duration / 60, 10);
+                    var seconds = parseInt(duration % 60);
+
+                    var fullt=minutes + ':' + seconds;
+                    $(thisForm).html(fullt);
                     // example 12.3234 seconds
                     console.log("The duration of the song is of: " + duration + " seconds");
                     console.log("hejhej")
