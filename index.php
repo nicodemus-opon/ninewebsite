@@ -3,6 +3,7 @@
 <title>
     <?php
     $limit = 10;
+    session_start();
     if (isset($_GET['g']) && !empty($_GET['g'])) {
         echo "Niconine Beats - " . $_GET['g'] . " Instrumental Beats";
 
@@ -67,8 +68,12 @@ include "include/navbar.php";
                     <div class="page-hero" data-id="2"
                          data-source="">
                         <?php
-                        if (isset($_GET['ft']) && !empty($_GET['ft'])) {
-                            $sqql = "SELECT * FROM beats where name='" . $_GET['ft'] . "';";
+                        if ((isset($_GET['ft']) && !empty($_GET['ft'])) || (isset($_SESSION['ft']) && !empty($_SESSION['ft']))) {
+                            if (isset($_GET['ft']) && !empty($_GET['ft'])) {
+                                $_SESSION["ft"] = $_GET['ft'];
+                            }
+
+                            $sqql = "SELECT * FROM beats where name='" . $_SESSION["ft"] . "';";
 
                         } else {
                             if (isset($_GET['g']) && !empty($_GET['g'])) {
