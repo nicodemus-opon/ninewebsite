@@ -56,7 +56,7 @@ if (mysqli_num_rows($result) != 0) {
                 <div class="list-action show-row">
                     <div class="d-flex align-items-center">
 
-                        <div class="px-3 text-sm text-muted d-none d-md-block">02:45
+                        <div class="px-3 text-sm text-muted d-none d-md-block"><span class="times" itt="../upload/upload/<?php echo $row['audio']; ?>">02:45</span>
                         </div>
 
 

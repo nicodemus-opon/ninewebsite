@@ -493,7 +493,7 @@
 
                         $(this).show(); // MY CHANGE
                         count += 1;
-                    }else {
+                    } else {
                         return false;
                     }
                 }
@@ -519,13 +519,43 @@
         $(".xoxog").blur(function () {
             $('#searchlist').hide();
         });
-       $(document).mouseup(function (e) {
-           var container=$(".xoxo");
-           if(!container.is(e.target)&& container.has(e.target).length===0){
-               $(".listo").hide()
-           }
-       })
+        $(document).mouseup(function (e) {
+            var container = $(".xoxo");
+            if (!container.is(e.target) && container.has(e.target).length === 0) {
+                $(".listo").hide()
+            }
+        });
+        $('.times').each(function () {
+            console.log("khkhk");
+            var audio_link = $(this).attr("itt");
+// Request URL of the Audio File
+            var mp3file = audio_link;
+            var thisForm = this;
+// Create an instance of AudioContext
+            var audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
+// Open an Http Request
+            var request = new XMLHttpRequest();
+            request.open('GET', mp3file, true);
+            request.responseType = 'arraybuffer';
+            request.onload = function () {
+                audioContext.decodeAudioData(request.response, function (buffer) {
+                    // Obtain the duration in seconds of the audio file (with milliseconds as well, a float value)
+                    var duration = buffer.duration;
+                    $(thisForm).html(duration);
+                    // example 12.3234 seconds
+                    console.log("The duration of the song is of: " + duration + " seconds");
+                    console.log("hejhej")
+                    // Alternatively, just display the integer value with
+                    // parseInt(duration)
+                    // 12 seconds
+                });
+            };
+
+
+// Start Request
+            request.send();
+        });
     });
 
     $(window).resize(function () {
@@ -533,4 +563,6 @@
             'width': ($(".parento").width() + 'px')
         });
     });
+
+
 </script>
