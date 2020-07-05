@@ -68,7 +68,7 @@ include "include/navbar.php";
                     <div class="page-hero" data-id="2"
                          data-source="">
                         <?php
-                        if ((isset($_GET['ft']) && !empty($_GET['ft'])) || ($_SESSION["ft"] != null)) {
+                        if ((isset($_GET['ft']) && !empty($_GET['ft'])) or ($_SESSION["ft"] != null)) {
                             if (isset($_GET['ft']) && !empty($_GET['ft'])) {
                                 $_SESSION["ft"] = $_GET['ft'];
                                 echo "session";
