@@ -596,7 +596,7 @@
                 $(".listo").hide()
             }
         });
-        $('.times').each(function () {
+        $('.timesb').each(function () {
             console.log("khkhk");
 // Request URL of the Audio File
             var mp3file = $(this).attr("itt");
