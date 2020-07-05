@@ -66,8 +66,8 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <input type="submit" class="btn btn-light text-dark btn-block btn-send"
-                                   value="Send message">
+                            <input type="submit" class="btn btn-lightn btn-primary text-light btn-block btn-send"
+                                   value="Send message" ripple="ripple">
                         </div>
                     </div>
                     <div class="row">

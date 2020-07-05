@@ -19,7 +19,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• Must Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn basic-lease btn-block btn-outline-primaryb btn-clean text-white" ripple="ripple">Read Full License</button>
+                <button type="button" class="btn basic-lease btn-block btn-primary text-white" ripple="ripple">Read Full License</button>
             </div>
         </div>
         </div>
@@ -39,7 +39,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• Must Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn  btn-block btn-clean text-white premium-lease" ripple="ripple">Read Full License</button>
+                <button type="button" class="btn  btn-block btn-primary text-white premium-lease" ripple="ripple">Read Full License</button>
             </div>
         </div>
         </div>
@@ -59,7 +59,7 @@
                     <li>• INSTANT DELIVERY</li>
                     <li>• May Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn unlimited-lease  btn-block btn-clean text-white" ripple="ripple">Read Full License</button>
+                <button type="button" class="btn unlimited-lease  btn-block btn-primary text-white" ripple="ripple">Read Full License</button>
             </div>
         </div>
             </div>

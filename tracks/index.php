@@ -117,11 +117,11 @@ include "../include/navbar.php";
                                             </div>
                                             <!--end of col-->
                                             <div class="col-auto">
-                                                <button class="btn btn btn-dark text-light align-middle search-b"
+                                                <button class="btn btn btn-primary text-light p-2 align-middle search-b"
                                                         type="submit"
-                                                        ripple="ripple" style="height: 48px">
-                                                    <span class="text-light"><i class="align-middle "
-                                                                                data-feather="search"></i> Search</span>
+                                                        ripple="ripple" style="height: 48px;"><!--i class="align-middle "
+                                                                                                data-feather="search"></i-->
+                                                    <span class="text-light"> Search</span>
                                                 </button>
                                             </div>
                                             <!--end of col-->

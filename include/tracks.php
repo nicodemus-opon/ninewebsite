@@ -60,7 +60,7 @@ if (mysqli_num_rows($result) != 0) {
                         </div>
 
 
-                        <button class="gumroad-buttonb btn btn-iconb btn-smn btn-light text-dark text-align-autob btn-m"
+                        <button class=" btn  btn-smn btn-lightb text-darkn text-light btn-primary text-align-autob btn-m"
                                 data-toggle="modal" data-target="#buy_modal" namex="<?php echo $row['name']; ?>"
                                 imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
                                 style="vertical-align: middle;">

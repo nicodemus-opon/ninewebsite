@@ -27,26 +27,94 @@
 <!-- Modal -->
 <div class="modal fade " id="buy_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
      aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="blur-thisb ">
-            <div class="modal-content gd-dark wh-modal "
+            <div class="modal-content gd-dark wh-modal p-3"
                  style="background-image: url('');background-color: rgba(0,0,0,0.65);background-blend-mode:darken">
                 <div class="modal-header">
                     <h5 class="modal-title text-white text-muted" id="titlename">Please refresh-Missing Parameters </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                    <button typeb="button" class=" btn closev no-bg" data-dismiss="modal" aria-label="Close">
+                        <i data-feathevr="close" class="icon-close"></i>
+                        <!--span aria-hidden="true">&times;</span-->
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body ">
                     <div class="row">
-                        <div class="col-md-4 pb-lg-0 pb-md-3 pb-sm-3">
+                        <div class="col-md-6 pb-lg-0 pb-md-3 pb-sm-3">
                             <img src="" class="r shadow dis-img img-fluid"
                                  style="height: 112px;width: 112px;
   object-position: center; /* Center the image within the element */">
+                            <div class="row">
+                                <div class="col-12 pt-4 pb-2">
+                                    <button class="btn p-0 btn-primaryb text-muted btn-link btn-sm" type="button"
+                                            data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample">
+                                        <i data-feather="chevron-down" class="active-fill"></i> Show Usage terms
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row collapse collapsex" id="collapseExample">
+                                <div class="col-6 pt-4">
+                                    <i class="icon-bcon-record primary-btn-bg-color-color "
+                                       style="font-size: 22px;"></i>
+                                    <span class="irecord">Used for Music Recording</span>
+                                </div>
+                                <div class="col-6  pt-4">
+                                    <i class="icon-bcon-distribute primary-btn-bg-color-color "
+                                       style="font-size: 22px;"></i>
+                                    <span class="idistribute">Distribute up to 2500 copies</span>
+                                </div>
+                                <div class="col-6  pt-4">
+                                    <i class="icon-bcon-stream-music primary-btn-bg-color-color"
+                                       style="font-size: 22px;"></i>
+                                    <span class="istreams">100000 Online Audio Streams</span>
+                                </div>
+                                <div class="col-6  pt-4">
+                                    <i class="icon-bcon-video primary-btn-bg-color-color" style="font-size: 22px;"></i>
+                                    <span class="ivideo">1 Music Video</span>
+                                </div>
+                                <div class="col-6  pt-4">
+                                    <i class="icon-bcon-live-performance primary-btn-bg-color-color"
+                                       style="font-size: 22px;"></i>
+                                    <span class="ilive">Non-profit Live Performances only</span>
+                                </div>
+                                <div class="col-6  pt-4">
+                                    <i class="icon-bcon-broadcasting primary-btn-bg-color-color"
+                                       style="font-size: 22px;"></i>
+                                    <span class="iradio">Radio Broadcasting rights (2 Stations)</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-
-                            <div class="form-group pt-3">
+                        <div class="col-md-6 prices-prices">
+                            <p class="lead text-muted pt-2">
+                                Please Select licence *
+                            </p>
+                            <label>
+                                <input type="radio" name="demo" vt="1" checked="checked"
+                                       class="card-input-element d-none" id="demo1">
+                                <div vt="1"
+                                     class="card card-body mb-0 text-white clean-card  d-flex flex-row justify-content-between align-items-center"
+                                     ripple="ripple">
+                                    Mp3 - $19.95
+                                </div>
+                            </label>
+                            <label class="mt-3">
+                                <input type="radio" name="demo" vt="2" class="card-input-element d-none" value="demo2">
+                                <div vt="2"
+                                     class="card card-body  text-white clean-card  mb-0 d-flex flex-row justify-content-between align-items-center"
+                                     ripple="ripple">
+                                    Wav & Mp3 - $49.95
+                                </div>
+                            </label>
+                            <label class="mt-3">
+                                <input type="radio" name="demo" vt="3" class="card-input-element d-none" value="demo2">
+                                <div vt="2"
+                                     class="card card-body  text-white clean-card  mb-0 d-flex flex-row justify-content-between align-items-center"
+                                     ripple="ripple">
+                                    Mp3, Wav & Stems - $119.95
+                                </div>
+                            </label>
+                            <!--div class="form-group pt-3">
                                 <label class="text-muted" for="form_need">Please Select licence *</label>
                                 <select id="price_selected" name="need" class="form-control selectpicker "
                                         required="required"
@@ -58,13 +126,14 @@
 
                                 </select>
                                 <div class="help-block with-errors"></div>
-                            </div>
+                            </div-->
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
 
-                    <button type="button" idx="" imgx="" namex="" class="btn btn-light btn-block text-dark btn-buy"
+                    <button type="button" idx="" imgx="" namex=""
+                            class="btn btn-lightb text-light btn-primary py-2 btn-block text-darkb btn-buy"
                             style="text-transform: uppercase" ripple="ripple">Add
                         to Cart
                     </button>
@@ -103,7 +172,7 @@
                     </tbody>
                 </table>
                 <div class="d-flex justify-content-end">
-                    <h5 class="text-dark">Total: $<span class="price text-success cart_full"></span></h5>
+                    <h5 class="text-dark">Total: $<span class="price text-primary cart_full"></span></h5>
                 </div>
             </div>
             <div class="modal-footer border-top-0 d-flex justify-content-between">
@@ -116,7 +185,7 @@
                          src="../images/mpesa.png">
                 </div>
 
-                <a href="../checkout" class="btn btn-success">CHECKOUT</a>
+                <a href="../checkout" class="btn btn-primary text-light p-2" ripple="ripple">CHECKOUT</a>
             </div>
         </div>
     </div>
@@ -128,6 +197,7 @@
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -188,7 +258,8 @@
     $(".btn-buy").click(function () {
         $('#buy_modal').modal('hide');
         var product_id = $(this).attr("idx");
-        var pr = $('#price_selected').val();
+        var pr = $(".prices-prices").find('input:radio[name=demo]:checked').attr("vt");
+        //var pr = $('#price_selected').val();
         var product_name = $(this).attr("namex");
         var product_img = $(this).attr("imgx");
 
@@ -575,15 +646,49 @@
 
     $(".pjaxContainer").on("pjax:beforeSend", function (e, xhr, settings) {
 
-            // URI can be found at https://github.com/medialize/URI.js
-            var uri = URI(settings.url);
+        // URI can be found at https://github.com/medialize/URI.js
+        var uri = URI(settings.url);
 
-            // Remove _pjax from query string before reloading
-            uri.removeSearch("_pjax");
+        // Remove _pjax from query string before reloading
+        uri.removeSearch("_pjax");
 
-            location.href = uri.toString();
-            return false;
+        location.href = uri.toString();
+        return false;
 
     });
+
+
+    if ($(window).width() > 992) {
+        $(".collapsex").collapse('show');
+    }
+
+
+    function setlic(rec, dis, strm, vid, liv, bro) {
+        $(".irecord").html(rec);
+        $(".idistribute").html(dis);
+        $(".istreams").html(strm);
+        $(".ivideo").html(vid);
+        $(".ilive").html(liv);
+        $(".iradio").html(bro);
+    }
+
+    $(".card-input-element").change(function () {
+        var tu = $(this).attr("vt");
+        if (tu === "1") {
+            setlic("Used for Music Recording", "Distribute up to 10000 copies",
+                " 10000 Online Audio Streams", "1 Music Video", "Non-profit Live Performances only",
+                "Radio Broadcasting rights (2 Stations)")
+        } else if (tu === "2") {
+            setlic("Used for Music Recording", "Distribute up to 100000 copies",
+                " 100000 Online Audio Streams", "1 Music Video", "For-profit Live Performances",
+                "Radio Broadcasting rights (5 Stations)")
+        } else if (tu === "3") {
+            setlic("Used for Music Recording", "Distribute up to 1000000+ copies",
+                " 1000000+ Online Audio Streams", "Unlimited Music Videos", "For-profit Live Performances",
+                "Radio Broadcasting rights (Unlimited Stations)")
+        }
+
+    });
+
 
 </script>

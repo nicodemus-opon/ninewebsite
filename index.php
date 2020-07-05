@@ -137,7 +137,7 @@ include "include/navbar.php";
                             <div class="py-4 toolbar align-items-center">
 
 
-                                <button class="btn-m btn btn-iconb btn-smn btn-light text-dark text-align-auto"
+                                <button class="btn-m btn btn-iconb btn-smn btn-primary text-light text-align-auto"
 
                                         data-toggle="modal" data-target="#buy_modal"
                                         namex="<?php echo $row['name']; ?>"
@@ -145,7 +145,7 @@ include "include/navbar.php";
                                         style="vertical-align: middle;"><i class="icon-add-cart align-middle"
                                                                            style="font-size: 22px;font-weight: 500"></i>
                                     <span class="align-middle ml-1" ripple="ripple">$19.95</span></button>
-                                <a tabindex="0"
+                                <button tabindex="0"
                                    class=" btn btn-iconb btn-clean btn-smn btn-lightn text-light share-this  text-align-auto"
 
 
@@ -156,7 +156,7 @@ include "include/navbar.php";
                                    ripple="ripple">
                                     <i
                                             data-feather="share-2"
-                                            class="active-fill "></i> share</a>
+                                            class="active-fill "></i> share</button>
                             </div>
 
                             <?php } ?>
@@ -196,9 +196,9 @@ include "include/navbar.php";
 
 
                                     </div>
-                                    <div class="row list-row pt-5 list-indexb">
-                                        <div class="container">
-                                            <a class="btn btn-block btn-primary" href="../tracks" ripple="ripple">
+                                    <div class="row list-row pt-5 list-indexb justify-content-center">
+                                        <div class="container ">
+                                            <a class="btn btn-block btn-primary p-2 text-center" href="../tracks" ripple="ripple">
                                                 Browse All beats</a>
                                         </div>
                                     </div>

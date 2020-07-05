@@ -55,16 +55,15 @@
                             <a
                                     href="../track/?q=<?php echo $row['idx']; ?>"
                                     class="list-subtitle d-block text-muted h-1x subtitle ajax">
-                                <i
-                                        data-feather="activity"></i><?php echo $row['bpm']; ?> BPM
-                                | <?php echo $row['tags']; ?>
+                                <?php echo $row['bpm']; ?> BPM
+
                             </a></div>
                     </div>
                     <div class="list-action show-row">
-                        <button class="gumroad-buttonb btn btn-iconb btn-sm btn-light text-dark text-align-auto btn-m"
+                        <button class="gumroad-buttonb btn btn-iconb btn-sm btn-primary text-light text-align-auto btn-m"
                                 data-toggle="modal" data-target="#buy_modal" namex="<?php echo $row['name']; ?>"
                                 imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"><span
-                                    class="d-none d-lg-inline d-sm-block"> </span> <i class="icon-add-cart align-middle" style="font-size: 22px;font-weight: 500"></i></button>
+                                    class="d-none d-lg-inline d-sm-block"> </span> <i class="icon-add-cart align-middle" style="font-size: 22px;font-weight: 500"></i> <span class="ml-1">ADD</span></button>
                     </div>
                 </div>
             </div>

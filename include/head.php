@@ -153,6 +153,18 @@
             border-color:rgba(255,255,255,.15);
             border-style: hidden;
         }
+        .btn-clean:hover{
+            background-color: rgba(255,255,255,.25);
+            border-color:rgba(255,255,255,.25);
+            border-style: hidden;
+        }
+
+        .clean-card{
+            background-color: rgba(255,255,255,.15) !important;
+        }
+
+
+
 
         .btn:focus,
         .btn:active{
@@ -160,6 +172,12 @@
             outline:0px !important;
         }
 
+        .btn-primary{
+            background-color: #9655cc;
+        }
+        .btn-primary:hover{
+            background-color: #8645bc;
+        }
     </style>
 
     <!--script>
@@ -272,5 +290,68 @@
 </style>
 <style>
 
+    label {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .card-input-element+.card {
+        height: calc(36px + 2*1rem);
+        color: var(--primary);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 2px solid transparent;
+        border-radius: 4px;
+    }
+
+    .card-input-element+.card:hover {
+        cursor: pointer;
+    }
+
+    .card-input-element:checked+.card {
+        border: 2px solid var(--primary);
+        -webkit-transition: border .3s;
+        -o-transition: border .3s;
+        transition: border .3s;
+    }
+
+    .card-input-element:checked+.card::after {
+        content: '\e5ca';
+        color: #AFB8EA;
+        font-family: 'Material Icons';
+        font-size: 24px;
+        -webkit-animation-name: fadeInCheckbox;
+        animation-name: fadeInCheckbox;
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+        -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    @-webkit-keyframes fadeInCheckbox {
+        from {
+            opacity: 0;
+            -webkit-transform: rotateZ(-20deg);
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: rotateZ(0deg);
+        }
+    }
+
+    @keyframes fadeInCheckbox {
+        from {
+            opacity: 0;
+            transform: rotateZ(-20deg);
+        }
+        to {
+            opacity: 1;
+            transform: rotateZ(0deg);
+        }
+    }
+
 </style>
+
+
+
 </head>
