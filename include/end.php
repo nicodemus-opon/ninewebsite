@@ -527,9 +527,9 @@
         });
         $('.times').each(function () {
             console.log("khkhk");
-            var audio_link = $(this).attr("itt");
 // Request URL of the Audio File
-            var mp3file = audio_link;
+            var mp3file = $(this).attr("itt");
+            console.log(mp3file);
             var thisForm = this;
 // Create an instance of AudioContext
             var audioContext = new (window.AudioContext || window.webkitAudioContext)();
