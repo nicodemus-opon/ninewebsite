@@ -71,11 +71,15 @@ include "include/navbar.php";
                         if ((isset($_GET['ft']) && !empty($_GET['ft'])) || (isset($_SESSION['ft']) && !empty($_SESSION['ft']))) {
                             if (isset($_GET['ft']) && !empty($_GET['ft'])) {
                                 $_SESSION["ft"] = $_GET['ft'];
+                                echo "session";
+                                echo $_SESSION["ft"];
                             }
-
+                            echo "is got";
+                            echo $_SESSION["ft"];
                             $sqql = "SELECT * FROM beats where name='" . $_SESSION["ft"] . "';";
 
                         } else {
+                            echo "else";
                             if (isset($_GET['g']) && !empty($_GET['g'])) {
                                 $sqql = "SELECT * FROM beats where `tags` LIKE '%" . $_GET['g'] . "%' ORDER BY idx DESC LIMIT 1";
                             } else {
