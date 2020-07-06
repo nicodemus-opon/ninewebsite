@@ -83,8 +83,10 @@ include "../include/navbar.php";
         </div>
         <div class="col-lg-6 col-sm-12">
             <div class="container py-3">
-                <button type="button" class="btn btn-default text-light border-success btn-block mpesa-button"
-                        onClick="payWithRave()"><img style="height: 20px;" class="img-fluid" src="../images/mpesa.png">
+                <button type="button" class="btn btn-defaultb btn-clean text-light border-success btn-block mpesa-button"
+                        onClick="payWithRave()" style="border: 1px !important;border-color: red !important;" ripple="ripple">
+                    <!--img style="height: 20px;" class="img-fluid" src="../images/mpesa.png"-->
+                    <i class="icon-memberships"></i>
                     Pay with MPESA
                 </button>
             </div>

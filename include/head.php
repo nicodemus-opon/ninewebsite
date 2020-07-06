@@ -68,6 +68,7 @@
     <link rel="stylesheet" href="../assets/css/site.min.css">
     <link rel="stylesheet" href="../assets/css/bs-icons/bs-icons.css">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css"
           integrity="sha256-zlmAH+Y2JhZ5QfYMC6ZcoVeYkeo0VEPoUnKeBd83Ldc=" crossorigin="anonymous"/>

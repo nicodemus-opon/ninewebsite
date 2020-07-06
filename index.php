@@ -137,14 +137,14 @@ include "include/navbar.php";
                             <div class="py-4 toolbar align-items-center">
 
 
-                                <button class="btn-m btn btn-iconb btn-smn btn-primary text-light text-align-auto"
+                                <button class="btn-m btn btn-iconb btn-smn btn-primary  text-light text-align-auto"
 
                                         data-toggle="modal" data-target="#buy_modal"
                                         namex="<?php echo $row['name']; ?>"
                                         imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
-                                        style="vertical-align: middle;"><i class="icon-add-cart align-middle"
+                                        style="vertical-align: middle;" ripple="ripple"><i class="icon-add-cart align-middle"
                                                                            style="font-size: 22px;font-weight: 500"></i>
-                                    <span class="align-middle ml-1" ripple="ripple">$19.95</span></button>
+                                    <span class="align-middle ml-1 " >$19.95</span></button>
                                 <button tabindex="0"
                                    class=" btn btn-iconb btn-clean btn-smn btn-lightn text-light share-this  text-align-auto"
 
@@ -157,6 +157,11 @@ include "include/navbar.php";
                                     <i
                                             data-feather="share-2"
                                             class="active-fill "></i> share</button>
+                                <?php if($row['gumroad']!="gum"){ ?>
+                                <a href="<?php echo $row['gumroad']; ?>" target="_blank" class="btn btn-iconb btn-clean btn-smn btn-lightn p-2b text-light share-this  text-align-auto"><i
+                                            data-featherv="share-2"
+                                            class="active-fill icon-download "></i> Download </a>
+                                <?php } ?>
                             </div>
 
                             <?php } ?>

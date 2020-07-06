@@ -53,9 +53,10 @@
             <li class="nav-item dropdown">
                 <a class="nav-link px-2 launch_cart kill_cart" id="navbarDropdown" role="button">
                     <i class="icon-cart align-middle" style="font-size: 22px;font-weight: 500"></i>
-                    <span class="text-sm badge cart_total" style="">
+                    <span class="text-sm badge badge-primary rounded-circle cart_total" style="">
 0
                     </span>
+
                 </a>
 
 

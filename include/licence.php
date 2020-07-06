@@ -44,22 +44,23 @@
         </div>
         </div>
             <div class="col-lg-3">
-        <div class="card  box-shadow hover-rotate">
+        <div class="card  box-shadow hover-rotate ">
             <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Trackouts Lease <br>(Stems + Wav + Mp3)</h4>
+
+                <h4 class="my-0 font-weight-normal ">Trackouts Lease <br>(Stems + Wav + Mp3)</h4>
             </div>
             <div class="card-body">
                 <h1 class="card-title pricing-card-title">$119.95
                     <small class="text-muted"></small>
                 </h1>
-                <ul class="list-unstyled text-left mt-3 mb-4">
+                <ul class="list-unstyled text-left mt-3 mb-4 ">
                     <li>• Recieve Stems, Wav and MP3 </li>
                     <li>• NON EXCLUSIVE</li>
                     <li>• DISTRIBUTE UP TO 1,000,000</li>
                     <li>• INSTANT DELIVERY</li>
                     <li>• May Credit "Prod. by Niconine"</li>
                 </ul>
-                <button type="button" class="btn unlimited-lease  btn-block btn-primary text-white" ripple="ripple">Read Full License</button>
+                <button type="button" class="btn unlimited-lease  btn-block btn-primary  text-white" ripple="ripple">Read Full License</button>
             </div>
         </div>
             </div>
@@ -70,7 +71,7 @@
             </div>
             <div class="card-body  ">
 
-                <ul class="list-unstyled mt-3 mb-4 text-left">
+                <ul class="list-unstyled mt-3 mb-4 text-left ">
                     <li class=" ">• Recieve Stems, Wav and MP3 </li>
                     <li class=" " >• All Rights</li>
                     <li>• Unlimited Streams</li>
