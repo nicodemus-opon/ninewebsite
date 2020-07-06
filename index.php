@@ -157,11 +157,7 @@ include "include/navbar.php";
                                     <i
                                             data-feather="share-2"
                                             class="active-fill "></i> share</button>
-                                <?php if($row['gumroad']!="gum"){ ?>
-                                <a href="<?php echo $row['gumroad']; ?>" target="_blank" class="btn btn-iconb btn-clean btn-smn btn-lightn p-2b text-light share-this  text-align-auto"><i
-                                            data-featherv="share-2"
-                                            class="active-fill icon-download "></i> Download </a>
-                                <?php } ?>
+
                             </div>
 
                             <?php } ?>

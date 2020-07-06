@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/end.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/end.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/licence.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/licence.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/navbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracks/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tracks/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="161" column="67" lean-forward="true" selection-start-line="161" selection-start-column="67" selection-end-line="161" selection-end-column="67" />
+            <state relative-caret-position="218">
+              <caret line="159" column="32" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -383,12 +376,12 @@
       <workItem from="1593775231251" duration="29212000" />
       <workItem from="1593865431762" duration="499000" />
       <workItem from="1593924259075" duration="27410000" />
-      <workItem from="1594039601222" duration="3416000" />
+      <workItem from="1594039601222" duration="3538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="428409000" />
+    <option name="totallyTimeSpent" value="428531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="161" column="67" lean-forward="true" selection-start-line="161" selection-start-column="67" selection-end-line="161" selection-end-column="67" />
+        <state relative-caret-position="218">
+          <caret line="159" column="32" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
         </state>
       </provider>
     </entry>
