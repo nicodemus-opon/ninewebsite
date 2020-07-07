@@ -20,7 +20,7 @@
 <div class="fb-customerchat"
      attribution=setup_tool
      page_id="109054163959147"
-     theme_color="#c02afe"
+     theme_color="#9655cc"
      logged_in_greeting="Hi! I'm here to answer any questions you may have."
      logged_out_greeting="Hi! I'm here to answer any questions you may have.">
 </div>
