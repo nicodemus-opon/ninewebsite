@@ -1,5 +1,3 @@
-
-
 <!-- [THE SPINNER - THIS IS ALL YOU NEED] -->
 <div id="spinner-front">
     <img src="../assets/img/91.svg"/><br>
@@ -17,7 +15,7 @@
                     class="hidden-folded d-inline l-s-n-1xh pl-lg-5 no-ajax">Niconine Beats</span></a>
         <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarCollapse">
             <ul class="navbar-nav" data-nav>
-                <li class="nav-item" ><a href="../tracks" data-pjax = "0" class="nav-link no-link no-ajax"><span
+                <li class="nav-item"><a href="../tracks" data-pjax="0" class="nav-link no-link no-ajax"><span
                                 class="nav-text">Browse Beats</span></a>
                 </li>
                 <li class="nav-item"><a href="../free-beats" class="nav-link no-ajax"><span
@@ -62,10 +60,8 @@
 
             </li>
 
-
         </ul>
 
     </div>
-
 
 </header>

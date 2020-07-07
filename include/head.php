@@ -179,6 +179,10 @@
         .btn-primary:hover{
             background-color: #8645bc;
         }
+
+        .bg-whiteb{
+            background-color: rgba(255,255,255,.15) !important;
+        }
     </style>
 
     <!--script>
@@ -353,5 +357,7 @@
 
 </style>
 
+<style>
 
+</style>
 </head>

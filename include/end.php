@@ -98,7 +98,7 @@
                                     Mp3 - $19.95
                                 </div>
                             </label>
-                            <label class="mt-3">
+                            <label class="mt-2">
                                 <input type="radio" name="demo" vt="2" class="card-input-element d-none" value="demo2">
                                 <div vt="2"
                                      class="card card-body  text-white clean-card  mb-0 d-flex flex-row justify-content-between align-items-center"
@@ -106,7 +106,7 @@
                                     Wav & Mp3 - $49.95
                                 </div>
                             </label>
-                            <label class="mt-3">
+                            <label class="mt-2">
                                 <input type="radio" name="demo" vt="3" class="card-input-element d-none" value="demo2">
                                 <div vt="2"
                                      class="card card-body  text-white clean-card  mb-0 d-flex flex-row justify-content-between align-items-center"
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footern px-3">
 
                     <button type="button" idx="" imgx="" namex=""
                             class="btn btn-lightb text-light btn-primary py-2 btn-block text-darkb btn-buy"
@@ -146,7 +146,7 @@
 <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
+        <div class="modal-content ">
             <div class="modal-header border-bottom-0">
                 <h5 class="modal-title text-dark " id="exampleModalLabel">
                     <b> Your Cart</b>
@@ -159,12 +159,12 @@
                 <table class="table table-image">
                     <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Track</th>
-                        <th scope="col">Licence</th>
+                        <th scope="col" class="bg-whiteb border-0">#</th>
+                        <th scope="col" class="bg-whiteb border-0">Track</th>
+                        <th scope="col" class="bg-whiteb border-0">Licence</th>
 
-                        <th scope="col">Price</th>
-                        <th scope="col">Actions</th>
+                        <th scope="col" class="bg-whiteb border-0">Price</th>
+                        <th scope="col" class="bg-whiteb border-0">Actions</th>
                     </tr>
                     </thead>
                     <tbody id="fill_cart">

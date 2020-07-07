@@ -45,18 +45,20 @@ if (mysqli_num_rows($result) != 0) {
                 <div class="list-content text-center">
                     <div class="list-body">
                         <a href="<?php echo('http://' . $_SERVER['HTTP_HOST']); ?>/track/?q=<?php echo $row['idx']; ?>"
-                           class="list-title title no-ajax h-1x"
-                           style="text-transform: capitalize"><?php echo $row['name']; ?> </a>
+                           class="list-title title  no-ajax h-1x "
+                           style="text-transform: capitalize;font-size: 16px;"><?php echo $row['name']; ?> </a>
                         <span
                                 href="#"
-                                class="list-subtitle d-block text-muted h-1x subtitle ajaxn"
-                                style="text-transform: capitalize"><?php echo $row['bpm']; ?> BPM
-                        |<a class="text-muted " href="#"> <?php echo $row['tags']; ?></a>  </span></div>
+                                class="list-subtitle d-block d-sm-none d-md-block
+ text-muted h-1x subtitle ajaxn"
+                                style="text-transform: capitalize"><?php echo $row['bpm']; ?> <i class="icon-bpm"></i>
+                        <span class="text-muted " href="#">| <?php echo $row['tags']; ?></span>  </span></div>
                 </div>
                 <div class="list-action show-row">
                     <div class="d-flex align-items-center">
 
-                        <div class="px-3 text-sm text-muted d-none d-md-block"><span class="times" itt="../upload/upload/<?php echo $row['audio']; ?>">02:45</span>
+                        <div class="px-3 text-sm text-muted d-none d-md-block"><span class="times"
+                                                                                     itt="../upload/upload/<?php echo $row['audio']; ?>">02:45</span>
                         </div>
 
 
@@ -65,7 +67,8 @@ if (mysqli_num_rows($result) != 0) {
                                 imgx="<?php echo $row['image']; ?>" id="<?php echo $row['idx']; ?>"
                                 style="vertical-align: middle;">
                             <i class="icon-add-cart align-middle" style="font-size: 22px;font-weight: 500"></i>
-                            <span class="d-none d-lg-inline d-sm-block align-middleb ml-1"> $19.95</span> <span class="ml-1 d-sm-none">Add</span> </button>
+                            <span class="d-none d-lg-inline d-sm-block align-middleb ml-1"> $19.95</span> <span
+                                    class="ml-1 d-sm-none">Add</span></button>
 
 
                         <a tabindex="0"

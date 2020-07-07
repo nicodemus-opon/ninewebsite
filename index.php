@@ -71,8 +71,8 @@ include "include/navbar.php";
                         if ((isset($_GET['ft']) && !empty($_GET['ft'])) or ($_SESSION["ft"] != null)) {
                             if (isset($_GET['ft']) && !empty($_GET['ft'])) {
                                 $_SESSION["ft"] = $_GET['ft'];
-                                echo "session";
-                                echo $_SESSION["ft"];
+                                //echo "session";
+                                //echo $_SESSION["ft"];
                             }
                             //echo "is got";
                             //echo $_SESSION["ft"];
