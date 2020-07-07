@@ -92,7 +92,15 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-MCSZ9LQ');</script>
     <!-- End Google Tag Manager -->
+    <script>
+        !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+            arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+            d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+            insertBefore(d,q)}(window,document,'script','_gs');
 
+        _gs('GSN-861552-Y');
+        _gs('set', 'anonymizeIP', true);
+    </script>
 
     <style>
         /* [THE LOADING SPINNER] */

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8291d405-156f-4833-8137-dfa698033583" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/include/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/head.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/navbar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2244">
+            <state relative-caret-position="1842">
               <caret line="132" column="102" selection-start-line="132" selection-start-column="102" selection-end-line="132" selection-end-column="102" />
             </state>
           </provider>
@@ -59,20 +60,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/navbar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/head.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6120">
-              <caret line="360" selection-start-line="360" selection-end-line="360" />
+            <state relative-caret-position="179">
+              <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -179,10 +176,10 @@
         <option value="$PROJECT_DIR$/include/licence.php" />
         <option value="$PROJECT_DIR$/checkout/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/include/head.php" />
         <option value="$PROJECT_DIR$/include/tracks.php" />
         <option value="$PROJECT_DIR$/include/end.php" />
         <option value="$PROJECT_DIR$/include/navbar.php" />
+        <option value="$PROJECT_DIR$/include/head.php" />
       </list>
     </option>
   </component>
@@ -363,12 +360,12 @@
       <workItem from="1593924259075" duration="27410000" />
       <workItem from="1594039601222" duration="5212000" />
       <workItem from="1594115785335" duration="5898000" />
-      <workItem from="1594134969308" duration="315000" />
+      <workItem from="1594134969308" duration="583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436418000" />
+    <option name="totallyTimeSpent" value="436686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -755,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="132" column="102" selection-start-line="132" selection-start-column="102" selection-end-line="132" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/tracks.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -769,17 +759,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/head.php">
+    <entry file="file://$PROJECT_DIR$/include/navbar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6120">
-          <caret line="360" selection-start-line="360" selection-end-line="360" />
+        <state relative-caret-position="1842">
+          <caret line="132" column="102" selection-start-line="132" selection-start-column="102" selection-end-line="132" selection-end-column="102" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/navbar.php">
+    <entry file="file://$PROJECT_DIR$/include/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        <state relative-caret-position="179">
+          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
         </state>
       </provider>
     </entry>
