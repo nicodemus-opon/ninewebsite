@@ -51,7 +51,7 @@
                                                       target="_blank"><i data-feather="twitter"></i></a></li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link px-2 launch_cart kill_cart" id="navbarDropdown" role="button">
+                <a class="nav-link px-2 launch_cart kill_cart" id="navbarDropdown" role="button" id="cart">
                     <i class="icon-cart align-middle" style="font-size: 22px;font-weight: 500"></i>
                     <span class="text-sm badge badge-primary rounded-circle cart_total" style="">
 0
@@ -63,9 +63,9 @@
             </li>
 
 
-            <li class="nav-item d-lg-none"><a href="#" class="nav-link px-2" data-toggle="collapse" data-toggle-class
-                                              data-target="#navbarCollapse"><i data-feather="menu"></i></a></li>
         </ul>
 
     </div>
+
+
 </header>

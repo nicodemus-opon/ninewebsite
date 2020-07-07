@@ -62,12 +62,12 @@
                                 <div class="col-6  pt-4">
                                     <i class="icon-bcon-distribute primary-btn-bg-color-color "
                                        style="font-size: 22px;"></i>
-                                    <span class="idistribute">Distribute up to 2500 copies</span>
+                                    <span class="idistribute">Distribute up to 10000 copies</span>
                                 </div>
                                 <div class="col-6  pt-4">
                                     <i class="icon-bcon-stream-music primary-btn-bg-color-color"
                                        style="font-size: 22px;"></i>
-                                    <span class="istreams">100000 Online Audio Streams</span>
+                                    <span class="istreams">10000 Online Audio Streams</span>
                                 </div>
                                 <div class="col-6  pt-4">
                                     <i class="icon-bcon-video primary-btn-bg-color-color" style="font-size: 22px;"></i>
