@@ -134,7 +134,7 @@ include "include/navbar.php";
                                 </div>
                             </div>
 
-                            <div class="py-4 toolbar align-items-center">
+                            <div class="pt-4 toolbar align-items-center">
 
 
                                 <button class="btn-m btn btn-iconb btn-smn btn-primary  text-light text-align-auto"
@@ -161,7 +161,7 @@ include "include/navbar.php";
                             </div>
 
                             <?php } ?>
-                            <div class="py-2 px-0 pl-0 d-flex sr-item" id="filter-categoryh">
+                            <!--div class="py-2 px-0 pl-0 d-flex sr-item" id="filter-categoryh">
 
                                 <div class="mx-0">
                                     <a href="../" class="btn btn-sm btn-white m-1">All genres </a>
@@ -170,12 +170,12 @@ include "include/navbar.php";
                                     <a href="../?g=reggaeton" class="btn btn-sm btn-white m-1">Reggaeton </a>
                                     <a href="../?g=moombahton" class="btn btn-sm btn-white m-1">Moombahton </a>
                                 </div>
-                            </div>
+                            </div-->
                         </div>
-                        <div class="pos-rlt">
+                        <!--div class="pos-rlt">
 
 
-                        </div>
+                        </div-->
                     </div>
                     <div class="d-md-flex pos-rlt">
                         <div class="flex">
@@ -186,7 +186,9 @@ include "include/navbar.php";
 
                                         <div>
                                             <h5 class="text-highlight sr-item">Tracks</h5>
-
+                                            <?php
+                                            include "tracks/options.php";
+                                            ?>
                                         </div>
                                         <span class="flex"></span>
                                     </div>

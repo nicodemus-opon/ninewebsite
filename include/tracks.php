@@ -24,7 +24,7 @@ if (mysqli_num_rows($result) != 0) {
         <div class="col-12 pt-0" data-id="<?php echo $row['idx']; ?>" data-category="other" data-tag="USA"
              data-source="../upload/upload/<?php echo $row['audio']; ?>">
             <div class="list-item pt-0 r">
-                <div class="media">
+                <div class="media" >
                     <a href="../track/?q=<?php echo $row['idx']; ?>"
                        class="ajaxh media-content lazyload" data-bg="../upload/<?php echo $row['image']; ?>"
                        style="background-image:url('../upload/upload/track-placeholder.svg')"></a>
@@ -49,10 +49,10 @@ if (mysqli_num_rows($result) != 0) {
                            style="text-transform: capitalize;font-size: 16px;"><?php echo $row['name']; ?> </a>
                         <span
                                 href="#"
-                                class="list-subtitle d-block d-sm-none d-md-block
+                                class="list-subtitle d-block
  text-muted h-1x subtitle ajaxn"
                                 style="text-transform: capitalize"><?php echo $row['bpm']; ?> <i class="icon-bpm"></i>
-                        <span class="text-muted " href="#">| <?php echo $row['tags']; ?></span>  </span></div>
+                        <span class="text-muted " href="#">• <?php echo $row['tags']; ?></span>  </span></div>
                 </div>
                 <div class="list-action show-row">
                     <div class="d-flex align-items-center">

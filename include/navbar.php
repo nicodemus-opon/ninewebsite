@@ -1,4 +1,3 @@
-
 <div id="spinner-front">
     <img src="../assets/img/91.svg"/><br>
 
@@ -59,7 +58,8 @@
 
 
             </li>
-
+            <li class="nav-item d-lg-none"><a href="#" class="nav-link px-2" data-toggle="collapse" data-toggle-class
+                                              data-target="#navbarCollapse"><i data-feather="menu"></i></a></li>
         </ul>
 
     </div>

@@ -93,10 +93,16 @@
         })(window, document, 'script', 'dataLayer', 'GTM-MCSZ9LQ');</script>
     <!-- End Google Tag Manager -->
     <script>
-        !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-            arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-            d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-            insertBefore(d,q)}(window,document,'script','_gs');
+        !function (g, s, q, r, d) {
+            r = g[r] = g[r] || function () {
+                (r.q = r.q || []).push(
+                    arguments)
+            };
+            d = s.createElement(q);
+            q = s.getElementsByTagName(q)[0];
+            d.src = '//d1l6p2sc9645hc.cloudfront.net/tracker.js';
+            q.parentNode.insertBefore(d, q)
+        }(window, document, 'script', '_gs');
 
         _gs('GSN-861552-Y');
         _gs('set', 'anonymizeIP', true);
@@ -148,7 +154,6 @@
             border-style: hidden !important;
 
 
-
         }
 
         .btn-m {
@@ -157,39 +162,41 @@
             font-weight: 500 !important;
         }
 
-        .btn-clean{
-            background-color: rgba(255,255,255,.15);
-            border-color:rgba(255,255,255,.15);
-            border-style: hidden;
-        }
-        .btn-clean:hover{
-            background-color: rgba(255,255,255,.25);
-            border-color:rgba(255,255,255,.25);
+        .btn-clean {
+            background-color: rgba(255, 255, 255, .15);
+            border-color: rgba(255, 255, 255, .15);
             border-style: hidden;
         }
 
-        .clean-card{
-            background-color: rgba(255,255,255,.15) !important;
+        .btn-clean:hover {
+            background-color: rgba(255, 255, 255, .25);
+            border-color: rgba(255, 255, 255, .25);
+            border-style: hidden;
+        }
+
+        .clean-card {
+            background-color: rgba(255, 255, 255, .15) !important;
         }
 
 
 
 
         .btn:focus,
-        .btn:active{
-            box-shadow:none !important;
-            outline:0px !important;
+        .btn:active {
+            box-shadow: none !important;
+            outline: 0px !important;
         }
 
-        .btn-primary{
+        .btn-primary {
             background-color: #9655cc;
         }
-        .btn-primary:hover{
+
+        .btn-primary:hover {
             background-color: #8645bc;
         }
 
-        .bg-whiteb{
-            background-color: rgba(255,255,255,.15) !important;
+        .bg-whiteb {
+            background-color: rgba(255, 255, 255, .15) !important;
         }
     </style>
 
@@ -226,146 +233,152 @@
         }
     </style>
 
-<style>
+    <style>
 
 
-    [ripple] {
-        position: relative;
-        overflow: hidden;
-    }
-    [ripple] .ripple--container {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-    [ripple] .ripple--container span {
-        transform: scale(0);
-        border-radius: 100%;
-        position: absolute;
-        opacity: 0.75;
-        background-color: #fff;
-        animation: ripple 1000ms;
-    }
-    @-moz-keyframes ripple {
-        to {
-            opacity: 0;
-            transform: scale(2);
+        [ripple] {
+            position: relative;
+            overflow: hidden;
         }
-    }
-    @-webkit-keyframes ripple {
-        to {
-            opacity: 0;
-            transform: scale(2);
+
+        [ripple] .ripple--container {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
         }
-    }
-    @-o-keyframes ripple {
-        to {
-            opacity: 0;
-            transform: scale(2);
+
+        [ripple] .ripple--container span {
+            transform: scale(0);
+            border-radius: 100%;
+            position: absolute;
+            opacity: 0.75;
+            background-color: #fff;
+            animation: ripple 1000ms;
         }
-    }
-    @keyframes ripple {
-        to {
-            opacity: 0;
-            transform: scale(2);
+
+        @-moz-keyframes ripple {
+            to {
+                opacity: 0;
+                transform: scale(2);
+            }
         }
-    }
 
-</style>
-<style>
-    .form-control-borderless {
-        border: none;
-    }
-
-    .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
-        border: none;
-        outline: none;
-        box-shadow: none;
-    }
-
-    /* clears the 'X' from Internet Explorer */
-    input.hide-clear[type=search]::-ms-clear,
-    input.hide-clear[type=search]::-ms-reveal {
-        display: none;
-        width: 0;
-        height: 0;
-    }
-
-    /* clears the 'X' from Chrome */
-    input.hide-clear[type="search"]::-webkit-search-decoration,
-    input.hide-clear[type="search"]::-webkit-search-cancel-button,
-    input.hide-clear[type="search"]::-webkit-search-results-button,
-    input.hide-clear[type="search"]::-webkit-search-results-decoration {
-        display: none;
-    }
-</style>
-<style>
-
-    label {
-        width: 100%;
-        font-size: 1rem;
-    }
-
-    .card-input-element+.card {
-        height: calc(36px + 2*1rem);
-        color: var(--primary);
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        border: 2px solid transparent;
-        border-radius: 4px;
-    }
-
-    .card-input-element+.card:hover {
-        cursor: pointer;
-    }
-
-    .card-input-element:checked+.card {
-        border: 2px solid var(--primary);
-        -webkit-transition: border .3s;
-        -o-transition: border .3s;
-        transition: border .3s;
-    }
-
-    .card-input-element:checked+.card::after {
-        content: '\e5ca';
-        color: #AFB8EA;
-        font-family: 'Material Icons';
-        font-size: 24px;
-        -webkit-animation-name: fadeInCheckbox;
-        animation-name: fadeInCheckbox;
-        -webkit-animation-duration: .5s;
-        animation-duration: .5s;
-        -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    @-webkit-keyframes fadeInCheckbox {
-        from {
-            opacity: 0;
-            -webkit-transform: rotateZ(-20deg);
+        @-webkit-keyframes ripple {
+            to {
+                opacity: 0;
+                transform: scale(2);
+            }
         }
-        to {
-            opacity: 1;
-            -webkit-transform: rotateZ(0deg);
+
+        @-o-keyframes ripple {
+            to {
+                opacity: 0;
+                transform: scale(2);
+            }
         }
-    }
 
-    @keyframes fadeInCheckbox {
-        from {
-            opacity: 0;
-            transform: rotateZ(-20deg);
+        @keyframes ripple {
+            to {
+                opacity: 0;
+                transform: scale(2);
+            }
         }
-        to {
-            opacity: 1;
-            transform: rotateZ(0deg);
+
+    </style>
+    <style>
+        .form-control-borderless {
+            border: none;
         }
-    }
 
-</style>
+        .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+            border: none;
+            outline: none;
+            box-shadow: none;
+        }
 
-<style>
+        /* clears the 'X' from Internet Explorer */
+        input.hide-clear[type=search]::-ms-clear,
+        input.hide-clear[type=search]::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
 
-</style>
+        /* clears the 'X' from Chrome */
+        input.hide-clear[type="search"]::-webkit-search-decoration,
+        input.hide-clear[type="search"]::-webkit-search-cancel-button,
+        input.hide-clear[type="search"]::-webkit-search-results-button,
+        input.hide-clear[type="search"]::-webkit-search-results-decoration {
+            display: none;
+        }
+    </style>
+    <style>
+
+        label {
+            width: 100%;
+            font-size: 1rem;
+        }
+
+        .card-input-element + .card {
+            height: calc(36px + 2 * 1rem);
+            color: var(--primary);
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border: 2px solid transparent;
+            border-radius: 4px;
+        }
+
+        .card-input-element + .card:hover {
+            cursor: pointer;
+        }
+
+        .card-input-element:checked + .card {
+            border: 2px solid var(--primary);
+            -webkit-transition: border .3s;
+            -o-transition: border .3s;
+            transition: border .3s;
+        }
+
+        .card-input-element:checked + .card::after {
+            content: '\e5ca';
+            color: #AFB8EA;
+            font-family: 'Material Icons';
+            font-size: 24px;
+            -webkit-animation-name: fadeInCheckbox;
+            animation-name: fadeInCheckbox;
+            -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+            -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        @-webkit-keyframes fadeInCheckbox {
+            from {
+                opacity: 0;
+                -webkit-transform: rotateZ(-20deg);
+            }
+            to {
+                opacity: 1;
+                -webkit-transform: rotateZ(0deg);
+            }
+        }
+
+        @keyframes fadeInCheckbox {
+            from {
+                opacity: 0;
+                transform: rotateZ(-20deg);
+            }
+            to {
+                opacity: 1;
+                transform: rotateZ(0deg);
+            }
+        }
+
+    </style>
+
+    <style>
+
+    </style>
 </head>

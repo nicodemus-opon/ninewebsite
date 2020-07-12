@@ -95,7 +95,7 @@
             <div class="modal-header">
                 <h5 class="modal-title lease-title" >Basic Lease</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <i data-feathevr="close" class="icon-close"></i>
                 </button>
             </div>
             <div class="modal-body" >
